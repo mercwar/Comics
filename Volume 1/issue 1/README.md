@@ -4,7 +4,7 @@
 > **"FIRE. ICE. ANGELS. THE HORDE FALLS HERE."**
 
 
-###### 🖼️ "<i>I am CVBGOD, and I have given it to you</i>!"
+###### 🌈 "<i>I am CVBGOD, and I have given it to you</i>!"
 
 
 ![comic](image_ba7af5a7.jpg)
