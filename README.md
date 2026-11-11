@@ -10,12 +10,23 @@
 
 # 🌎 MERCWAR COMICS
 
+## 🛡️ Featured Characters & Lore
+
+* **Robo-Knight** — Agile obsidian-and-chrome sentinel wielding sub-zero cryo-energy and tactical holographic scanners.
+* **Heavy Fire-Gem Warrior** — Heavily armored vanguard powered by a solar-plasma core and twin thermal-ignition gauntlets.
+* **The Cybernetic Angels** — A triad of winged orbital guardians armed with golden energy spears and black-glass armor.
+* **Cyborg Station & AVIS-DATALAKE** — The central black-glass hub and neural archive linking every portal across the Mercwar Constellation.
+* **The Grand Necro-Sovereign** — Supreme commander of the dark-sector armada of obsidian dreadnoughts and cyber-dragons.
+
+
+## 📚 Read the Comics
+
 ![cbi](images/cb4.png)
 
 
 ### 🌌 *AVIS Protocol — Volume 1, Issue #01*
 
-## 📚 Read the Comics
+
 
 📖  **Volume 1, Issue #01 — *The Firegem War** 🔥
 > *"FIRE. ICE. ANGELS. THE HORDE FALLS HERE."*
@@ -64,13 +75,6 @@
 
 ---
 
-## 🛡️ Featured Characters & Lore
-
-* **Robo-Knight** — Agile obsidian-and-chrome sentinel wielding sub-zero cryo-energy and tactical holographic scanners.
-* **Heavy Fire-Gem Warrior** — Heavily armored vanguard powered by a solar-plasma core and twin thermal-ignition gauntlets.
-* **The Cybernetic Angels** — A triad of winged orbital guardians armed with golden energy spears and black-glass armor.
-* **Cyborg Station & AVIS-DATALAKE** — The central black-glass hub and neural archive linking every portal across the Mercwar Constellation.
-* **The Grand Necro-Sovereign** — Supreme commander of the dark-sector armada of obsidian dreadnoughts and cyber-dragons.
 
 ---
 
