@@ -8,8 +8,8 @@
     </a>
 </div>
 
-# 🌎 MERCWAR COMICS
-
+####
+🌎 MERCWAR COMICS
 ## 📦 Featured Characters & Lore
 
 * **Robo-Knight** — Agile obsidian-and-chrome sentinel wielding sub-zero cryo-energy and tactical holographic scanners.
