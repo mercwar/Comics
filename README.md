@@ -37,7 +37,7 @@
 -  [HTML](https://mercwar.github.io/Comics/Volume%201/issue%201/index.html)
 
 #
-
+### 🌌 *AVIS Protocol — Volume 1, Issue #02*
 📖   **Volume 1, Issue #02 — *The Armada of Ash**
 > *"Who knows...???"*
 ##### 🗝️ Versions
