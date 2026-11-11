@@ -19,8 +19,11 @@ Welcome to the official repository for **Mercwar Comics**, a retro-cybernetic, c
 
 ## 📚 Read the Comics
 
-📖  [Here](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%201/README.md) * **Volume 1, Issue #01 — *The Firegem War***
-📖  [Next Issue]  **Volume 1, Issue #02 — *The Armada of Ash***
+📖  **Volume 1, Issue #01 — *The Firegem War***
+-  [Here](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%201/README.md) 
+
+📖   **Volume 1, Issue #02 — *The Armada of Ash***
+-  [Next Issue]
 
 ---
 
