@@ -94,8 +94,8 @@ This archive displays all **25 comic pages and assets** from `E:\comics` ordered
 ### 07. `image_c3470f29.jpg` — *Modified: 11/10/2026 10:13 PM*
 
 * **Resolution:** `896x1200 px` | **Size:** `1,210,712 bytes` | **Format:** `Format24bppRgb`
-
-![comic](image_c3470f29.jpg)
+  
+![comic](image_609d0584.jpg)
 
 ---
 
@@ -103,7 +103,7 @@ This archive displays all **25 comic pages and assets** from `E:\comics` ordered
 
 * **Resolution:** `896x1200 px` | **Size:** `1,161,570 bytes` | **Format:** `Format24bppRgb`
 
-![comic](image_609d0584.jpg)
+![comic](image_c3470f29.jpg)
 
 ---
 
