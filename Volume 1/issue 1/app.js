@@ -26,9 +26,26 @@ document.addEventListener("DOMContentLoaded", () => {
     const infoModal = document.getElementById("info-modal");
     const chapterItems = document.querySelectorAll("#chapter-index li[data-page]");
 
+    const animatedSubtitle = document.getElementById("animated-subtitle");
+
     let pages = [];
     let currentIndex = 0;
     let zoomPercent = null; // null = Fit to viewport height
+
+    // --- Gentle Smooth Opacity Blip for Subtitle (Zero Vibration) ---
+    function startSubtitleBlip() {
+        if (!animatedSubtitle) return;
+        let phase = 0;
+
+        function tick() {
+            phase += 0.025;
+            const opacity = 0.25 + ((Math.sin(phase) + 1) * 0.5) * 0.75;
+            animatedSubtitle.style.opacity = opacity.toFixed(2);
+            requestAnimationFrame(tick);
+        }
+
+        requestAnimationFrame(tick);
+    }
 
     async function initReader() {
         try {
@@ -100,9 +117,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const pageData = pages[currentIndex];
 
-        // Trigger smooth 3D page turn animation
         pageCard.classList.remove("anim-next", "anim-prev");
-        void pageCard.offsetWidth; // Force reflow to restart animation
+        void pageCard.offsetWidth;
         if (direction === "next") {
             pageCard.classList.add("anim-next");
         } else if (direction === "prev") {
@@ -119,7 +135,6 @@ document.addEventListener("DOMContentLoaded", () => {
         btnNext.disabled = currentIndex === pages.length - 1;
         btnLast.disabled = currentIndex === pages.length - 1;
 
-        // Highlight & auto-scroll active sidebar thumbnail
         const thumbs = pageList.querySelectorAll(".thumb-item");
         thumbs.forEach((thumb, idx) => {
             const isActive = idx === currentIndex;
@@ -131,7 +146,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         pageViewport.scrollTop = 0;
 
-        // Preload next page for instant page turns
         if (currentIndex + 1 < pages.length) {
             const preload = new Image();
             preload.src = pages[currentIndex + 1].src;
@@ -153,7 +167,6 @@ document.addEventListener("DOMContentLoaded", () => {
         zoomLabel.textContent = `${zoomPercent}%`;
     }
 
-    // --- Event Bindings ---
     btnToggleSidebar.addEventListener("click", () => {
         sidebar.classList.toggle("collapsed");
     });
@@ -184,7 +197,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     btnFit.addEventListener("click", () => applyZoom(null));
 
-    // Chapter Index Modal & Direct Page Jumps
     btnInfo.addEventListener("click", () => infoModal.classList.remove("hidden"));
     btnCloseModal.addEventListener("click", () => infoModal.classList.add("hidden"));
     infoModal.addEventListener("click", (e) => {
@@ -199,7 +211,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Click left/right side of active image to turn pages
     activeImg.addEventListener("click", (e) => {
         const rect = activeImg.getBoundingClientRect();
         const clickX = e.clientX - rect.left;
@@ -210,7 +221,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    // Keyboard shortcuts
     document.addEventListener("keydown", (e) => {
         if (document.activeElement === pageInput) return;
         if (e.key === "ArrowRight" || e.key === " ") {
@@ -230,5 +240,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+    startSubtitleBlip();
     initReader();
 });

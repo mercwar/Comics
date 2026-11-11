@@ -1,0 +1,167 @@
+.brand-group {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+}
+
+/* --- Inline Atomic Emblem & Orbiting Electrons --- */
+.atom-emblem {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.inline-atom {
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.atom-nucleus {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ffffff 10%, var(--fire-accent) 60%, var(--ice-accent) 100%);
+    box-shadow: 0 0 10px var(--fire-accent), 0 0 18px var(--ice-accent);
+    animation: nucleusPulse 2.2s ease-in-out infinite;
+    z-index: 2;
+}
+
+.inline-atom .atom-nucleus {
+    width: 6px;
+    height: 6px;
+}
+
+.atom-ring {
+    position: absolute;
+    width: 40px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 212, 255, 0.35);
+    transform-style: preserve-3d;
+}
+
+.inline-atom .atom-ring {
+    width: 22px;
+    height: 9px;
+}
+
+.ring-1 {
+    transform: rotate(0deg);
+    animation: orbitSpin1 3.2s linear infinite;
+}
+
+.ring-2 {
+    transform: rotate(60deg);
+    border-color: rgba(255, 87, 34, 0.4);
+    animation: orbitSpin2 2.6s linear infinite;
+}
+
+.ring-3 {
+    transform: rotate(120deg);
+    border-color: rgba(255, 209, 102, 0.35);
+    animation: orbitSpin3 3.8s linear infinite;
+}
+
+.electron {
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    border-radius: 50%;
+}
+
+.inline-atom .electron {
+    top: -2px;
+    width: 4px;
+    height: 4px;
+    margin-left: -2px;
+}
+
+.fire-e {
+    background: #ff7043;
+    box-shadow: 0 0 8px #ff5722, 0 0 14px #ff5722;
+}
+
+.ice-e {
+    background: #40e0ff;
+    box-shadow: 0 0 8px #00d4ff, 0 0 14px #00d4ff;
+}
+
+.gold-e {
+    background: #ffe082;
+    box-shadow: 0 0 8px #ffd166, 0 0 14px #ffd166;
+}
+
+@keyframes nucleusPulse {
+    0%, 100% { transform: scale(1); filter: brightness(1); }
+    50%      { transform: scale(1.32); filter: brightness(1.4); }
+}
+
+@keyframes orbitSpin1 {
+    0%   { transform: rotate(0deg) rotateZ(0deg); }
+    100% { transform: rotate(0deg) rotateZ(360deg); }
+}
+
+@keyframes orbitSpin2 {
+    0%   { transform: rotate(60deg) rotateZ(0deg); }
+    100% { transform: rotate(60deg) rotateZ(-360deg); }
+}
+
+@keyframes orbitSpin3 {
+    0%   { transform: rotate(120deg) rotateZ(0deg); }
+    100% { transform: rotate(120deg) rotateZ(360deg); }
+}
+
+/* --- Seamless 360° Fire-Ice Title Sweep & Subtitle --- */
+.title-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-block h1 {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 1.08rem;
+    letter-spacing: 1.4px;
+    font-weight: 800;
+}
+
+.title-text {
+    background: linear-gradient(
+        90deg,
+        var(--fire-accent) 0%,
+        #ffffff 25%,
+        var(--ice-accent) 50%,
+        var(--gold-accent) 75%,
+        var(--fire-accent) 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: energySweep 4s linear infinite;
+}
+
+.subtitle {
+    font-size: 0.78rem;
+    color: var(--ice-accent);
+    letter-spacing: 0.8px;
+}
+
+@keyframes energySweep {
+    0% {
+        background-position: 0% center;
+    }
+    100% {
+        background-position: -200% center;
+    }
+}

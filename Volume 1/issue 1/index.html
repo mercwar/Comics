@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MERCWAR COMICS - THE FIREGEM WAR (Vol. 1, Issue #01)</title>
-    <link rel="stylesheet" href="style.css">
+    <title>MERCWAR COMICS — THE FIREGEM WAR (Vol. 1, Issue #01)</title>
+    <link rel="stylesheet" href="style.css?v=1">
+    <link rel="stylesheet" href="atom.css?v=1">
 </head>
 <body>
     <div class="app-shell">
@@ -12,11 +13,21 @@
         <header class="topbar">
             <div class="brand-group">
                 <button id="btn-toggle-sidebar" class="icon-btn" type="button" title="Toggle Page Sidebar">☰</button>
+
                 <div class="title-block">
-                    <h1>🌎 MERCWAR COMICS — THE FIREGEM WAR</h1>
-                    <span class="subtitle">🌌 <em>AVIS Protocol — Volume 1, Issue #01</em></span>
+                    <h1 id="animated-title">
+                        <span class="atom-emblem inline-atom" id="atom-emblem" aria-hidden="true">
+                            <span class="atom-nucleus"></span>
+                            <span class="atom-ring ring-1"><span class="electron fire-e"></span></span>
+                            <span class="atom-ring ring-2"><span class="electron ice-e"></span></span>
+                            <span class="atom-ring ring-3"><span class="electron gold-e"></span></span>
+                        </span>
+                        <span class="title-text">MERCWAR COMICS — THE FIREGEM WAR</span>
+                    </h1>
+                    <span class="subtitle" id="animated-subtitle">🌌 <em>AVIS Protocol — Volume 1, Issue #01</em></span>
                 </div>
             </div>
+
 
             <div class="nav-controls" aria-label="Page Navigation">
                 <button id="btn-first" class="ctrl-btn" type="button" title="First Page">⏮</button>
@@ -47,7 +58,7 @@
                     <span id="sidebar-count" class="badge">0</span>
                 </div>
                 <div id="page-list" class="page-list">
-                    <!-- Page number cards injected dynamically by app.js -->
+                    <!-- Page number cards injected dynamically by app.js from comic.json -->
                 </div>
             </aside>
 
@@ -59,7 +70,7 @@
 
                 <div id="page-viewport" class="page-viewport">
                     <div id="page-card" class="page-card">
-                        <img id="active-page-img" src="" alt="Comic Page">
+                        <img id="active-page-img" src="banner.png" alt="Comic Page">
                         <div class="page-caption-bar">
                             <span id="active-page-label">Loading comic.json...</span>
                             <span class="creator-sig">🌈 <i>"I am CVBGOD, and I have given it to you!"</i></span>
@@ -69,7 +80,7 @@
             </main>
         </div>
 
-        <!-- Collapsible Drawer / Modal for Chapter Index & GitHub Uplinks -->
+        <!-- Modal for Chapter Index & GitHub Uplinks -->
         <div id="info-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
             <div class="modal-panel">
                 <div class="modal-header">
@@ -101,6 +112,7 @@
         </div>
     </div>
 
-    <script src="app.js"></script>
+    <script src="app.j?v=1s"></script>
+    <script src="atom.js?v=1"></script>
 </body>
 </html>

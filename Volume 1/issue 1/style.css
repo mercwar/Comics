@@ -45,25 +45,6 @@ html, body {
     flex-wrap: wrap;
 }
 
-.brand-group {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-}
-
-.title-block h1 {
-    font-size: 1.05rem;
-    letter-spacing: 1px;
-    background: linear-gradient(90deg, var(--fire-accent), #ffffff, var(--ice-accent));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.subtitle {
-    font-size: 0.78rem;
-    color: var(--ice-accent);
-}
-
 .nav-controls, .zoom-controls {
     display: flex;
     align-items: center;
@@ -398,6 +379,88 @@ html, body {
     margin-bottom: 1rem;
 }
 
+.chapter-list {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.chapter-list li {
+    padding: 0.65rem 0.8rem;
+    border-radius: 6px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+.chapter-list li:hover {
+    background: var(--bg-hover);
+}
+
+.chapter-list strong {
+    color: var(--ice-accent);
+}
+
+.modal-footer {
+    border-top: 1px solid var(--border-glow);
+    padding-top: 1rem;
+}
+
+.modal-footer h3 {
+    margin-bottom: 0.6rem;
+    font-size: 1.1rem;
+}
+
+.modal-footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.modal-footer a {
+    color: var(--ice-accent);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.modal-footer a:hover {
+    color: var(--fire-accent);
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        position: absolute;
+        top: 56px;
+        bottom: 0;
+        left: 0;
+        z-index: 50;
+    }
+}
+.title-text {
+    background: linear-gradient(
+        90deg,
+        var(--fire-accent) 0%,
+        #ffffff 25%,
+        var(--ice-accent) 50%,
+        var(--gold-accent) 75%,
+        var(--fire-accent) 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: energySweep 4s linear infinite;
+}
+
+@keyframes energySweep {
+    0% {
+        background-position: 0% center;
+    }
+    100% {
+        background-position: -200% center;
+    }
+}
 .chapter-list {
     list-style: none;
     margin-bottom: 1.5rem;
