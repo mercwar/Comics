@@ -37,10 +37,8 @@
 > *"Who knows...???"*
 -  [Next Issue]
 
-#
 
 ## 📥 Clone Repository
-
 ```bash
 git clone https://github.com/mercwar/Comics
 ```
