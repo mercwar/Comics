@@ -5,7 +5,12 @@
 
 Welcome to the official repository for **Mercwar Comics**, a retro-cybernetic, cosmic sci-fi comic series set across the **Constellation Gateway**. Guided by the **AVIS Protocol**, five defenders stand between **Cyborg Station** and total necrotic assimilation.
 
-## Volume 1 Issue 1 [View](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%201/README.md)
+---
+
+## 📚 Read the Comics
+
+* **Volume 1, Issue #01 — *The Firegem War***: [📖 Read Full Issue & Visual Archive](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%201/README.md)
+* **Volume 1, Issue #02 — *The Armada of Ash***: *See you Next Time!*
 
 ---
 
@@ -41,16 +46,10 @@ The scouting swarm has fallen—but in the uncharted dark sector, the **Grand Ne
 
 ---
 
-## 🚀 Coming Next
-
-* **Issue #02:** *The Armada of Ash* — *In Development*
-
----
-
 ## 🔗 Ecosystem & Uplinks
 
-* **Main GitHub Profile:** [github.com/mercwar](https://github.com)
-* **Robo-Knight Inventory:** [://github.com](https://github.com/robo-knight-inventory)
+* **Main GitHub Profile:** [github.com/mercwar](https://github.com/mercwar)
+* **Robo-Knight Inventory:** [://github.com](https://://github.com)
 * **Universe & Projects:** Cyborg Station • Stargate • Quasar • AVIS-DATALAKE • Dark-Com-2
 
 ---
