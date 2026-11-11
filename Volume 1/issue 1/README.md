@@ -146,5 +146,5 @@
 ## 🔗 Ecosystem & Uplinks
 
 * **Main GitHub Profile:** [Mercwar](https://github.com/mercwar)
-* **Robo-Knight Gallery:** [Robot-Knight-Gallery](https://github.com/mercwar/Robot-Knight-Gallery)
+* **Robo-Knight Gallery:** [Robo-Knight-Gallery](https://github.com/mercwar/Robo-Knight-Gallery)
 * **Created by:** **Mercwar (CVBGOD)** — *Geared for Digital Vibrance.*
