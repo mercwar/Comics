@@ -5,6 +5,8 @@
 
 Welcome to the official repository for **Mercwar Comics**, a retro-cybernetic, cosmic sci-fi comic series set across the **Constellation Gateway**. Guided by the **AVIS Protocol**, five defenders stand between **Cyborg Station** and total necrotic assimilation.
 
+## Volume 1 Issue 1 [View](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%201/README.md)
+
 ---
 
 ## 📖 Synopsis
