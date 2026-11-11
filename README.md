@@ -53,7 +53,7 @@ git clone https://github.com/mercwar/Comics
 
 #### 
 
-## 📑 Welcome to the official repository for **Mercwar Comics** !
+## 📑 *Welcome to the official repository!*
 - A retro-cybernetic, cosmic sci-fi comic series set across the **Constellation Gateway**.
 - Guided by the **AVIS Protocol**, five defenders stand between **Cyborg Station** and total necrotic assimilation.
 
