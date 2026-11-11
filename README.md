@@ -30,7 +30,7 @@
 
 #### 
 
-- Welcome to the official repository for **Mercwar Comics**, a retro-cybernetic, cosmic sci-fi comic series set across the **Constellation Gateway**.
+## 📑 Welcome to the official repository for **Mercwar Comics**, a retro-cybernetic, cosmic sci-fi comic series set across the **Constellation Gateway**.
 - Guided by the **AVIS Protocol**, five defenders stand between **Cyborg Station** and total necrotic assimilation.
 
 ---
@@ -43,8 +43,12 @@
 
 ## 📖 Synopsis
 
-Across the outer rim of the Mercwar Constellation, an ancient **Stargate** portal has torn open. When a necrotic biomechanical swarm breaches the perimeter, the cryo-armored **Robo-Knight**, the plasma-forged **Heavy Fire-Gem Warrior**, and three **Cybernetic Angels** must fight across frozen moons and deep-space orbital rings to defend the **AVIS-DATALAKE** core.
-
+```
+Across the outer rim of the Mercwar Constellation, an ancient **Stargate** portal has torn open.
+When a necrotic biomechanical swarm breaches the perimeter, the cryo-armored **Robo-Knight**,
+the plasma-forged **Heavy Fire-Gem Warrior**, and three **Cybernetic Angels** must fight across
+frozen moons and deep-space orbital rings to defend the **AVIS-DATALAKE** core.
+```
 The scouting swarm has fallen—but in the uncharted dark sector, the **Grand Necro-Sovereign** has awakened an armada of obsidian dreadnoughts and cyber-dragons. **The Firegem War has only just begun.**
 
 ![cbi](images/cb2.png)
