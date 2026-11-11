@@ -72,7 +72,7 @@ git clone https://github.com/mercwar/Comics
 #### When a necrotic biomechanical swarm breaches the perimeter, an elite vanguard rises to hold the line:
 * 🛡️ **The Robo-Knight** *Cryo-armored sentinel of the outer rim*
 * 🔥 **The Heavy Fire-Gem Warrior** *Plasma-forged juggernaut*
-* ⚔️ **Three Cybernetic Angels** and *Orbital strike Valkyries*
+* ⚔️ **Three Cybernetic Angels** *Orbital strike Valkyries*
 
 #### Together, they must fight across frozen moons and deep-space orbital rings to defend the **AVIS-DATALAKE** core. 
 
