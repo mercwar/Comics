@@ -22,6 +22,7 @@
 -  [Here](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%201/README.md) 
 
 📖   **Volume 1, Issue #02 — *The Armada of Ash***
+> **"Who knows...???"**
 -  [Next Issue]
 
 ---
