@@ -9,6 +9,11 @@
 
 ![comic](image_ba7af5a7.jpg)
 
+---
+
+![comic](image_f246a38d.jpg)
+
+
 
 ---
 
@@ -106,10 +111,6 @@
 
 
 ![comic](image_d14c9b44.jpg)
-
----
-
-![comic](image_f246a38d.jpg)
 
 
 
