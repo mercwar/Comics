@@ -1,5 +1,5 @@
-# ⚡ MERCWAR COMICS // THE FIREGEM WAR
-### 🌌 *AVIS Protocol — Volume 1, Issue #01 (Chronological Visual Archive)*
+# ⚡ MERCWAR COMICS - THE FIREGEM WAR
+### 🌌 *AVIS Protocol — Volume 1, Issue #01*
 
 > **"FIRE. ICE. ANGELS. THE HORDE FALLS HERE."**
 
