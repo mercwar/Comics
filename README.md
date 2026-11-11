@@ -52,7 +52,10 @@
 
 #### Together, they must fight across frozen moons and deep-space orbital rings to defend the **AVIS-DATALAKE** core. 
 
-#####  The scouting swarm has fallen. Yet in the uncharted dark sector, the **Grand Necro-Sovereign** has awakened an armada of obsidian dreadnoughts and cyber-dragons. 
+#####  
+- The scouting swarm has fallen.
+- Yet in the uncharted dark sector, the **Grand Necro-Sovereign** has awakened...???
+- ???... an armada of obsidian dreadnoughts and cyber-dragons?!?
 
 ###### *The Firegem War has only just begun...*
 
