@@ -43,11 +43,9 @@ The scouting swarm has fallen—but in the uncharted dark sector, the **Grand Ne
 
 ---
 
-## 🔗 Ecosystem & Uplinks
-
-* **Main GitHub Profile:** [github.com/mercwar](https://github.com/mercwar)
-* **Robo-Knight Inventory:** [://github.com](https://://github.com)
-* **Universe & Projects:** Cyborg Station • Stargate • Quasar • AVIS-DATALAKE • Dark-Com-2
+* **Main GitHub Profile:** [Mercwar](https://github.com/mercwar)
+* **Robo-Knight Gallery:** [Robo-Knight-Gallery](https://github.com/mercwar/Robo-Knight-Gallery)
+* **Created by:** **Mercwar (CVBGOD)** — *Geared for Digital Vibrance.*
 
 ---
 
