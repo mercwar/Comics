@@ -42,10 +42,6 @@
 ```bash
 git clone https://github.com/mercwar/Comics
 ```
-
-
-#
-
 ![cbi](images/cb1.png)
 
 #### 
@@ -54,8 +50,7 @@ git clone https://github.com/mercwar/Comics
 - A retro-cybernetic, cosmic sci-fi comic series set across the **Constellation Gateway**.
 - Guided by the **AVIS Protocol**, five defenders stand between **Cyborg Station** and total necrotic assimilation.
 
----
-
+#
 
 
 ![cbi](images/cb3.png)
