@@ -30,7 +30,8 @@
 
 #### 
 
-## 📑 Welcome to the official repository for **Mercwar Comics**, a retro-cybernetic, cosmic sci-fi comic series set across the **Constellation Gateway**.
+## 📑 Welcome to the official repository for **Mercwar Comics** !
+- A retro-cybernetic, cosmic sci-fi comic series set across the **Constellation Gateway**.
 - Guided by the **AVIS Protocol**, five defenders stand between **Cyborg Station** and total necrotic assimilation.
 
 ---
