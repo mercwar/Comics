@@ -32,12 +32,16 @@
 > *"FIRE. ICE. ANGELS. THE HORDE FALLS HERE."*
 
 ##### 🗝️ Versions
+####
 -  [MD](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%201/README.md)
 -  [HTML](https://mercwar.github.io/Comics/Volume%201/issue%201/index.html)
-  
+
+#
+
 📖   **Volume 1, Issue #02 — *The Armada of Ash**
 > *"Who knows...???"*
 ##### 🗝️ Versions
+####
 -  [Next Issue]
 
 
