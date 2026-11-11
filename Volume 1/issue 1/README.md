@@ -160,7 +160,8 @@ This archive displays all **25 comic pages and assets** from `E:\comics` ordered
 
 * **Resolution:** `896x1200 px` | **Size:** `1,604,171 bytes` | **Format:** `Format24bppRgb`
 
-![comic](image_220ca66e.jpg)
+![comic](image_3d021a82.jpg)
+
 
 ---
 
@@ -168,16 +169,15 @@ This archive displays all **25 comic pages and assets** from `E:\comics` ordered
 
 * **Resolution:** `848x1264 px` | **Size:** `1,641,814 bytes` | **Format:** `Format24bppRgb`
 
-![comic](image_309b54f9.jpg)
-
+![comic](image_220ca66e.jpg)
 ---
 
 ### 17. `image_3d021a82.jpg` — *Modified: 11/10/2026 10:19 PM*
 
 * **Resolution:** `848x1264 px` | **Size:** `1,526,242 bytes` | **Format:** `Format24bppRgb`
 
-![comic](image_3d021a82.jpg)
 
+![comic](image_309b54f9.jpg)
 ---
 
 ### 18. `image_92b2fd17.jpg` — *Modified: 11/10/2026 10:20 PM*
