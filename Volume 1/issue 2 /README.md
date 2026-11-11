@@ -1,5 +1,3 @@
-Here is a complete, original 24-page comic book script for MERCWAR COMICS — THE FIREGEM WAR (Volume 1, Issue #02), picking up right where Issue #01 left off as the Armada of Ash descends on the Constellation.
-
 🌎 MERCWAR COMICS — THE FIREGEM WAR
 
 
@@ -111,4 +109,3 @@ BACK MATTER
 	• Creator Note: "I am CVBGOD, and I have given it to you!"
 • Page 24 — Back Cover
 	• Visual: Mercwar Comics archival crest, Issue #02 credits, and teaser banner for Issue #03: Return to the Core Worlds.
-If you want to add Issue #02 into your web comic reader's comic.json as a second selectable issue (with an Issue #01 / Issue #02 dropdown switcher in the top toolbar), let me know and I can update index.html, comic.json, and app.js for multi-issue support.
