@@ -39,17 +39,20 @@
 
 ![cbi](images/cb3.png)
 
-
-
 ## 📖 Synopsis
 
-```
-Across the outer rim of the Mercwar Constellation, an ancient **Stargate** portal has torn open.
-When a necrotic biomechanical swarm breaches the perimeter, the cryo-armored **Robo-Knight**,
-the plasma-forged **Heavy Fire-Gem Warrior**, and three **Cybernetic Angels** must fight across
-frozen moons and deep-space orbital rings to defend the **AVIS-DATALAKE** core.
-```
-The scouting swarm has fallen—but in the uncharted dark sector, the **Grand Necro-Sovereign** has awakened an armada of obsidian dreadnoughts and cyber-dragons. **The Firegem War has only just begun.**
+> *Across the outer rim of the Mercwar Constellation, an ancient **Stargate** portal has torn open.*
+
+When a necrotic biomechanical swarm breaches the perimeter, an elite vanguard rises to hold the line:
+* 🛡️ **The Robo-Knight** — *Cryo-armored sentinel of the outer rim*
+* 🔥 **The Heavy Fire-Gem Warrior** — *Plasma-forged juggernaut*
+* ⚔️ **Three Cybernetic Angels** — *Orbital strike Valkyries*
+
+Together, they must fight across frozen moons and deep-space orbital rings to defend the **AVIS-DATALAKE** core. 
+
+The scouting swarm has fallen. Yet in the uncharted dark sector, the **Grand Necro-Sovereign** has awakened an armada of obsidian dreadnoughts and cyber-dragons. 
+
+**The Firegem War has only just begun.**
 
 ![cbi](images/cb2.png)
 
