@@ -26,51 +26,53 @@ document.addEventListener("DOMContentLoaded", () => {
     const infoModal = document.getElementById("info-modal");
     const chapterItems = document.querySelectorAll("#chapter-index li[data-page]");
 
-    const animatedSubtitle = document.getElementById("animated-subtitle");
+    const fallbackPages = [
+        { page: 1,  label: "Front Cover",        src: "image_ba7af5a7.jpg" },
+        { page: 2,  label: "Inside Front Cover", src: "image_f246a38d.jpg" },
+        { page: 3,  label: "Page 01",            src: "image_300dbfb7.jpg" },
+        { page: 4,  label: "Page 02",            src: "image_dcf22b1f.jpg" },
+        { page: 5,  label: "Page 03",            src: "image_b68eaa61.jpg" },
+        { page: 6,  label: "Page 04",            src: "image_15e568f9.jpg" },
+        { page: 7,  label: "Page 05",            src: "image_d2071447.jpg" },
+        { page: 8,  label: "Page 06",            src: "image_c3470f29.jpg" },
+        { page: 9,  label: "Page 07",            src: "image_b7eeabf5.jpg" },
+        { page: 10, label: "Page 08",            src: "image_609d0584.jpg" },
+        { page: 11, label: "Page 09",            src: "image_d79d0f47.jpg" },
+        { page: 12, label: "Page 10",            src: "image_627b3484.jpg" },
+        { page: 13, label: "Page 11",            src: "image_fcfa2bfd.jpg" },
+        { page: 14, label: "Page 12",            src: "image_58dd4a1b.jpg" },
+        { page: 15, label: "Page 13",            src: "image_8d90fe87.jpg" },
+        { page: 16, label: "Page 14",            src: "image_3d021a82.jpg" },
+        { page: 17, label: "Page 15",            src: "image_220ca66e.jpg" },
+        { page: 18, label: "Page 16",            src: "image_309b54f9.jpg" },
+        { page: 19, label: "Page 17",            src: "image_92b2fd17.jpg" },
+        { page: 20, label: "Page 18",            src: "image_3ebe4b56.jpg" },
+        { page: 21, label: "Page 19",            src: "image_710b3e20.jpg" },
+        { page: 22, label: "Page 20",            src: "image_d14c9b44.jpg" },
+        { page: 23, label: "Inside Back Cover",  src: "image_3217442d.jpg" },
+        { page: 24, label: "Back Cover",         src: "image_b6d9a022.jpg" }
+    ];
 
     let pages = [];
     let currentIndex = 0;
-    let zoomPercent = null; // null = Fit to viewport height
-
-    // --- Gentle Smooth Opacity Blip for Subtitle (Zero Vibration) ---
-    function startSubtitleBlip() {
-        if (!animatedSubtitle) return;
-        let phase = 0;
-
-        function tick() {
-            phase += 0.025;
-            const opacity = 0.25 + ((Math.sin(phase) + 1) * 0.5) * 0.75;
-            animatedSubtitle.style.opacity = opacity.toFixed(2);
-            requestAnimationFrame(tick);
-        }
-
-        requestAnimationFrame(tick);
-    }
+    let zoomPercent = null;
 
     async function initReader() {
         try {
             const response = await fetch("comic.json");
-            if (!response.ok) {
-                throw new Error(`HTTP ${response.status}`);
-            }
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
             const data = await response.json();
-            pages = Array.isArray(data.pages) ? data.pages : [];
-
-            if (pages.length === 0) {
-                activeLabel.textContent = "No pages found in comic.json.";
-                return;
-            }
-
-            sidebarCount.textContent = pages.length;
-            pageTotal.textContent = `/ ${pages.length}`;
-            pageInput.max = pages.length;
-
-            buildSidebarThumbnails();
-            renderPage(0, "none");
+            pages = Array.isArray(data.pages) && data.pages.length > 0 ? data.pages : fallbackPages;
         } catch (err) {
-            console.error(err);
-            activeLabel.textContent = "Error loading comic.json — serve over HTTP or GitHub Pages.";
+            pages = fallbackPages;
         }
+
+        sidebarCount.textContent = pages.length;
+        pageTotal.textContent = `/ ${pages.length}`;
+        pageInput.max = pages.length;
+
+        buildSidebarThumbnails();
+        renderPage(0, "none");
     }
 
     function buildSidebarThumbnails() {
@@ -236,10 +238,8 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (e.key === "0") {
             applyZoom(null);
         } else if (e.key === "Escape") {
-            infoModal.classList.add("hidden");
-        }
-    });
-
-    startSubtitleBlip();
-    initReader();
+infoModal.classList.add("hidden");
+}
+});
+initReader();
 });
