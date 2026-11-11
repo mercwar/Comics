@@ -70,8 +70,8 @@ git clone https://github.com/mercwar/Comics
 > "*Across the outer rim of the Mercwar Constellation, an ancient **Stargate** portal has torn open!*"
 
 #### When a necrotic biomechanical swarm breaches the perimeter, an elite vanguard rises to hold the line:
-* 🛡️ **The Robo-Knight** and *Cryo-armored sentinel of the outer rim*
-* 🔥 **The Heavy Fire-Gem Warrior** and *Plasma-forged juggernaut*
+* 🛡️ **The Robo-Knight** *Cryo-armored sentinel of the outer rim*
+* 🔥 **The Heavy Fire-Gem Warrior** *Plasma-forged juggernaut*
 * ⚔️ **Three Cybernetic Angels** and *Orbital strike Valkyries*
 
 #### Together, they must fight across frozen moons and deep-space orbital rings to defend the **AVIS-DATALAKE** core. 
