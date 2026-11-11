@@ -3,9 +3,25 @@
 
 > **"FIRE. ICE. ANGELS. THE HORDE FALLS HERE."**
 
+---
+
+## 🗂️ Page & Chapter Index
+
+* **Front Cover** — *Mercwar: The Firegem War (Issue #01)*
+* **Inside Front Cover** — *Table of Contents & System Uplink Index*
+* **Part I: The Frozen Breach** *(Pages 1–4)* — First contact at the Stargate perimeter and the fall of the Primordial Host.
+* **Part II: Ashes on the Ice** *(Pages 5–8)* — The Necro-Borg Overlord's true beacon is uncovered, launching the squad into orbit.
+* **Part III: Siege of Cyborg Station** *(Pages 9–13)* — Boarding pods pierce the outer hull as the horde races for the AVIS-DATALAKE.
+* **Part IV: Zero Kelvin & Solar Fire** *(Pages 14–16)* — A thermal-shock system purge cleanses the core and restores the Constellation.
+* **Part V: The Armada of Ash** *(Pages 17–20)* — Beyond the dark sector, the Grand Necro-Sovereign awakens the true fleet.
+* **Inside Back Cover** — *CYBORG // Mercwar AI Portal Uplink*
+* **Back Cover** — *Constellation Gateway Archives & Issue #02 Preview*
+
+#
 
 ###### 🌈 "<i>I am CVBGOD, and I have given it to you</i>!"
 
+#
 
 ![comic](image_ba7af5a7.jpg)
 
