@@ -28,7 +28,7 @@
 
 
 
-📖  *The Firegem War* 🔥
+🔥  *The Firegem War* 
 > *"FIRE. ICE. ANGELS. THE HORDE FALLS HERE."*
 
 ##### 🗝️ Versions
@@ -38,7 +38,7 @@
 
 #
 ### 🌌 *AVIS Protocol — Volume 1, Issue #02*
-📖   *The Armada of Ash*
+💨  *The Armada of Ash*
 > *"Who knows...???"*
 ##### 🗝️ Versions
 ####
