@@ -43,7 +43,7 @@
 
 ## 📖 Synopsis
 
-> *Across the outer rim of the Mercwar Constellation, an ancient **Stargate** portal has torn open.*
+> "*Across the outer rim of the Mercwar Constellation, an ancient **Stargate** portal has torn open!*"
 
 # When a necrotic biomechanical swarm breaches the perimeter, an elite vanguard rises to hold the line:
 * 🛡️ **The Robo-Knight** — *Cryo-armored sentinel of the outer rim*
