@@ -45,14 +45,14 @@
 
 > "*Across the outer rim of the Mercwar Constellation, an ancient **Stargate** portal has torn open!*"
 
-# When a necrotic biomechanical swarm breaches the perimeter, an elite vanguard rises to hold the line:
+#### When a necrotic biomechanical swarm breaches the perimeter, an elite vanguard rises to hold the line:
 * 🛡️ **The Robo-Knight** — *Cryo-armored sentinel of the outer rim*
 * 🔥 **The Heavy Fire-Gem Warrior** — *Plasma-forged juggernaut*
 * ⚔️ **Three Cybernetic Angels** — *Orbital strike Valkyries*
 
-## Together, they must fight across frozen moons and deep-space orbital rings to defend the **AVIS-DATALAKE** core. 
+#### Together, they must fight across frozen moons and deep-space orbital rings to defend the **AVIS-DATALAKE** core. 
 
-####  The scouting swarm has fallen. Yet in the uncharted dark sector, the **Grand Necro-Sovereign** has awakened an armada of obsidian dreadnoughts and cyber-dragons. 
+#####  The scouting swarm has fallen. Yet in the uncharted dark sector, the **Grand Necro-Sovereign** has awakened an armada of obsidian dreadnoughts and cyber-dragons. 
 
 ###### *The Firegem War has only just begun...*
 
