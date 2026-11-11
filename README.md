@@ -10,7 +10,7 @@
 
 # 🌎 MERCWAR COMICS
 
-## 🛡️ Featured Characters & Lore
+## 📦 Featured Characters & Lore
 
 * **Robo-Knight** — Agile obsidian-and-chrome sentinel wielding sub-zero cryo-energy and tactical holographic scanners.
 * **Heavy Fire-Gem Warrior** — Heavily armored vanguard powered by a solar-plasma core and twin thermal-ignition gauntlets.
