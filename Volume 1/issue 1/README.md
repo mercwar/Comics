@@ -45,7 +45,8 @@ This archive displays all **25 comic pages and assets** from `E:\comics` ordered
 
 * **Resolution:** `848x1264 px` | **Size:** `1,167,393 bytes` | **Format:** `Format24bppRgb`
 
-![comic](image_300dbfb7.jpg)
+![comic](image_ba7af5a7.jpg)
+
 
 ---
 
@@ -53,7 +54,7 @@ This archive displays all **25 comic pages and assets** from `E:\comics` ordered
 
 * **Resolution:** `896x1200 px` | **Size:** `1,146,759 bytes` | **Format:** `Format24bppRgb`
 
-![comic](image_ba7af5a7.jpg)
+![comic](image_300dbfb7.jpg)
 
 ---
 
