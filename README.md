@@ -69,19 +69,18 @@
 - Yet in the uncharted dark sector, the **Grand Necro-Sovereign** has awakened...
 - WHAT! An armada of obsidian dreadnoughts and cyber-dragons?
 
+#
+
 ###### *The Firegem War has only just begun...*
 
 ![cbi](images/cb2.png)
 
----
-
-
----
 
 * **Main GitHub Profile:** [Mercwar](https://github.com/mercwar)
 * **Robo-Knight Gallery:** [Robo-Knight-Gallery](https://github.com/mercwar/Robo-Knight-Gallery)
 * **Created by:** **Mercwar (CVBGOD)** — *Geared for Digital Vibrance.*
 
----
+#
+
 
 *Created by **Mercwar (CVBGOD)** — Geared for Digital Vibrance.*
