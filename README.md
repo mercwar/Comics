@@ -30,7 +30,7 @@
 
 📖  **Volume 1, Issue #01 — *The Firegem War** 🔥
 > *"FIRE. ICE. ANGELS. THE HORDE FALLS HERE."*
--  [Readme](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%201/README.md) Version
+-  [MD](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%201/README.md) Version
 -  [HTML](https://mercwar.github.io/Comics/Volume%201/issue%201/index.html) Version
   
 📖   **Volume 1, Issue #02 — *The Armada of Ash**
