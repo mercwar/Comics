@@ -9,35 +9,37 @@
 </div>
 
 # 🌎 MERCWAR COMICS
+
 ![cbi](images/cb4.png)
 
 
 ### 🌌 *AVIS Protocol — Volume 1, Issue #01*
 
-- 🔥THE FIREGEM WAR
-  
-> **"FIRE. ICE. ANGELS. THE HORDE FALLS HERE."**
-
-![cbi](images/cb1.png)
-
-Welcome to the official repository for **Mercwar Comics**, a retro-cybernetic, cosmic sci-fi comic series set across the **Constellation Gateway**. Guided by the **AVIS Protocol**, five defenders stand between **Cyborg Station** and total necrotic assimilation.
-
----
-
-
-
-![cbi](images/cb3.png)
-x
-
 ## 📚 Read the Comics
 
-📖  **Volume 1, Issue #01 — *The Firegem War***
+📖  **Volume 1, Issue #01 — *The Firegem War*** 🔥
+> **"FIRE. ICE. ANGELS. THE HORDE FALLS HERE."**
 -  [Here](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%201/README.md) 
 
 📖   **Volume 1, Issue #02 — *The Armada of Ash***
 -  [Next Issue]
 
 ---
+
+![cbi](images/cb1.png)
+
+#### 
+
+- Welcome to the official repository for **Mercwar Comics**, a retro-cybernetic, cosmic sci-fi comic series set across the **Constellation Gateway**.
+- Guided by the **AVIS Protocol**, five defenders stand between **Cyborg Station** and total necrotic assimilation.
+
+---
+
+
+
+![cbi](images/cb3.png)
+
+
 
 ## 📖 Synopsis
 
@@ -46,6 +48,7 @@ Across the outer rim of the Mercwar Constellation, an ancient **Stargate** porta
 The scouting swarm has fallen—but in the uncharted dark sector, the **Grand Necro-Sovereign** has awakened an armada of obsidian dreadnoughts and cyber-dragons. **The Firegem War has only just begun.**
 
 ![cbi](images/cb2.png)
+
 ---
 
 ## 🛡️ Featured Characters & Lore
