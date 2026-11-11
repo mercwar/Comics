@@ -10,11 +10,14 @@
 
 ##### 🌎 MERCWAR COMICS
 ###### 📦 Featured Characters & Lore
-* 💥 **Robo-Knight** — Agile obsidian-and-chrome sentinel wielding sub-zero cryo-energy and tactical holographic scanners.
-* 💥 **Heavy Fire-Gem Warrior** — Heavily armored vanguard powered by a solar-plasma core and twin thermal-ignition gauntlets.
-* 💥 **The Cybernetic Angels** — A triad of winged orbital guardians armed with golden energy spears and black-glass armor.
-* 💥 **Cyborg Station & AVIS-DATALAKE** — The central black-glass hub and neural archive linking every portal across the Mercwar Constellation.
-* 💥 **The Grand Necro-Sovereign** — Supreme commander of the dark-sector armada of obsidian dreadnoughts and cyber-dragons.
+
+| Character / Entity | Lore & Capabilities |
+| :--- | :--- |
+| 💥 **Robo-Knight** | ✨ Agile obsidian-and-chrome sentinel wielding sub-zero cryo-energy and tactical holographic scanners. |
+| 💥 **Heavy Fire-Gem Warrior** | ✨ Heavily armored vanguard powered by a solar-plasma core and twin thermal-ignition gauntlets. |
+| 💥 **The Cybernetic Angels** | ✨ A triad of winged orbital guardians armed with golden energy spears and black-glass armor. |
+| 💥 **Cyborg Station & AVIS-DATALAKE** | ✨ The central black-glass hub and neural archive linking every portal across the Mercwar Constellation. |
+| 💥 **The Grand Necro-Sovereign** | ✨ Supreme commander of the dark-sector armada of obsidian dreadnoughts and cyber-dragons. |
 
 
 
