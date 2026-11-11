@@ -8,7 +8,7 @@
     </a>
 </div>
 
-##### 🌎 MERCWAR COMICS
+### 🌎 MERCWAR COMICS
 ###### 📦 Featured Characters & Lore
 
 
