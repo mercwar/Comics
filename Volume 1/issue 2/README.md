@@ -9,13 +9,13 @@
 
 * **Front Cover** — *Mercwar: The Firegem War — Issue #02: The Armada of Ash*
 * **Inside Front Cover** — *Table of Contents & Constellation Uplink Index*
-* **Part I: Breach at the Stargate** *(Pages 1–4)* — The Obsidian Flagship emerges from the dark sector as the Armada of Ash surrounds the perimeter.
-* **Part II: The Necro-Code Spire** *(Pages 5–8)* — Vanguard, Aegis, and Siren Angel intercept the boarding vanguard while the Sovereign's spire anchors onto Cyborg Station.
-* **Part III: Fire & Absolute Zero** *(Pages 9–13)* — Robo-Knight and the Heavy Fire-Gem Warrior breach the obsidian hull in a coordinated thermal-glacial assault.
-* **Part IV: Shattering the Spire** *(Pages 14–18)* — The five defenders sever the Necro-Code uplink and save the AVIS-DATALAKE from corruption.
-* **Part V: The Cinder Reckoning** *(Pages 19–20)* — The Grand Necro-Sovereign takes the field himself atop the shattered flagship deck.
+* **Act I: Breach at the Stargate** *(Pages 1–5)* — The Armada of Ash pours through the Stargate rift as the defenders scramble to hold Cyborg Station's perimeter.
+* **Act II: Fire, Ice & Ash** *(Pages 6–10)* — The Cybernetic Angels, Robo-Knight, and Heavy Fire-Gem Warrior battle through a magnetized Ash-Storm to shatter the lead dreadnought.
+* **Act III: The Necro-Code Breach** *(Pages 11–15)* — The Sovereign's flagship fires a living virus into Cyborg Station as Siren Angel defends the Vault and the squad launches a spearhead counter-strike.
+* **Act IV: Storming the Obsidian Flagship** *(Pages 16–20)* — The team breaches the flagship hull, shatters the Necro-Code relay spire, and faces the Grand Necro-Sovereign himself.
 * **Inside Back Cover** — *CYBORG // Mercwar Constellation Gateway Uplink*
 * **Back Cover** — *The Armada of Ash Archives & Issue #03 Preview*
+
 
 #
 
