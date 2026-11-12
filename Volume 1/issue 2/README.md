@@ -111,11 +111,11 @@
 
 ---
 
-![comic](image_b62ebfd5.jpg)
+![comic](image_d746f292.jpg)
 
 ---
 
-![comic](image_d746f292.jpg)
+![comic](image_b62ebfd5.jpg)
 
 ---
 
