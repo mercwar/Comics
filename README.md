@@ -42,7 +42,7 @@
 #
 ### 🌌 *AVIS Protocol — Volume 1, Issue #02*
 💨  *The Armada of Ash*
-> *"Who knows...???"*
+> *"THE ARMADA DESCENDS. THE PROTOCOL HOLDS!"*
 ##### 🗝️ Versions
 ####
 -  [MD](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/README.md)
