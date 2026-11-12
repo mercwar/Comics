@@ -26,7 +26,8 @@
     { "page": 20, "label": "Page 18",              "src": "image_3ebe4b56.jpg" },
     { "page": 21, "label": "Page 19",              "src": "image_710b3e20.jpg" },
     { "page": 22, "label": "Page 20",              "src": "image_d14c9b44.jpg" },
-    { "page": 23, "label": "Inside Back Cover",    "src": "image_3217442d.jpg" },
-    { "page": 24, "label": "Back Cover",           "src": "image_b6d9a022.jpg" }
+    { "page": 24, "label": "Back Cover",           "src": "image_b6d9a022.jpg" },
+    { "page": 23, "label": "Inside Back Cover",    "src": "image_3217442d.jpg" }
+   
   ]
 }
