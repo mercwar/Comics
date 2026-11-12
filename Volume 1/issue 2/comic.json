@@ -1,0 +1,32 @@
+{
+  "title": "MERCWAR COMICS - THE FIREGEM WAR",
+  "volume": 1,
+  "issue": "01",
+  "protocol": "AVIS Protocol",
+  "pages": [
+    { "page": 1,  "label": "Front Cover",          "src": "images/image_ba7af5a7.jpg" },
+    { "page": 2,  "label": "Inside Front Cover",   "src": "images/image_f246a38d.jpg" },
+    { "page": 3,  "label": "Page 01",              "src": "images/image_300dbfb7.jpg" },
+    { "page": 4,  "label": "Page 02",              "src": "images/image_dcf22b1f.jpg" },
+    { "page": 5,  "label": "Page 03",              "src": "images/image_b68eaa61.jpg" },
+    { "page": 6,  "label": "Page 04",              "src": "images/image_15e568f9.jpg" },
+    { "page": 7,  "label": "Page 05",              "src": "images/image_d2071447.jpg" },
+    { "page": 8,  "label": "Page 06",              "src": "images/image_c3470f29.jpg" },
+    { "page": 9,  "label": "Page 07",              "src": "images/image_b7eeabf5.jpg" },
+    { "page": 10, "label": "Page 08",              "src": "images/image_609d0584.jpg" },
+    { "page": 11, "label": "Page 09",              "src": "images/image_d79d0f47.jpg" },
+    { "page": 12, "label": "Page 10",              "src": "images/image_627b3484.jpg" },
+    { "page": 13, "label": "Page 11",              "src": "images/image_fcfa2bfd.jpg" },
+    { "page": 14, "label": "Page 12",              "src": "images/image_58dd4a1b.jpg" },
+    { "page": 15, "label": "Page 13",              "src": "images/image_8d90fe87.jpg" },
+    { "page": 16, "label": "Page 14",              "src": "images/image_3d021a82.jpg" },
+    { "page": 17, "label": "Page 15",              "src": "images/image_220ca66e.jpg" },
+    { "page": 18, "label": "Page 16",              "src": "images/image_309b54f9.jpg" },
+    { "page": 19, "label": "Page 17",              "src": "images/image_92b2fd17.jpg" },
+    { "page": 20, "label": "Page 18",              "src": "images/image_3ebe4b56.jpg" },
+    { "page": 21, "label": "Page 19",              "src": "images/image_710b3e20.jpg" },
+    { "page": 22, "label": "Page 20",              "src": "images/image_d14c9b44.jpg" },
+    { "page": 23, "label": "Inside Back Cover",    "src": "images/image_3217442d.jpg" },
+    { "page": 24, "label": "Back Cover",           "src": "images/image_b6d9a022.jpg" }
+  ]
+}
