@@ -103,13 +103,22 @@
     <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/image_32857765.jpg</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/atom.css</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/image_2e1e300b.jpg</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/image_7e14aaa9.jpg</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/index.html</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/image_b62ebfd5.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/app.js</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/image_7c0b553c.jpg</loc>
@@ -118,10 +127,16 @@
     <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/image_a75f1cd1.jpg</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/atom.js</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/image_5c1bc686.jpg</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/image_94a085c6.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/style.css</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/image_e195dcc5.jpg</loc>
@@ -134,6 +149,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/image_c5561bc8.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/comic.json</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/image_78e7341c.jpg</loc>
