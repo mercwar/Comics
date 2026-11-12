@@ -45,7 +45,8 @@
 > *"Who knows...???"*
 ##### 🗝️ Versions
 ####
--  [Next Issue]
+-  [MD](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/README.md)
+-  [HTML](https://mercwar.github.io/Comics/Volume%201/issue%202/index.html)
 
 
 ## 📥 Clone Repository
