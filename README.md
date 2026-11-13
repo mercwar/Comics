@@ -32,10 +32,10 @@
 ##### 🗝️ ALL Versions (Origional Cartoon and new 3d)
 
 #### 💥 Volume 1 Original Cartoon - Good Condition
-#### 💥 Volume 2 Original 3D - Damaged Text  
+#### 💥 Volume 2 Re-write 3D -  Good Condition 
 #### 💥 Volume 3 New 3D - Fair Condition
 #### 💥 Volume 4 New 3D - Good Condition
-
+#### 💥 Volume 4 New 3D -very Good Condition
 View in the FREE reader [HERE](https://mercwar.github.io/Comics/index.html)
 
 
