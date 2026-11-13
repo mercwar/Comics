@@ -1,0 +1,73 @@
+name: Build Version and Issue Directories
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version number (e.g. 5)'
+        required: true
+        default: '5'
+        type: string
+      max_issues:
+        description: 'Max issues to generate (e.g. 5)'
+        required: true
+        default: '5'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  scaffold-directories:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Version and Issue folders
+        env:
+          VER: ${{ github.event.inputs.version }}
+          MAX_ISS: ${{ github.event.inputs.max_issues }}
+        run: |
+          CREATED_DATE=$(date -u +"%Y-%m-%d %H:%M:%S")
+
+          for (( i=1; i<=MAX_ISS; i++ )); do
+            BASE_DIR="Version ${VER}/issue ${i}"
+            JSON_DIR="${BASE_DIR}/json"
+            IMG_DIR="${BASE_DIR}/images"
+
+            mkdir -p "${JSON_DIR}" "${IMG_DIR}"
+            touch "${IMG_DIR}/.gitkeep"
+
+            if [ ! -f "${JSON_DIR}/config.json" ]; then
+              PADDED_ISS=$(printf "%02d" "${i}")
+              cat <<EOF > "${JSON_DIR}/config.json"
+          {
+            "volume": ${VER},
+            "issue": "${PADDED_ISS}",
+            "title": "MERCWAR COMICS",
+            "subtitle": "",
+            "created": "${CREATED_DATE}",
+            "pages": []
+          }
+          EOF
+            fi
+          done
+
+      - name: Commit and push structure
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No new directories or files to commit."
+            exit 0
+          fi
+
+          git commit -m "Scaffold Version ${{ github.event.inputs.version }} (Issues 1-${{ github.event.inputs.max_issues }})"
+          git pull --rebase origin "${{ github.ref_name }}"
+          git push origin "HEAD:${{ github.ref_name }}"
