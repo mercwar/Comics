@@ -1,7 +1,7 @@
 (() => {
   let pages = [];
-  let currentVolumeNum = "";
-  let currentIssueNum = "";
+  let currentVolumeFolderName = "";
+  let currentIssueFolderName = "";
   let currentIndex = 0;
   let zoomPercent = 100;
   const BASE_WIDTH = 720;
@@ -43,14 +43,14 @@
   const mercwarLinksBtn = document.getElementById("mercwarLinksBtn");
   const mercwarLinksMenu = document.getElementById("mercwarLinksMenu");
 
-  // 1. Scan GitHub for available Volume folders (Case-insensitive)
+  // 1. Scan GitHub for available Volume folders
   async function scanVolumes() {
     try {
       const res = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents`, { cache: "no-store" });
       if (!res.ok) throw new Error("Failed to scan repository root");
       const items = await res.json();
 
-      // Filter directories matching "Volume X" or "volume X" and capture the exact folder name
+      // Filter directories matching volume/vol
       const volumes = items
         .filter(item => item.type === "dir" && /^(volume|vol)\s*\d+$/i.test(item.name))
         .map(item => {
@@ -66,17 +66,14 @@
       volumeSelector.innerHTML = "";
       volumes.forEach((vol, idx) => {
         const opt = document.createElement("option");
-        opt.value = vol.num;
-        // Use the exact folder name detected from GitHub (e.g. "Volume 1" or "volume 1") as a dataset attribute
-        opt.dataset.folderName = vol.name;
+        opt.value = vol.name; // Store the exact case-sensitive folder name as the value!
         opt.textContent = `Volume ${vol.num}`;
         if (idx === 0) opt.selected = true;
         volumeSelector.appendChild(opt);
       });
 
-      const initialVol = volumes[0];
-      currentVolumeNum = initialVol.num;
-      await scanIssues(initialVol.name);
+      currentVolumeFolderName = volumes[0].name;
+      await scanIssues(currentVolumeFolderName);
     } catch (err) {
       showToast(`GitHub Scan Error: ${err.message}.`);
     }
@@ -89,7 +86,6 @@
       if (!res.ok) throw new Error(`Failed to scan folder: ${volumeFolderName}`);
       const items = await res.json();
 
-      // Filter directories matching "issue Y"
       const issues = items
         .filter(item => item.type === "dir" && /^issue\s*\d+$/i.test(item.name))
         .map(item => {
@@ -110,22 +106,20 @@
 
       issues.forEach((iss, idx) => {
         const opt = document.createElement("option");
-        opt.value = iss.num;
-        opt.dataset.folderName = iss.name;
+        opt.value = iss.name; // Store exact case-sensitive issue folder name
         opt.textContent = `Issue #${iss.num.padStart(2, "0")}`;
         if (idx === 0) opt.selected = true;
         issueSelector.appendChild(opt);
       });
 
-      const initialIss = issues[0];
-      currentIssueNum = initialIss.num;
-      await loadIssueConfig(volumeFolderName, initialIss.name);
+      currentIssueFolderName = issues[0].name;
+      await loadIssueConfig(currentVolumeFolderName, currentIssueFolderName);
     } catch (err) {
       showToast(`Scan Error: ${err.message}`);
     }
   }
 
-  // 3. Load the config.json file using the exact GitHub folder names
+  // 3. Load the config.json file using the exact folder names
   async function loadIssueConfig(volumeFolderName, issueFolderName) {
     currentIndex = 0;
     pages = [];
@@ -147,8 +141,8 @@
 
       if (issueSubtitle) {
         issueSubtitle.textContent = data.title
-          ? `${volumeFolderName} • Issue #${currentIssueNum} — ${data.title}`
-          : `${volumeFolderName}, Issue #${currentIssueNum}`;
+          ? `${volumeFolderName} • ${issueFolderName} — ${data.title}`
+          : `${volumeFolderName}, ${issueFolderName}`;
       }
 
       pages = rawPages.map((entry, idx) => {
@@ -228,7 +222,7 @@
     const pageObj = pages[currentIndex];
     
     const nextSrc = `./${volumeFolderName}/${issueFolderName}/images/${pageObj.file}`;
-    const nextAlt = `${volumeFolderName}, Issue #${currentIssueNum} — ${pageObj.title}`;
+    const nextAlt = `${volumeFolderName}, ${issueFolderName} — ${pageObj.title}`;
 
     if (pageIndicator) pageIndicator.textContent = `${currentIndex + 1} / ${pages.length}`;
     if (pageCaptionReadout) pageCaptionReadout.textContent = pageObj.title;
@@ -320,57 +314,25 @@
   // Event Listeners Binding
   if (volumeSelector) {
     volumeSelector.addEventListener("change", async (e) => {
-      const selectedOption = e.target.options[e.target.selectedIndex];
-      const folderName = selectedOption.dataset.folderName;
-      currentVolumeNum = e.target.value;
-      await scanIssues(folderName);
+      currentVolumeFolderName = e.target.value;
+      await scanIssues(currentVolumeFolderName);
     });
   }
 
   if (issueSelector) {
     issueSelector.addEventListener("change", (e) => {
-      const selectedVolOption = volumeSelector.options[volumeSelector.selectedIndex];
-      const selectedIssOption = e.target.options[e.target.selectedIndex];
-      currentIssueNum = e.target.value;
-      loadIssueConfig(selectedVolOption.dataset.folderName, selectedIssOption.dataset.folderName);
+      currentIssueFolderName = e.target.value;
+      loadIssueConfig(currentVolumeFolderName, currentIssueFolderName);
     });
   }
 
-  if (firstBtn) firstBtn.addEventListener("click", () => {
-    const vol = volumeSelector.options[volumeSelector.selectedIndex].dataset.folderName;
-    const iss = issueSelector.options[issueSelector.selectedIndex].dataset.folderName;
-    showPage(vol, iss, 0, true);
-  });
+  if (firstBtn) firstBtn.addEventListener("click", () => showPage(currentVolumeFolderName, currentIssueFolderName, 0, true));
+  if (prevBtn) prevBtn.addEventListener("click", () => showPage(currentVolumeFolderName, currentIssueFolderName, currentIndex - 1, true));
+  if (nextBtn) nextBtn.addEventListener("click", () => showPage(currentVolumeFolderName, currentIssueFolderName, currentIndex + 1, true));
+  if (lastBtn) lastBtn.addEventListener("click", () => showPage(currentVolumeFolderName, currentIssueFolderName, pages.length - 1, true));
 
-  if (prevBtn) prevBtn.addEventListener("click", () => {
-    const vol = volumeSelector.options[volumeSelector.selectedIndex].dataset.folderName;
-    const iss = issueSelector.options[issueSelector.selectedIndex].dataset.folderName;
-    showPage(vol, iss, currentIndex - 1, true);
-  });
-
-  if (nextBtn) nextBtn.addEventListener("click", () => {
-    const vol = volumeSelector.options[volumeSelector.selectedIndex].dataset.folderName;
-    const iss = issueSelector.options[issueSelector.selectedIndex].dataset.folderName;
-    showPage(vol, iss, currentIndex + 1, true);
-  });
-
-  if (lastBtn) lastBtn.addEventListener("click", () => {
-    const vol = volumeSelector.options[volumeSelector.selectedIndex].dataset.folderName;
-    const iss = issueSelector.options[issueSelector.selectedIndex].dataset.folderName;
-    showPage(vol, iss, pages.length - 1, true);
-  });
-
-  if (clickPrevZone) clickPrevZone.addEventListener("click", () => {
-    const vol = volumeSelector.options[volumeSelector.selectedIndex].dataset.folderName;
-    const iss = issueSelector.options[issueSelector.selectedIndex].dataset.folderName;
-    showPage(vol, iss, currentIndex - 1, true);
-  });
-
-  if (clickNextZone) clickNextZone.addEventListener("click", () => {
-    const vol = volumeSelector.options[volumeSelector.selectedIndex].dataset.folderName;
-    const iss = issueSelector.options[issueSelector.selectedIndex].dataset.folderName;
-    showPage(vol, iss, currentIndex + 1, true);
-  });
+  if (clickPrevZone) clickPrevZone.addEventListener("click", () => showPage(currentVolumeFolderName, currentIssueFolderName, currentIndex - 1, true));
+  if (clickNextZone) clickNextZone.addEventListener("click", () => showPage(currentVolumeFolderName, currentIssueFolderName, currentIndex + 1, true));
 
   if (fitWidthBtn) fitWidthBtn.addEventListener("click", setFitWidthMode);
   if (fitHeightBtn) fitHeightBtn.addEventListener("click", setFitHeightMode);
@@ -416,16 +378,14 @@
   document.addEventListener("keydown", (e) => {
     if (e.target.tagName === "SELECT" || e.target.tagName === "INPUT") return;
 
-    const vol = volumeSelector.options[volumeSelector.selectedIndex]?.dataset.folderName;
-    const iss = issueSelector.options[issueSelector.selectedIndex]?.dataset.folderName;
-    if (!vol || !iss) return;
+    if (!currentVolumeFolderName || !currentIssueFolderName) return;
 
     if (e.key === "ArrowRight" || e.key === " ") {
       e.preventDefault();
-      showPage(vol, iss, currentIndex + 1, true);
+      showPage(currentVolumeFolderName, currentIssueFolderName, currentIndex + 1, true);
     } else if (e.key === "ArrowLeft") {
       e.preventDefault();
-      showPage(vol, iss, currentIndex - 1, true);
+      showPage(currentVolumeFolderName, currentIssueFolderName, currentIndex - 1, true);
     } else if (e.key === "+" || e.key === "=") {
       zoomPercent = Math.min(200, zoomPercent + 15);
       applyZoom();
