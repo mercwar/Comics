@@ -1,7 +1,13 @@
 (() => {
+  // ==========================================
+  // CONFIGURATION CONSTANTS
+  // ==========================================
+  const VOLUME_FOLDER_NAME = "Volume"; // Exact folder prefix (case-sensitive)
+  const JSON_SUBDIR_NAME = "json";     // Configuration subdirectory name
+
   let pages = [];
-  let currentVolumeFolderName = "";
-  let currentIssueFolderName = "";
+  let currentVolumeNum = "1";
+  let currentIssueNum = "1";
   let currentIndex = 0;
   let zoomPercent = 100;
   const BASE_WIDTH = 720;
@@ -43,16 +49,17 @@
   const mercwarLinksBtn = document.getElementById("mercwarLinksBtn");
   const mercwarLinksMenu = document.getElementById("mercwarLinksMenu");
 
-  // 1. Scan GitHub for available Volume folders
+  // 1. Scan GitHub for available Volume folders using the constant prefix
   async function scanVolumes() {
     try {
       const res = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents`, { cache: "no-store" });
       if (!res.ok) throw new Error("Failed to scan repository root");
       const items = await res.json();
 
-      // Filter directories matching volume/vol
+      // Filter directories strictly matching `${VOLUME_FOLDER_NAME} X`
+      const volRegex = new RegExp(`^${VOLUME_FOLDER_NAME}\\s+\\d+$`);
       const volumes = items
-        .filter(item => item.type === "dir" && /^(volume|vol)\s*\d+$/i.test(item.name))
+        .filter(item => item.type === "dir" && volRegex.test(item.name))
         .map(item => {
           const match = item.name.match(/\d+/);
           return { name: item.name, num: match ? match[0] : item.name };
@@ -60,20 +67,20 @@
         .sort((a, b) => parseInt(a.num) - parseInt(b.num));
 
       if (volumes.length === 0) {
-        throw new Error("No volume folders found in repository root.");
+        throw new Error(`No '${VOLUME_FOLDER_NAME} X' folders found in repository root.`);
       }
 
       volumeSelector.innerHTML = "";
       volumes.forEach((vol, idx) => {
         const opt = document.createElement("option");
-        opt.value = vol.name; // Store the exact case-sensitive folder name as the value!
-        opt.textContent = `Volume ${vol.num}`;
+        opt.value = vol.name;
+        opt.textContent = vol.name;
         if (idx === 0) opt.selected = true;
         volumeSelector.appendChild(opt);
       });
 
-      currentVolumeFolderName = volumes[0].name;
-      await scanIssues(currentVolumeFolderName);
+      currentVolumeNum = volumes[0].name;
+      await scanIssues(currentVolumeNum);
     } catch (err) {
       showToast(`GitHub Scan Error: ${err.message}.`);
     }
@@ -106,25 +113,25 @@
 
       issues.forEach((iss, idx) => {
         const opt = document.createElement("option");
-        opt.value = iss.name; // Store exact case-sensitive issue folder name
+        opt.value = iss.name;
         opt.textContent = `Issue #${iss.num.padStart(2, "0")}`;
         if (idx === 0) opt.selected = true;
         issueSelector.appendChild(opt);
       });
 
-      currentIssueFolderName = issues[0].name;
-      await loadIssueConfig(currentVolumeFolderName, currentIssueFolderName);
+      currentIssueNum = issues[0].name;
+      await loadIssueConfig(currentVolumeNum, currentIssueNum);
     } catch (err) {
       showToast(`Scan Error: ${err.message}`);
     }
   }
 
-  // 3. Load the config.json file using the exact folder names
+  // 3. Load the config.json file using the constant subdirectory definitions
   async function loadIssueConfig(volumeFolderName, issueFolderName) {
     currentIndex = 0;
     pages = [];
 
-    const jsonPath = `./${volumeFolderName}/${issueFolderName}/json/config.json`;
+    const jsonPath = `./${volumeFolderName}/${issueFolderName}/${JSON_SUBDIR_NAME}/config.json`;
 
     if (issueSubtitle) {
       issueSubtitle.textContent = `Loading configuration...`;
@@ -314,25 +321,25 @@
   // Event Listeners Binding
   if (volumeSelector) {
     volumeSelector.addEventListener("change", async (e) => {
-      currentVolumeFolderName = e.target.value;
-      await scanIssues(currentVolumeFolderName);
+      currentVolumeNum = e.target.value;
+      await scanIssues(currentVolumeNum);
     });
   }
 
   if (issueSelector) {
     issueSelector.addEventListener("change", (e) => {
-      currentIssueFolderName = e.target.value;
-      loadIssueConfig(currentVolumeFolderName, currentIssueFolderName);
+      currentIssueNum = e.target.value;
+      loadIssueConfig(currentVolumeNum, currentIssueNum);
     });
   }
 
-  if (firstBtn) firstBtn.addEventListener("click", () => showPage(currentVolumeFolderName, currentIssueFolderName, 0, true));
-  if (prevBtn) prevBtn.addEventListener("click", () => showPage(currentVolumeFolderName, currentIssueFolderName, currentIndex - 1, true));
-  if (nextBtn) nextBtn.addEventListener("click", () => showPage(currentVolumeFolderName, currentIssueFolderName, currentIndex + 1, true));
-  if (lastBtn) lastBtn.addEventListener("click", () => showPage(currentVolumeFolderName, currentIssueFolderName, pages.length - 1, true));
+  if (firstBtn) firstBtn.addEventListener("click", () => showPage(currentVolumeNum, currentIssueNum, 0, true));
+  if (prevBtn) prevBtn.addEventListener("click", () => showPage(currentVolumeNum, currentIssueNum, currentIndex - 1, true));
+  if (nextBtn) nextBtn.addEventListener("click", () => showPage(currentVolumeNum, currentIssueNum, currentIndex + 1, true));
+  if (lastBtn) lastBtn.addEventListener("click", () => showPage(currentVolumeNum, currentIssueNum, pages.length - 1, true));
 
-  if (clickPrevZone) clickPrevZone.addEventListener("click", () => showPage(currentVolumeFolderName, currentIssueFolderName, currentIndex - 1, true));
-  if (clickNextZone) clickNextZone.addEventListener("click", () => showPage(currentVolumeFolderName, currentIssueFolderName, currentIndex + 1, true));
+  if (clickPrevZone) clickPrevZone.addEventListener("click", () => showPage(currentVolumeNum, currentIssueNum, currentIndex - 1, true));
+  if (clickNextZone) clickNextZone.addEventListener("click", () => showPage(currentVolumeNum, currentIssueNum, currentIndex + 1, true));
 
   if (fitWidthBtn) fitWidthBtn.addEventListener("click", setFitWidthMode);
   if (fitHeightBtn) fitHeightBtn.addEventListener("click", setFitHeightMode);
@@ -378,14 +385,14 @@
   document.addEventListener("keydown", (e) => {
     if (e.target.tagName === "SELECT" || e.target.tagName === "INPUT") return;
 
-    if (!currentVolumeFolderName || !currentIssueFolderName) return;
+    if (!currentVolumeNum || !currentIssueNum) return;
 
     if (e.key === "ArrowRight" || e.key === " ") {
       e.preventDefault();
-      showPage(currentVolumeFolderName, currentIssueFolderName, currentIndex + 1, true);
+      showPage(currentVolumeNum, currentIssueNum, currentIndex + 1, true);
     } else if (e.key === "ArrowLeft") {
       e.preventDefault();
-      showPage(currentVolumeFolderName, currentIssueFolderName, currentIndex - 1, true);
+      showPage(currentVolumeNum, currentIssueNum, currentIndex - 1, true);
     } else if (e.key === "+" || e.key === "=") {
       zoomPercent = Math.min(200, zoomPercent + 15);
       applyZoom();
