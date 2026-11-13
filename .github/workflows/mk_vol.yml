@@ -1,10 +1,10 @@
-name: Build Version and Issue Directories
+name: Build Volume and Issue Directories
 
 on:
   workflow_dispatch:
     inputs:
-      version:
-        description: 'Version number (e.g. 5)'
+      volume:
+        description: 'Volume number (e.g. 5)'
         required: true
         default: '5'
         type: string
@@ -27,15 +27,15 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create Version and Issue folders
+      - name: Create Volume and Issue folders
         env:
-          VER: ${{ github.event.inputs.version }}
+          VOL: ${{ github.event.inputs.volume }}
           MAX_ISS: ${{ github.event.inputs.max_issues }}
         run: |
           CREATED_DATE=$(date -u +"%Y-%m-%d %H:%M:%S")
 
           for (( i=1; i<=MAX_ISS; i++ )); do
-            BASE_DIR="Version ${VER}/issue ${i}"
+            BASE_DIR="Volume ${VOL}/issue ${i}"
             JSON_DIR="${BASE_DIR}/json"
             IMG_DIR="${BASE_DIR}/images"
 
@@ -46,7 +46,7 @@ jobs:
               PADDED_ISS=$(printf "%02d" "${i}")
               cat <<EOF > "${JSON_DIR}/config.json"
           {
-            "volume": ${VER},
+            "volume": ${VOL},
             "issue": "${PADDED_ISS}",
             "title": "MERCWAR COMICS",
             "subtitle": "",
@@ -68,6 +68,6 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Scaffold Version ${{ github.event.inputs.version }} (Issues 1-${{ github.event.inputs.max_issues }})"
+          git commit -m "Scaffold Volume ${{ github.event.inputs.volume }} (Issues 1-${{ github.event.inputs.max_issues }})"
           git pull --rebase origin "${{ github.ref_name }}"
           git push origin "HEAD:${{ github.ref_name }}"
