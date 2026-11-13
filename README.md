@@ -63,12 +63,28 @@
 ##### *Part 2*
 -  [MD](https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/README.md)
 -  [HTML](https://mercwar.github.io/Comics/Volume%201/issue%204/index.html)
+
+### 🌌 *AVIS Protocol — Volume 2, Issues #01 - #05*
+
+
+
+🔥  *BEYOND THE STARGATE RIFT* 
+> *"A NEW ERA BEGINS"*
+
+##### 🗝️ Versions (Damaged/Cartoon only)
+####
+-  [MD](https://github.com/mercwar/Comics/blob/main/Volume%202/README.md)
+-  [HTML](https://mercwar.github.io/Comics/Volume%201/issue%202/index.html)
+
+#
   
 ## 📥 Clone Repository
 ```bash
 git clone https://github.com/mercwar/Comics
 ```
 ![cbi](images/cb1.png)
+
+
 
 #### 
 
@@ -79,7 +95,11 @@ git clone https://github.com/mercwar/Comics
 #
 
 
+
 ![cbi](images/cb3.png)
+
+
+
 
 ## 📖 Synopsis
 
