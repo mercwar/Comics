@@ -27,85 +27,17 @@
 ![cbi](images/cb4.png)
 
 
-### 🌌 *AVIS Protocol — Volume 1, Issue #01*
+### 🌌 *AVIS Protocol — Origional Volumes 1-4 and Issues*
 
+##### 🗝️ ALL Versions (Origional Cartoon and new 3d)
 
+#### 💥 Volume 1 Original Cartoon - Good Condition
+#### 💥 Volume 2 Original 3D - Damaged Text  
+#### 💥 Volume 3 New 3D - Fair Condition
+#### 💥 Volume 4 New 3D - Good Condition
 
-🔥  *The Firegem War* 
-> *"FIRE. ICE. ANGELS. THE HORDE FALLS HERE."*
+View in the FREE reader [HERE](https://mercwar.github.io/Comics/index.html)
 
-##### 🗝️ Versions (Cartoon / Good Condition)
-####
--  [MD](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%201/README.md)
--  [HTML](https://mercwar.github.io/Comics/Volume%201/issue%201/index.html)
-
-#
-
-### 🌌 *AVIS Protocol — Volume 1, Issue #02*
-💨  *The Armada of Ash*
-> *"THE ARMADA DESCENDS. THE PROTOCOL HOLDS!"*
-##### 🗝️ Versions (Cartoon / Good Condition)
-####
--  [MD](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/README.md)
--  [HTML](https://mercwar.github.io/Comics/Volume%201/issue%202/index.html)
-
-#
-
-### 🌌 *AVIS Protocol — Volume 1, Issue #03 and #4*
-💨  *Entrance of Cyborg City*
-> *"NEON STREETS. IRON UPRISING. THE REBELLION IGNITES WITHIN.."*
-##### 🗝️ Versions (Cartoon / Good Condition)
-####
-
-##### *Part 1*
--  [MD](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%203/README.md)
--  [HTML](https://mercwar.github.io/Comics/Volume%201/issue%203/index.html)
-##### *Part 2*
--  [MD](https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/README.md)
--  [HTML](https://mercwar.github.io/Comics/Volume%201/issue%204/index.html)
-
-### 🌌 *AVIS Protocol — Volume 2, Issues #01 - #05*
-
-
-
-🔥  *BEYOND THE STARGATE RIFT* 
-> *"A NEW ERA BEGINS"*
-
-##### 🗝️ Versions (Damaged/Cartoon only)
-####
--  [MD](https://github.com/mercwar/Comics/blob/main/Volume%202/README.md)
--  [HTML](https://mercwar.github.io/Comics/Volume%202/index.html)
-   
-Note: The reader now loads the issues
-
-#
-
-### 🌌 *AVIS Protocol — Volume 3, Issues #01 - #05*
-
-
-🔥  *AVIS Under Attack* 
-> *"A NEXT ERA BEGINS"*
-
-##### 🗝️ Versions (Fair condition)
-####
-
--  [HTML](https://mercwar.github.io/Comics/Volume%203/index.html)
-   
-Note: The reader now loads the issues
-
-
-#
-
-### 🌌 *AVIS Protocol — Volume 4, Issues #01 - #05*
-
-🔥  *The necro story* 
-> *"The Robo Knights and Joe Tron"*
-##### 🗝️ Versions (Good condition)
-####
-
--  [HTML](https://mercwar.github.io/Comics/Volume%204/index.html)
-   
-Note: The reader now loads the issues
 
 #
 
