@@ -33,8 +33,8 @@
 
 ##### 🗝️ Navigation
 ####
--  [Main Comics Hub](https://github.com)
--  [Constellation Gateway](https://mercwar.github.io/Constellation/index.html)
+-  [This Uplink: Comics Hub](https://github.com/mercwar/Comics)
+-  [Next Uplink: Constellation Gateway](https://mercwar.github.io/Constellation/index.html)
 
 #
 
