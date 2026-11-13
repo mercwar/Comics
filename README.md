@@ -34,7 +34,7 @@
 🔥  *The Firegem War* 
 > *"FIRE. ICE. ANGELS. THE HORDE FALLS HERE."*
 
-##### 🗝️ Versions
+##### 🗝️ Versions (Cartoon / Good Condition)
 ####
 -  [MD](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%201/README.md)
 -  [HTML](https://mercwar.github.io/Comics/Volume%201/issue%201/index.html)
@@ -44,7 +44,7 @@
 ### 🌌 *AVIS Protocol — Volume 1, Issue #02*
 💨  *The Armada of Ash*
 > *"THE ARMADA DESCENDS. THE PROTOCOL HOLDS!"*
-##### 🗝️ Versions
+##### 🗝️ Versions (Cartoon / Good Condition)
 ####
 -  [MD](https://github.com/mercwar/Comics/blob/main/Volume%201/issue%202/README.md)
 -  [HTML](https://mercwar.github.io/Comics/Volume%201/issue%202/index.html)
@@ -54,7 +54,7 @@
 ### 🌌 *AVIS Protocol — Volume 1, Issue #03 and #4*
 💨  *Entrance of Cyborg City*
 > *"NEON STREETS. IRON UPRISING. THE REBELLION IGNITES WITHIN.."*
-##### 🗝️ Versions
+##### 🗝️ Versions (Cartoon / Good Condition)
 ####
 
 ##### *Part 1*
