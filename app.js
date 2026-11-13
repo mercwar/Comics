@@ -1,6 +1,6 @@
 (() => {
   let pages = [];
-  let currentVolumeNum = "4"; // Default Volume
+  let currentVolumeNum = "1"; // Default Volume
   let currentIssueNum = "1";
   let currentIndex = 0;
   let zoomPercent = 100;
@@ -45,7 +45,7 @@
     pages = [];
 
     // Search 1 level deeper: Volume first, then Issue
-    const volumeFolder = `volume ${currentVolumeNum}`;
+    const volumeFolder = `Volume ${currentVolumeNum}`;
     const issueFolder = `issue ${currentIssueNum}`;
     
     const encodedVolume = encodeURIComponent(volumeFolder);
