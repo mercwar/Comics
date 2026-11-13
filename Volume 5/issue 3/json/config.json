@@ -1,8 +1,68 @@
 {
   "volume": 5,
   "issue": "03",
-  "title": "MERCWAR COMICS",
-  "subtitle": "",
-  "created": "2026-11-13 12:47:50",
-  "pages": []
+  "title": "MERCWAR: GATEWAYS OF THE FORGOTTEN RIM",
+  "subtitle": "The Cipher Citadel • Binary Quasars • ECLIPSE & DC2 Override • Rim Stargates",
+  "pages": [
+    {
+      "label": "Front Cover — MERCWAR: GATEWAYS OF THE FORGOTTEN RIM",
+      "src": "9228ea66-ccc3-488a-9c65-19c43bac1d1c.jpg",
+      "created": "2026-11-13 07:55:00"
+    },
+    {
+      "label": "Page 01 — The Triple-Gate Surge",
+      "src": "ba5b08a2-9cee-4a6c-91d6-056539d0d01b.jpg",
+      "created": "2026-11-13 07:55:00"
+    },
+    {
+      "label": "Page 02 — Arrival at the Forgotten Rim",
+      "src": "da5705f0-f5e3-4279-8fbd-55a6728d9879.jpg",
+      "created": "2026-11-13 07:55:00"
+    },
+    {
+      "label": "Page 03 — Ambush of the Cipher-Vanguard",
+      "src": "36a11a36-c190-4c4a-9614-a1511e617768.jpg",
+      "created": "2026-11-13 07:55:00"
+    },
+    {
+      "label": "Page 04 — Celestial Valkyrie Sweep",
+      "src": "0707ac86-7702-4025-9f76-0244d476f265.jpg",
+      "created": "2026-11-13 07:56:00"
+    },
+    {
+      "label": "Page 05 — Breaching the Siphon Deck",
+      "src": "1d428e20-2972-4242-94b2-67f78b86ec75.jpg",
+      "created": "2026-11-13 07:56:00"
+    },
+    {
+      "label": "Page 06 — ECLIPSE & DC2 Counter-Protocol",
+      "src": "714f65d5-1f40-429b-af24-f5bbd9dd17f8.jpg",
+      "created": "2026-11-13 07:56:00"
+    },
+    {
+      "label": "Page 07 — Rise of the Cipher Prime",
+      "src": "000094a3-8401-4d47-b512-c6d46126f721.jpg",
+      "created": "2026-11-13 07:56:00"
+    },
+    {
+      "label": "Page 08 — Cryo-Lock & Sonic Resonance",
+      "src": "6de9a269-70b7-4dc0-9ffb-75107692163e.jpg",
+      "created": "2026-11-13 07:56:00"
+    },
+    {
+      "label": "Page 09 — Fire-Gem Binary Cleave",
+      "src": "eda4988f-1299-48c3-af09-57ec25c10832.jpg",
+      "created": "2026-11-13 07:56:00"
+    },
+    {
+      "label": "Page 10 — The Rim Reclaimed",
+      "src": "a84421aa-4a05-4a77-b6a5-2223a962b714.jpg",
+      "created": "2026-11-13 07:57:00"
+    },
+    {
+      "label": "Back Cover — MERCWAR: GATEWAYS OF THE FORGOTTEN RIM",
+      "src": "a2b6b82d-0640-4e9d-b80b-e2a1b2854452.jpg",
+      "created": "2026-11-13 07:57:00"
+    }
+  ]
 }
