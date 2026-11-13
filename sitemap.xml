@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/atom.css</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Comics/blob/main/index.html</loc>
   </url>
   <url>
@@ -361,6 +364,258 @@
     <loc>https://github.com/mercwar/Comics/blob/main/Volume%201/issue%203/image_f4bae3ba.jpg</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/app.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/atom.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/index.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/app.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/json/config.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/images/66ed7267-18a7-46c2-9ca0-104d402cae5b.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/images/49a59ae7-54c9-4a73-b6f1-b62bf5694ee8.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/images/b0018d2a-2568-4971-bbda-b24802dc9853.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/images/49f02d44-7e4a-403f-b06f-d2fc8ac9b578.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/images/c83f3cee-9043-42c7-8de7-119faf6ff477.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/images/5027561f-0e8b-4a55-8542-59d44fcf2df7.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/images/40b0935f-d591-4d2d-88aa-9d7d5c786645.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/images/eb529b54-69fd-4cdf-b25c-239c31c1112d.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/images/970a6c07-842a-4672-a043-675741f554ab.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/images/0b6b7bfe-1e84-4f60-b776-f9f41fed6555.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/images/a5a2db1d-1725-4f6e-92d2-8c2a4002fb8a.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/images/89a77263-e0e3-438a-994a-7d6dd3f3065d.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/images/png_info.bat</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/images/0f75072a-89d3-4cf7-9ddf-44e1460b98e9.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%205/scripts.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/style.css</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/json/config.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/images/f0a76ad9-12a2-4484-b056-e95eda10b074.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/images/179f9f75-7d36-4732-b66c-e9e307bb27cc.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/images/2b926070-e10a-4d96-9b35-ab131d48ed84.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/images/c82e1446-894d-4f2d-88e0-0625f79a0241.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/images/a1a3018a-14ac-463e-8619-bfed99318923.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/images/b2cc3b9b-403b-4149-9aa1-ed05abdd6069.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/images/a79abf87-2f48-4359-b68a-0610db1841aa.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/images/eec17d77-bc04-46cb-9e71-0b4e24fe18da.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/images/613a14e6-3245-4432-802b-d2364d2bb3c1.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/images/4080f6bb-a8ca-4214-9352-49fba4270859.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/images/554708b9-cc55-4e41-ad74-e6aa4805127e.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/images/a93d1265-2dc9-42c9-bb55-d6cc8083f880.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/images/21afa42d-854e-4c4a-a4c6-6e2ca4ed1c08.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/images/9758ba4e-a237-48d9-af9f-f6a0fcfbb34a.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/images/png_info.bat</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%201/scripts.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/style1.css</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/json/config.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/images/7fee2d14-fec4-4656-b5fd-1e69d98afc78.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/images/5452426d-6bbe-454f-95e5-3d818a7c70f6.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/images/d0174a68-bc32-4816-ac2a-b7b159737f52.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/images/d8064bc7-e4c8-414b-a49b-7de79f18991d.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/images/84baa3bd-a8c1-424e-91ac-d8f3311bca31.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/images/c4a3b83b-5038-4cd3-a75f-949570369338.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/images/a9517487-77cc-4385-ae68-f7e3e3a35497.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/images/aa0e2828-052e-49da-b8f5-675a0babfa17.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/images/db64e6c2-5370-4bb1-b52f-3f067dcf4784.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/images/4b70ac77-d495-45e2-837d-adf5ca274be0.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/images/e20f740e-b124-427e-9a86-25ec1c96ca78.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/images/png_info.bat</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/images/818d9927-602d-4db9-844a-24124285c44a.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%202/scripts.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%204/json/config.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%204/images/6426ce8e-28b4-4463-bb7f-c68d94568449.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%204/images/c0f54b37-0974-447b-9bb5-55e385b9c0ad.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%204/images/4a08430e-08a6-4138-81bd-97954c560baf.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%204/images/d4cab1b6-8769-44cb-971f-59e0e569f8f3.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%204/images/5d4ceeb4-f09f-47a1-95c3-4523dbf7f274.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%204/images/08224bc4-5dbd-4348-a395-c6b2ea8f5243.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%204/images/2e0859e7-f1b8-492e-be5a-4ab65fcffe02.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%204/images/fb6784cc-5b29-4c6f-b3ac-f0701eca0fac.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%204/images/9f7274c3-0c65-439d-b7b1-53d7f182c8fe.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%204/images/aa9e4395-55b9-4172-853c-3ea4ec589d8f.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%204/images/f93a2def-22fe-4334-9a69-78312073ac00.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%204/images/png_info.bat</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%204/scripts.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%203/json/config.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%203/images/aac0872d-116f-4147-904d-237409129a23.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%203/images/5fa83cdf-f766-4758-99d1-b9f5bdfdbd14.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%203/images/d6909458-0992-4cb5-a51f-a609c518f1a6.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%203/images/79d85fb1-d0ae-4979-94b1-bdf31d8c5fdc.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%203/images/cbf94115-9899-43ac-b796-7db19a3ed834.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%203/images/513aaa63-11d2-4000-9094-e364634b114e.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%203/images/f95fbfdc-ef0c-46a9-afeb-42b6a0677399.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%203/images/56971256-3453-4e6a-88cd-6510de282d27.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%203/images/ea380f4c-3498-4290-9b2d-03f259a9c424.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%203/images/c112460c-009f-490a-8898-e0f2a46407dc.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%203/images/e6dda835-fed3-47da-b3cb-8bbdf70a42bc.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%203/images/9bc13e08-6917-46df-a757-27427e6b6c1a.jpg</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%203/images/png_info.bat</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/Volume%204/issue%203/scripts.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/style.css</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Comics/blob/main/Volume%203/index.html</loc>
   </url>
   <url>
@@ -580,6 +835,9 @@
     <loc>https://github.com/mercwar/Comics/blob/main/README.md</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/comic.json</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Comics/blob/main/LICENSE</loc>
   </url>
   <url>
@@ -596,6 +854,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Comics/blob/main/images/cb4.png</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/mwc.png</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Comics/blob/main/Volume%202/index.html</loc>
@@ -848,5 +1109,8 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Comics/blob/main/.github/workflows/fire-site.yml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/png_info.bat</loc>
   </url>
 </urlset>
