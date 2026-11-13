@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MERCWAR COMICS — COMIC READER</title>
-  <link rel="stylesheet" href="style.css?v=4" />
-  <link rel="stylesheet" href="style1.css?v=4" />
+  <link rel="stylesheet" href="style.css?v=5" />
+  <link rel="stylesheet" href="style1.css?v=5" />
 </head>
 <body>
 
@@ -15,26 +15,19 @@
       <button id="toggleSidebarBtn" class="btn" title="Toggle Page Thumbnails" aria-label="Toggle Page Thumbnails">☰ Pages</button>
       <div class="brand-title">
         <h1>MERCWAR COMICS</h1>
-        <p id="issueSubtitle">Loading Configuration...</p>
+        <p id="issueSubtitle">Scanning Repository Folders...</p>
       </div>
     </div>
 
     <div class="controls-bar">
-      <!-- Volume Selector (Volumes 1-4) -->
+      <!-- Dynamically Populated Volume Selector -->
       <select id="volumeSelector" aria-label="Select Comic Volume">
-        <option value="1" selected>Volume 1</option>
-        <option value="2">Volume 2</option>
-        <option value="3">Volume 3</option>
-        <option value="4">Volume 4</option>
+        <option value="" disabled selected>Loading Volumes...</option>
       </select>
 
-      <!-- Issue Selector -->
+      <!-- Dynamically Populated Issue Selector -->
       <select id="issueSelector" aria-label="Select Comic Issue">
-        <option value="1">Issue #01 — MERCWAR: THE NECRO-SOVEREIGN AWAKENS</option>
-        <option value="2">Issue #02 — Siege of the Obsidian Dreadnoughts</option>
-        <option value="3">Issue #03 — Into the Dark Sector</option>
-        <option value="4">Issue #04 — Heart of the Necro-Forge</option>
-        <option value="5">Issue #05 — Ascension of the Firegem</option>
+        <option value="" disabled selected>Loading Issues...</option>
       </select>
 
       <div class="control-group">
@@ -83,7 +76,7 @@
       <div class="thumbnail-grid" id="thumbnailGrid"></div>
 
       <div class="sidebar-footer">
-        <div><strong>SOURCE:</strong> ./volume #/issue #/json/config.json</div>
+        <div><strong>SOURCE:</strong> Dynamic GitHub Scan</div>
         <div><strong>HOTKEYS:</strong> ← → Navigate • + − Zoom</div>
       </div>
     </aside>
@@ -111,6 +104,6 @@
 
   </div>
 
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>

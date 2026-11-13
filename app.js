@@ -1,10 +1,14 @@
 (() => {
   let pages = [];
-  let currentVolumeNum = "1"; // Default Volume
-  let currentIssueNum = "1";
+  let currentVolumeNum = "";
+  let currentIssueNum = "";
   let currentIndex = 0;
   let zoomPercent = 100;
   const BASE_WIDTH = 720;
+
+  // GitHub Repository Configuration
+  const GH_OWNER = "mercwar";
+  const GH_REPO = "COMICS";
 
   let flipSwapTimer = null;
   let flipEndTimer = null;
@@ -39,27 +43,103 @@
   const mercwarLinksBtn = document.getElementById("mercwarLinksBtn");
   const mercwarLinksMenu = document.getElementById("mercwarLinksMenu");
 
-  async function loadIssue(issueNum) {
-    currentIssueNum = String(issueNum);
+  // 1. Scan GitHub for available Volume folders
+  async function scanVolumes() {
+    try {
+      const res = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents`, { cache: "no-store" });
+      if (!res.ok) throw new Error("Failed to scan repository root");
+      const items = await res.json();
+
+      // Filter directories matching "volume X" (case-insensitive)
+      const volumes = items
+        .filter(item => item.type === "dir" && /^volume\s+\d+$/i.test(item.name))
+        .map(item => {
+          const match = item.name.match(/\d+/);
+          return { name: item.name, num: match ? match[0] : item.name };
+        })
+        .sort((a, b) => parseInt(a.num) - parseInt(b.num));
+
+      if (volumes.length === 0) {
+        throw new Error("No volume folders found in repository.");
+      }
+
+      volumeSelector.innerHTML = "";
+      volumes.forEach((vol, idx) => {
+        const opt = document.createElement("option");
+        opt.value = vol.num;
+        opt.textContent = `Volume ${vol.num}`;
+        if (idx === 0) opt.selected = true;
+        volumeSelector.appendChild(opt);
+      });
+
+      currentVolumeNum = volumes[0].num;
+      await scanIssues(currentVolumeNum);
+    } catch (err) {
+      showToast(`GitHub Scan Error: ${err.message}. Ensure folder names match 'volume X'.`);
+    }
+  }
+
+  // 2. Scan GitHub for available Issue folders inside the selected Volume
+  async function scanIssues(volNum) {
+    try {
+      const volumeFolder = `Volume ${volNum}`;
+      const res = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${encodeURIComponent(volumeFolder)}`, { cache: "no-store" });
+      if (!res.ok) throw new Error(`Failed to scan ${volumeFolder}`);
+      const items = await res.json();
+
+      // Filter directories matching "issue Y" (case-insensitive)
+      const issues = items
+        .filter(item => item.type === "dir" && /^issue\s+\d+$/i.test(item.name))
+        .map(item => {
+          const match = item.name.match(/\d+/);
+          return { name: item.name, num: match ? match[0] : item.name };
+        })
+        .sort((a, b) => parseInt(a.num) - parseInt(b.num));
+
+      issueSelector.innerHTML = "";
+      if (issues.length === 0) {
+        const opt = document.createElement("option");
+        opt.value = "";
+        opt.textContent = "No Issues Found";
+        issueSelector.appendChild(opt);
+        showToast(`No issue folders found inside ${volumeFolder}.`);
+        return;
+      }
+
+      issues.forEach((iss, idx) => {
+        const opt = document.createElement("option");
+        opt.value = iss.num;
+        opt.textContent = `Issue #${iss.num.padStart(2, "0")}`;
+        if (idx === 0) opt.selected = true;
+        issueSelector.appendChild(opt);
+      });
+
+      currentIssueNum = issues[0].num;
+      await loadIssueConfig(currentVolumeNum, currentIssueNum);
+    } catch (err) {
+      showToast(`Scan Error: ${err.message}`);
+    }
+  }
+
+  // 3. Load the config.json file for the selected volume & issue
+  async function loadIssueConfig(volNum, issNum) {
+    currentVolumeNum = String(volNum);
+    currentIssueNum = String(issNum);
     currentIndex = 0;
     pages = [];
 
-    // Search 1 level deeper: Volume first, then Issue
-    const volumeFolder = `Volume ${currentVolumeNum}`;
+    const volumeFolder = `volume ${currentVolumeNum}`;
     const issueFolder = `issue ${currentIssueNum}`;
-    
-    const encodedVolume = encodeURIComponent(volumeFolder);
-    const encodedIssue = encodeURIComponent(issueFolder);
-    const jsonPath = `./${encodedVolume}/${encodedIssue}/json/config.json`;
+    const jsonPath = `./${volumeFolder}/${issueFolder}/json/config.json`;
 
     if (issueSubtitle) {
-      issueSubtitle.textContent = `Vol. ${currentVolumeNum}, Issue #0${currentIssueNum} • Loading configuration...`;
+      issueSubtitle.textContent = `Vol. ${currentVolumeNum}, Issue #0${currentIssueNum} • Loading...`;
     }
 
     try {
       const response = await fetch(jsonPath, { cache: "no-store" });
       if (!response.ok) {
-        throw new Error(`HTTP ${response.status} fetching ./${volumeFolder}/${issueFolder}/json/config.json`);
+        throw new Error(`HTTP ${response.status} fetching ${jsonPath}`);
       }
 
       const data = await response.json();
@@ -92,7 +172,7 @@
         if (pageIndicator) pageIndicator.textContent = "0 / 0";
         if (pageCaptionReadout) pageCaptionReadout.textContent = "NO PAGES";
         if (thumbnailGrid) thumbnailGrid.innerHTML = "";
-        showToast(`No pages listed in ./${volumeFolder}/${issueFolder}/json/config.json.`);
+        showToast(`No pages listed in ${jsonPath}`);
         updateNavButtons();
         return;
       }
@@ -108,7 +188,7 @@
       if (pageCaptionReadout) pageCaptionReadout.textContent = "LOAD ERROR";
       if (thumbnailGrid) thumbnailGrid.innerHTML = "";
       if (thumbCount) thumbCount.textContent = "0 PAGES";
-      showToast(`Could not load configuration for Vol. ${currentVolumeNum}, Issue #${currentIssueNum} (${err.message})`);
+      showToast(`Could not load configuration (${err.message})`);
       updateNavButtons();
     }
   }
@@ -117,8 +197,8 @@
     if (!thumbnailGrid) return;
     thumbnailGrid.innerHTML = "";
     
-    const encodedVolume = encodeURIComponent(`volume ${currentVolumeNum}`);
-    const encodedIssue = encodeURIComponent(`issue ${currentIssueNum}`);
+    const volumeFolder = `volume ${currentVolumeNum}`;
+    const issueFolder = `issue ${currentIssueNum}`;
 
     pages.forEach((page, idx) => {
       const card = document.createElement("div");
@@ -127,7 +207,7 @@
 
       const img = document.createElement("img");
       img.loading = "lazy";
-      img.src = `./${encodedVolume}/${encodedIssue}/images/${encodeURIComponent(page.file)}`;
+      img.src = `./${volumeFolder}/${issueFolder}/images/${page.file}`;
       img.alt = page.title;
 
       const badge = document.createElement("span");
@@ -150,11 +230,10 @@
     currentIndex = index;
     const pageObj = pages[currentIndex];
     
-    const encodedVolume = encodeURIComponent(`volume ${currentVolumeNum}`);
-    const encodedIssue = encodeURIComponent(`issue ${currentIssueNum}`);
-    const encodedFile = encodeURIComponent(pageObj.file);
+    const volumeFolder = `volume ${currentVolumeNum}`;
+    const issueFolder = `issue ${currentIssueNum}`;
     
-    const nextSrc = `./${encodedVolume}/${encodedIssue}/images/${encodedFile}`;
+    const nextSrc = `./${volumeFolder}/${issueFolder}/images/${pageObj.file}`;
     const nextAlt = `Vol. ${currentVolumeNum}, Issue #0${currentIssueNum} — ${pageObj.title}`;
 
     if (pageIndicator) pageIndicator.textContent = `${currentIndex + 1} / ${pages.length}`;
@@ -246,14 +325,17 @@
 
   // Event Listeners Binding
   if (volumeSelector) {
-    volumeSelector.addEventListener("change", (e) => {
+    volumeSelector.addEventListener("change", async (e) => {
       currentVolumeNum = e.target.value;
-      loadIssue(issueSelector ? issueSelector.value : "1");
+      await scanIssues(currentVolumeNum);
     });
   }
 
   if (issueSelector) {
-    issueSelector.addEventListener("change", (e) => loadIssue(e.target.value));
+    issueSelector.addEventListener("change", (e) => {
+      currentIssueNum = e.target.value;
+      loadIssueConfig(currentVolumeNum, currentIssueNum);
+    });
   }
 
   if (firstBtn) firstBtn.addEventListener("click", () => showPage(0, true));
@@ -328,6 +410,6 @@
     }
   });
 
-  // Boot initial issue
-  loadIssue(issueSelector ? issueSelector.value : "1");
+  // Initial startup scan
+  scanVolumes();
 })();
