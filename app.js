@@ -8,7 +8,7 @@
 
   // GitHub Repository Configuration
   const GH_OWNER = "mercwar";
-  const GH_REPO = "COMICS";
+  const GH_REPO = "Comics";
 
   let flipSwapTimer = null;
   let flipEndTimer = null;
@@ -50,7 +50,7 @@
       if (!res.ok) throw new Error("Failed to scan repository root");
       const items = await res.json();
 
-      // Filter directories matching "volume X" (case-insensitive)
+      // Filter directories matching "Volume X" or "volume X"
       const volumes = items
         .filter(item => item.type === "dir" && /^volume\s+\d+$/i.test(item.name))
         .map(item => {
@@ -75,11 +75,11 @@
       currentVolumeNum = volumes[0].num;
       await scanIssues(currentVolumeNum);
     } catch (err) {
-      showToast(`GitHub Scan Error: ${err.message}. Ensure folder names match 'volume X'.`);
+      showToast(`GitHub Scan Error: ${err.message}.`);
     }
   }
 
-  // 2. Scan GitHub for available Issue folders inside the selected Volume
+  // 2. Scan GitHub for available Issue folders inside the selected Volume (Uppercase 'Volume')
   async function scanIssues(volNum) {
     try {
       const volumeFolder = `Volume ${volNum}`;
@@ -87,7 +87,7 @@
       if (!res.ok) throw new Error(`Failed to scan ${volumeFolder}`);
       const items = await res.json();
 
-      // Filter directories matching "issue Y" (case-insensitive)
+      // Filter directories matching "issue Y"
       const issues = items
         .filter(item => item.type === "dir" && /^issue\s+\d+$/i.test(item.name))
         .map(item => {
@@ -121,14 +121,14 @@
     }
   }
 
-  // 3. Load the config.json file for the selected volume & issue
+  // 3. Load the config.json file using uppercase 'Volume'
   async function loadIssueConfig(volNum, issNum) {
     currentVolumeNum = String(volNum);
     currentIssueNum = String(issNum);
     currentIndex = 0;
     pages = [];
 
-    const volumeFolder = `volume ${currentVolumeNum}`;
+    const volumeFolder = `Volume ${currentVolumeNum}`;
     const issueFolder = `issue ${currentIssueNum}`;
     const jsonPath = `./${volumeFolder}/${issueFolder}/json/config.json`;
 
@@ -197,7 +197,7 @@
     if (!thumbnailGrid) return;
     thumbnailGrid.innerHTML = "";
     
-    const volumeFolder = `volume ${currentVolumeNum}`;
+    const volumeFolder = `Volume ${currentVolumeNum}`;
     const issueFolder = `issue ${currentIssueNum}`;
 
     pages.forEach((page, idx) => {
@@ -230,7 +230,7 @@
     currentIndex = index;
     const pageObj = pages[currentIndex];
     
-    const volumeFolder = `volume ${currentVolumeNum}`;
+    const volumeFolder = `Volume ${currentVolumeNum}`;
     const issueFolder = `issue ${currentIssueNum}`;
     
     const nextSrc = `./${volumeFolder}/${issueFolder}/images/${pageObj.file}`;
