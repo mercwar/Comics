@@ -1,8 +1,69 @@
 {
   "volume": 5,
   "issue": "05",
-  "title": "MERCWAR COMICS",
-  "subtitle": "",
-  "created": "2026-11-13 12:47:50",
-  "pages": []
+  "title": "MERCWAR: ASCENSION OF THE CONSTELLATION",
+  "subtitle": "Omega Origin Core • Full Stack Override • Fire-Gem Ascension • Volume 5 Finale",
+  "pages": [
+    {
+      "label": "Front Cover — MERCWAR: ASCENSION OF THE CONSTELLATION",
+      "src": "69aa3d71-df91-41c2-8f2e-cf25466634e7.jpg",
+      "created": "2026-11-13 09:25:00"
+    },
+    {
+      "label": "Page 01 — The Omega Coordinate",
+      "src": "579478de-b07d-4aa0-aa64-f00ed8c2541c.jpg",
+      "created": "2026-11-13 09:26:00"
+    },
+    {
+      "label": "Page 02 — Into the Origin Vortex",
+      "src": "3570da5f-8918-4b54-8793-69704266c893.jpg",
+      "created": "2026-11-13 09:26:00"
+    },
+    {
+      "label": "Page 03 — The Omega Origin Core",
+      "src": "e2c50359-4dfd-4723-a3a6-77adee35dc82.jpg",
+      "created": "2026-11-13 09:26:00"
+    },
+    {
+      "label": "Page 04 — Celestial Valkyrie Nova",
+      "src": "94962a57-0381-4325-b69b-df5340a80ecd.jpg",
+      "created": "2026-11-13 09:26:00"
+    },
+    {
+      "label": "Page 05 — Cryo & Solar Vanguard",
+      "src": "4a1f134c-2d45-4062-92de-2f534093f41f.jpg",
+      "created": "2026-11-13 09:26:00"
+    },
+    {
+      "label": "Page 06 — The Full Stack Override",
+      "src": "7e0b57a6-e2cc-4160-ba7b-e57a50b1170b.jpg",
+      "created": "2026-11-13 09:27:00"
+    },
+    {
+      "label": "Page 07 — Manifestation of the Omega Overmind",
+      "src": "16a76784-35e7-46f7-84a6-527c9479ee27.jpg",
+      "created": "2026-11-13 09:27:00"
+    },
+    {
+      "label": "Page 08 — United Fire-Gem Convergence",
+      "src": "7161af81-ac25-46ee-b006-7da8140ded5e.jpg",
+      "created": "2026-11-13 09:27:00"
+    },
+    {
+      "label": "Page 09 — Ascension of the Constellation",
+      "src": "9bca9e8a-210e-4c40-aa66-e5acf067dde2.jpg",
+      "created": "2026-11-13 09:27:00"
+    },
+    {
+      "label": "Page 10 — Cyborg Evolution v5 Complete",
+      "src": "7e6349e2-e133-4c72-a89c-dcd015b2e34a.jpg",
+      "created": "2026-11-13 09:27:00"
+    },
+    {
+      "label": "Back Cover — MERCWAR: ASCENSION OF THE CONSTELLATION",
+      "src": "047e54ba-b607-4959-a1d6-5c6379cb10ba.jpg",
+      "created": "2026-11-13 09:27:00"
+    }
+  ]
 }
+
