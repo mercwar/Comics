@@ -1099,6 +1099,9 @@
     <loc>https://github.com/mercwar/Comics/blob/main/fire-site.sh</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Comics/blob/main/.github/workflows/mk_vol.yml</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Comics/blob/main/.github/workflows/fire-site.yml</loc>
   </url>
   <url>
