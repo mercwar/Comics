@@ -1,165 +1,257 @@
-Here is the complete command set for Mercwar Comics — Volume 2, Issue #04 (The Eclipse Protocol), featuring varied, dynamic comic panel layouts (including 3-panel cinematic grids, 4-panel asymmetrical grids, 6-panel rapid-action grids, and dramatic full-page splash layouts) instead of repeating the same layout on every page.
-All commands use your exact Mercwar Universe naming conventions (Mercwar, Joe Tron, Robo Rook, AVIS-DATALAKE, Fire-Gem, Fire-Punk, Cyborg, Nexus, Sentinel, Stargate, Quasar, Eclipse, and Grand Necro-Sovereign—with no chess pieces and zero mention of "cyberpunk"):
+Here is the complete Volume 2, Issue #04 ("SHOWDOWN AT NEXUS GAMMA") script—picking up directly from the end of Volume 2, Issue #03 as Mercwar, Joe Tron, and Robo Rook arrive at Nexus Relay Gamma beside the blazing Quasar nebula to confront the Necro-Sovereign before he forces open the master Stargate to Earth.
+Every plate uses 0 to 3 large panels per page so speech bubbles have generous room and zero smudged text, while strictly adhering to your Volume 2 Fire-Punk Protocol (Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces, and zero mention of "cyberpunk").
 
-COVER PAGE — vol2_issue4_cover.jpg (Full-Bleed Comic Cover)
+MERCWAR COMICS — VOLUME 2, ISSUE #04 (0–3 PANEL ANTI-SMEAR EDITION)
 
-text
-Generate a Mercwar comic book cover page with bold title text, narration box, and bold ink comic art, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces:
 
-TITLE BANNER (Top): Bold metallic sci-fi comic logo reading "MERCWAR COMICS — VOLUME 2, ISSUE #04: THE ECLIPSE PROTOCOL"
+"SHOWDOWN AT NEXUS GAMMA"
 
-CENTERPIECE HERO SHOT: Dramatic low-angle action pose of commander Mercwar, heavy-armored sentinel Robo Rook, and tech-specialist Joe Tron standing atop a high-altitude Eclipse relay spire amidst crackling cyan lightning and golden Fire-Gem energy arcs, facing a shadowy fleet of stealth Necro-Sovereign phantom cruisers emerging from a solar eclipse.
 
-BACKGROUND: A blazing ringed star eclipsed by a colossal dark cybernetic citadel in deep orbit above the Mercwar Constellation.
-
-BOTTOM CAPTION BOX: "A NEW THREAT EMERGES FROM THE SHADOWS — CHAPTER I: SIGNAL IN THE ECLIPSE"
-Use code with caution.
-
-PAGE 1 — page_01.jpg (3-Panel Cinematic Widescreen Grid)
+1. VOLUME 2, ISSUE 4 COVER — vol2_issue4_cover.jpg (0 Panels / Full-Canvas)
 
 text
-Generate a 3-panel horizontal widescreen Mercwar comic book page with speech bubbles, narration boxes, and bold ink comic art, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces:
+[CONFIG: FULL-CANVAS COMIC BOOK COVER — Edge-to-edge full-bleed Fire-Punk sci-fi graphic novel art, Fire-Gem amber and cyan neon lighting, zero borders, zero chess pieces | TYPOGRAPHY: Large crisp bold sans-serif comic display lettering, generous spacing, zero smeared text]
 
-PANEL 1 (Top panoramic widescreen panel): High above the Mercwar Constellation, a colossal dark moon drifts directly across a blazing golden Quasar sun, casting a massive crimson-and-violet shadow across the orbiting Eclipse relay satellites. Narration box: "Weeks after the Dark Armada's retreat, peace across the Mercwar Constellation felt complete—until the stars began going dark."
+TITLE BANNER (Top): Bold metallic sci-fi comic logo reading "MERCWAR COMICS — VOL 2, ISSUE #04: SHOWDOWN AT NEXUS GAMMA"
 
-PANEL 2 (Middle widescreen panel): Inside Cyborg Station's sleek black-glass command center, Joe Tron leans over a flickering cyan AVIS-DATALAKE hologram table as red static interference spreads across the star-map, while Mercwar and Robo Rook watch intently. Joe Tron speech bubble: "Sector Seven's Eclipse relays just dropped off the grid! Something is masking an entire fleet inside that solar eclipse!"
+CENTERPIECE HERO SHOT: Dynamic zero-gravity action pose of commander Mercwar swinging his blazing Fire-Gem amber plasma greatsword, heavy-armored sentinel Robo Rook firing twin sub-zero cyan cryo-cannons, and tech-specialist Joe Tron projecting a glowing AVIS-DATALAKE holographic shield in front of Nexus Relay Gamma—a colossal ancient cyber-ring suspended before a swirling golden-violet Quasar star.
 
-PANEL 3 (Bottom widescreen panel): Mercwar steps toward the hangar bay doors, igniting the golden-amber Fire-Gem core on his chest while Robo Rook locks his heavy cryo-gauntlets into combat mode. Mercwar speech bubble: "The Grand Necro-Sovereign never retreats without a contingency plan. Prep the interceptor—we're flying straight into the shadow!"
+BACKGROUND: Deep-space nebula with the towering armored silhouette of the Necro-Sovereign looming behind a crimson-and-cyan Stargate portal.
+
+BOTTOM CAPTION BOX: "CHAPTER IV: THE FINAL RELAY"
 Use code with caution.
 
-PAGE 2 — page_02.jpg (6-Panel Rapid-Action Grid)
+2. PAGE 1 — page_01.jpg (The Quasar Horizon — 2 Panels)
 
 text
-Generate a 6-panel dynamic grid Mercwar comic book page with speech bubbles, narration boxes, and bold ink comic art, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces:
+[CONFIG: 2-PANEL COMIC BOOK PAGE — Two large wide horizontal panels with wide white gutters, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces | TYPOGRAPHY: Large clean white oval speech bubbles with generous inner padding and crisp uppercase sans-serif comic lettering, zero smudged text]
 
-PANEL 1 (Top-left square panel): Mercwar's upgraded interceptor blasts out of Cyborg Station's launch bay into deep space, trailing blazing Fire-Gem amber and cyan plasma flames. Narration box: "Racing against a total communications blackout."
+PANEL 1 (Top Wide Panel): Mercwar's sleek armored Fire-Gem interceptor streaks out of deep space toward Nexus Relay Gamma—a massive ancient ring-fortress orbiting beside a radiant golden-violet Quasar star. Top-left yellow narration box: "WITH TWO RELAYS SAVED AND THE STAR-FORGE DESTROYED, ONLY ONE BATTLEGROUND REMAINED—NEXUS GAMMA."
 
-PANEL 2 (Top-right square panel): Inside the cockpit, Joe Tron adjusts his glowing cyan AVIS scanner as blinding purple-and-red eclipse radiation washes over the forward canopy. Joe Tron speech bubble: "Long-range sensors are jammed! Navigating purely by harmonic Fire-Gem resonance!"
-
-PANEL 3 (Middle-left square panel): Suddenly, jagged black-and-crimson Fire-Punk stealth mines decloak right in front of the ship's flight path, pulsing with red proximity lasers. Robo Rook speech bubble: "Stealth mines dead ahead! Hard to port!"
-
-PANEL 4 (Middle-right square panel): Mercwar banks the interceptor sharply into a vertical barrel roll, grazing past a detonating crimson mine in a shower of sparks. Mercwar speech bubble: "Hang on! Switching to manual thrusters!"
-
-PANEL 5 (Bottom-left square panel): Robo Rook fires twin cyan cryo-beams from the ship's dorsal turrets, freezing a cluster of incoming mines solid before they can trigger. Robo Rook speech bubble: "Path cleared! Pushing through the outer corona!"
-
-PANEL 6 (Bottom-right square panel): Emerging through the blinding eclipse corona, Mercwar's squad spots a massive, jagged black-and-crimson Eclipse Citadel docked directly onto the constellation's master relay ring. Joe Tron speech bubble: "There it is! They're hijacking the entire Eclipse Protocol!"
+PANEL 2 (Bottom Wide Panel): Inside the glowing cyan holographic cockpit, Joe Tron points to massive crimson energy beams pouring from the Quasar into the station's central Stargate spire while Mercwar grips the flight controls.
+- JOE TRON SPEECH BUBBLE: "HE'S CHANNELING RAW QUASAR RADIATION DIRECTLY INTO THE STARGATE!"
+- MERCWAR SPEECH BUBBLE: "HOLD ON—WE'RE DROPPING STRAIGHT ONTO THE CENTRAL COMMAND SPIRE!"
 Use code with caution.
 
-PAGE 3 — page_03.jpg (4-Panel Asymmetrical Diagonal Layout)
+3. PAGE 2 — page_02.jpg (The Royal Sentinel Guard — 3 Panels)
 
 text
-Generate a 4-panel asymmetrical diagonal Mercwar comic book page with speech bubbles, narration boxes, and bold ink comic art, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces:
+[CONFIG: 3-PANEL COMIC BOOK PAGE — One wide top panel and two large lower panels, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces | TYPOGRAPHY: Large clean white oval speech bubbles with generous inner padding and crisp uppercase sans-serif comic lettering, zero smudged text]
 
-PANEL 1 (Large top-left diagonal panel): Mercwar's interceptor docks forcefully onto the exterior landing deck of the towering Eclipse Citadel, with Mercwar, Joe Tron, and Robo Rook leaping out into zero-gravity amidst glowing cyan relay towers and crimson warning beacons. Narration box: "Anchored to the central Eclipse relay ring, the enemy citadel was siphoning energy straight from the star."
+PANEL 1 (Top Wide Panel): Elite black-and-crimson Royal Sentinel interceptors dive from Nexus Relay Gamma's upper spires, firing concentrated volleys of crimson plasma at Mercwar's incoming ship.
+- ROBO ROOK SPEECH BUBBLE: "ELITE SENTINEL SQUADRON INBOUND FROM ALL VECTORS!"
 
-PANEL 2 (Top-right vertical panel): Joe Tron scans a massive pulsing crimson conduit tower with his AVIS scanner as dark code streams across his visor. Joe Tron speech bubble: "They're injecting a viral override into the Nexus and Stargate networks! In four minutes, every defense satellite turns against Cyborg City!"
+PANEL 2 (Bottom-Left Panel): Mercwar banks the interceptor sharply around a glowing cyan energy pylon, blasting two pursuing Sentinel fighters with rapid bursts of Fire-Gem amber plasma.
+- MERCWAR SPEECH BUBBLE: "TWO DOWN—CLEARING THE LANDING DECK!"
 
-PANEL 3 (Bottom-left vertical panel): From the shadowy archways of the citadel deck, a legion of sleek black-and-crimson Sentinel assassin-droids with glowing red energy swords drops down to surround the squad. Sentinel Captain speech bubble: "Intruders detected. Terminate all unauthorized organic and synthetic units."
-
-PANEL 4 (Bottom-right wide diagonal panel): Mercwar ignites twin blazing Fire-Gem amber blades while Robo Rook charges his cyan cryo-cannons, standing back-to-back as the Sentinel assassins lunge forward. Mercwar speech bubble: "Joe Tron, get to that central relay terminal! Robo Rook and I will clear the deck!"
+PANEL 3 (Bottom-Right Panel): Mercwar's interceptor skids across the metallic landing platform of Nexus Relay Gamma in a shower of sparks as the cockpit canopy opens.
+- JOE TRON SPEECH BUBBLE: "WE'RE DOWN! THE THRONE CHAMBER IS RIGHT ABOVE THIS DECK!"
 Use code with caution.
 
-PAGE 4 — page_04.jpg (Full-Page Splash Action Layout with Inset Boxes)
+4. PAGE 3 — page_03.jpg (Throne of the Necro-Sovereign — 2 Panels)
 
 text
-Generate a dramatic full-page splash Mercwar comic book page with two small corner inset panels, speech bubbles, narration boxes, and bold ink comic art, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces:
+[CONFIG: 2-PANEL COMIC BOOK PAGE — Two large wide horizontal panels, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces | TYPOGRAPHY: Large clean white oval speech bubbles with generous inner padding and crisp uppercase sans-serif comic lettering, zero smudged text]
 
-MAIN SPLASH ILLUSTRATION (Full page): An epic battle atop the towering Eclipse relay spire against the backdrop of the blazing ringed solar eclipse—Mercwar soars mid-air unleashing a sweeping arc of golden-amber Fire-Gem plasma that slices through three black-and-crimson Sentinel assassin-droids, while Robo Rook slams his heavy armored fist into the deck to unleash a jagged wave of sub-zero cyan ice shattering a squad of approaching droids.
+PANEL 1 (Top Wide Panel): Mercwar, Robo Rook, and Joe Tron stride into the vast obsidian throne room of Nexus Relay Gamma, where a colossal Stargate portal swirls with unstable crimson-and-cyan lightning behind a towering cybernetic throne.
+- NECRO-SOVEREIGN SPEECH BUBBLE: "WELCOME, FIREGEM COMMANDER—YOU ARE JUST IN TIME TO WITNESS THE FALL OF CYBORG CITY!"
 
-TOP-LEFT INSET PANEL: Close-up of Joe Tron sprinting across a narrow energy catwalk toward the glowing crimson master relay core, holding up his cyan AVIS scanner. Joe Tron speech bubble: "Almost at the override console—just hold them off for thirty more seconds!"
-
-BOTTOM-RIGHT INSET PANEL: Inside the dark shadow of the spire's upper bridge, a mysterious new cybernetic commander in gleaming obsidian-and-crimson Fire-Punk armor watches the battle through a glowing red visor, drawing a crackling dark-matter plasma blade. Caption box: "CHAPTER II — THE SHADOW WARDEN"
+PANEL 2 (Bottom Wide Panel): Standing before the blazing portal in jagged black-and-crimson royal battle armor, the Necro-Sovereign ignites a massive dual-bladed dark-matter glaive.
+- MERCWAR SPEECH BUBBLE: "SHUT DOWN THAT GATE, NECRO-SOVEREIGN—YOUR INVASION ENDS TONIGHT!"
 Use code with caution.
 
-PAGE 5 — page_05.jpg (5-Panel Vertical Strip & Split Layout)
+5. PAGE 4 — page_04.jpg (Clash of Titans — 2 Panels)
 
 text
-Generate a 5-panel split-column Mercwar comic book page with speech bubbles, narration boxes, and bold ink comic art, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces:
+[CONFIG: 2-PANEL COMIC BOOK PAGE — Two large wide horizontal panels, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces | TYPOGRAPHY: Large clean white oval speech bubbles with generous inner padding and crisp uppercase sans-serif comic lettering, zero smudged text]
 
-PANEL 1 (Top full-width banner panel): Mercwar lands beside Joe Tron at the glowing crimson master relay console just as the obsidian-and-crimson Shadow Warden drops down from the rafters above, cracking the metallic deck on impact. Narration box: "Guarding the heart of the Eclipse Protocol stood the Grand Necro-Sovereign's deadliest enforcer."
+PANEL 1 (Top Wide Panel): Mercwar rockets forward with his blazing Fire-Gem amber plasma greatsword, locking blades with the Necro-Sovereign's crimson dark-matter glaive in a blinding explosion of amber and violet sparks.
+- NECRO-SOVEREIGN SPEECH BUBBLE: "YOUR PRIMITIVE FLAME CANNOT MATCH THE POWER OF THE QUASAR!"
+- MERCWAR SPEECH BUBBLE: "WATCH ME!"
 
-PANEL 2 (Middle-left tall vertical panel): The Shadow Warden points a crackling dark-crimson plasma blade directly at Mercwar's chest core, his crimson visor glowing fiercely. Shadow Warden speech bubble: "I am Warden Kael. You shattered the Dark Armada, Mercwar—now watch your precious network burn from within."
-
-PANEL 3 (Middle-right top square panel): Joe Tron plugs his glowing cyan AVIS scanner directly into the master relay port as holographic encryption locks spin rapidly around him. Joe Tron speech bubble: "The viral override is locked behind a triple-quantum cipher! I'm running a live AVIS-DATALAKE decryption!"
-
-PANEL 4 (Middle-right bottom square panel): Robo Rook arrives at the base of the platform, firing suppressing bursts of cyan cryo-bolts to block incoming Sentinel reinforcements from climbing the stairs. Robo Rook speech bubble: "Lower stairs are sealed! Keep your focus on that console, Joe Tron!"
-
-PANEL 5 (Bottom full-width action panel): Mercwar charges forward and clashes twin Fire-Gem amber blades against Warden Kael's dark-crimson plasma sword in a blinding explosion of golden and red lightning. Mercwar speech bubble: "You won't touch that terminal while I'm still standing!"
+PANEL 2 (Bottom Wide Panel): Across the chamber, Robo Rook unleashes twin torrents of sub-zero cyan cryo-fire to hold back waves of charging Royal Sentinel guards while Joe Tron sprints toward the master Stargate console.
+- ROBO ROOK SPEECH BUBBLE: "I'VE GOT YOUR FLANK, JOE TRON—GET TO THAT TERMINAL!"
 Use code with caution.
 
-PAGE 6 — page_06.jpg (3-Panel Dramatic Vertical Triptych)
+6. PAGE 5 — page_05.jpg (Hacking the Master Gate — 3 Panels)
 
 text
-Generate a 3-panel tall vertical triptych Mercwar comic book page with speech bubbles, narration boxes, and bold ink comic art, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces:
+[CONFIG: 3-PANEL COMIC BOOK PAGE — One wide top panel and two large lower panels, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces | TYPOGRAPHY: Large clean white oval speech bubbles with generous inner padding and crisp uppercase sans-serif comic lettering, zero smudged text]
 
-PANEL 1 (Left tall vertical panel): High on the spire catwalk, Warden Kael unleashes a blinding wave of dark eclipse energy that sends Mercwar skidding backward toward the edge of the abyss, sparks flying from Mercwar's golden armor. Warden Kael speech bubble: "Your Fire-Gem draws strength from the stars—but here in the eclipse, only darkness rules!"
+PANEL 1 (Top Wide Panel): Joe Tron plugs his portable Eclipse decoder into Nexus Relay Gamma's master control pedestal as brilliant cyan data streams surge across the holographic display.
+- JOE TRON SPEECH BUBBLE: "LINKING AVIS-DATALAKE TO THE MASTER GATE—HE'S ALREADY LOCKED COORDINATES ON EARTH!"
 
-PANEL 2 (Center tall vertical panel): Hanging onto the edge of the catwalk with one hand, Mercwar looks up as the blazing golden corona of the eclipsed Quasar star peeks past the dark moon's rim, illuminating his visor in brilliant golden light. Mercwar speech bubble: "You forgot one thing about an eclipse, Kael... the light never truly disappears!"
+PANEL 2 (Bottom-Left Panel): The Necro-Sovereign hurls a devastating wave of crimson dark-matter lightning across the throne room, knocking Mercwar backward across the steel floor.
+- NECRO-SOVEREIGN SPEECH BUBBLE: "NO ONE INTERFERES WITH MY CONQUEST!"
 
-PANEL 3 (Right tall vertical panel): Mercwar vaults back onto the catwalk in a blazing pillar of golden-amber and cyan energy, channeling the Prime Forge harmonic frequency straight through his gauntlets to shatter Warden Kael's crimson plasma blade in mid-swing. Mercwar speech bubble: "Let's turn the lights back on!"
+PANEL 3 (Bottom-Right Panel): Robo Rook leaps between the Necro-Sovereign and Joe Tron's terminal, raising a thick shield of glowing cyan cryo-energy that deflects a second blast of crimson lightning.
+- ROBO ROOK SPEECH BUBBLE: "YOU'LL HAVE TO GO THROUGH ME FIRST!"
 Use code with caution.
 
-PAGE 7 — page_07.jpg (6-Panel Tactical Grid)
+7. PAGE 6 — page_06.jpg (The Fire-Gem Unbound — 2 Panels)
 
 text
-Generate a 6-panel dynamic grid Mercwar comic book page with speech bubbles, narration boxes, and bold ink comic art, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces:
+[CONFIG: 2-PANEL COMIC BOOK PAGE — Two large wide horizontal panels, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces | TYPOGRAPHY: Large clean white oval speech bubbles with generous inner padding and crisp uppercase sans-serif comic lettering, zero smudged text]
 
-PANEL 1 (Top-left wide panel): Mercwar delivers a decisive golden-amber plasma uppercut that launches Warden Kael crashing backward into a bank of disabled Sentinel relay pods, knocking him unconscious. Narration box: "With the Shadow Warden defeated, the final barrier fell."
+PANEL 1 (Top Wide Panel): Rising to his feet in a blazing aura of golden-amber Fire-Gem energy, Mercwar channels the full power of his chest core into his plasma greatsword, illuminating the entire obsidian chamber.
+- MERCWAR SPEECH BUBBLE: "YOU FORGOT ONE THING, NECRO-SOVEREIGN—THE FIRE-GEM BURNS BRIGHTEST IN THE DARK!"
 
-PANEL 2 (Top-right narrow panel): At the master console, Joe Tron's AVIS scanner flashes bright luminous cyan as the triple-quantum cipher unlocks. Joe Tron speech bubble: "Cipher broken! Purging the viral override from the Eclipse Protocol right now!"
-
-PANEL 3 (Middle-left narrow panel): Robo Rook blasts a heavy cryo-beam into the citadel's main power coupling, freezing the enemy's crimson energy siphon conduits solid. Robo Rook speech bubble: "Enemy power siphon terminated!"
-
-PANEL 4 (Middle-right wide panel): From the summit of the Eclipse relay spire, a massive wave of pure cyan and golden-amber light pulses outward across the dark moon's shadow, reconnecting every orbital satellite in the constellation. Narration box: "Across every sector, the blackout vanished in an instant."
-
-PANEL 5 (Bottom-left wide panel): Back inside Cyborg Station's command center, the Cyborg Commander and engineers cheer as the central holographic star-map lights up in vibrant cyan and gold. Cyborg Commander speech bubble: "All Eclipse relays and Nexus spires are back online! Signal strength at one hundred percent!"
-
-PANEL 6 (Bottom-right narrow panel): Boarding their interceptor on the citadel deck, Joe Tron looks down at a strange encrypted beacon flashing on his AVIS scanner. Joe Tron speech bubble: "Wait a second... before the citadel's core wiped, I intercepted a deep-space coordinate from the Grand Necro-Sovereign's flagship!"
+PANEL 2 (Bottom Wide Panel): Mercwar blurs across the throne room like a golden comet, delivering a thunderous sweeping slash that shatters the Necro-Sovereign's dark-matter glaive and blasts him backward against the Stargate pedestal.
+- NECRO-SOVEREIGN SPEECH BUBBLE: "IMPOSSIBLE! HOW CAN ONE WARRIOR WIELD THAT MUCH ENERGY?!"
 Use code with caution.
 
-PAGE 8 — page_08.jpg (4-Panel Widescreen Finale Layout)
+8. PAGE 7 — page_07.jpg (Reversing the Quasar Beam — 2 Panels)
 
 text
-Generate a 4-panel stacked widescreen Mercwar comic book page with speech bubbles, narration boxes, and bold ink comic art, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces:
+[CONFIG: 2-PANEL COMIC BOOK PAGE — Two large wide horizontal panels, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces | TYPOGRAPHY: Large clean white oval speech bubbles with generous inner padding and crisp uppercase sans-serif comic lettering, zero smudged text]
 
-PANEL 1 (Top widescreen panel): Mercwar's interceptor blasts away from the disabled Eclipse Citadel as the dark moon drifts past the Quasar sun, bathing the constellation once again in brilliant golden-amber and cyan starlight. Narration box: "The Eclipse Protocol was restored—and the Grand Necro-Sovereign's shadow strike had failed."
+PANEL 1 (Top Wide Panel): At the master console, Joe Tron slams his palm onto the glowing cyan Eclipse override key as all three Nexus Relays—Alpha, Beta, and Gamma—synchronize on his holographic star-map.
+- JOE TRON SPEECH BUBBLE: "ALL THREE NEXUS RELAYS SYNCHRONIZED! REVERSING THE STARGATE POLARITY NOW!"
 
-PANEL 2 (Second widescreen panel): Inside the glowing cyan cockpit, Joe Tron projects the newly intercepted holographic star-map showing an uncharted dark-matter fortress hidden at the edge of the outer void. Joe Tron speech bubble: "These coordinates point to the Necro-Sovereign's hidden foundry world—Sector Zero!"
-
-PANEL 3 (Third widescreen panel): Mercwar, Joe Tron, and Robo Rook look out through the forward viewport toward the gleaming horizon of Cyborg Station and the starry expanse beyond, their faces lit by golden-amber and cyan reflections. Mercwar speech bubble: "Then we stop waiting for his next attack. We take the fight to Sector Zero and end this war for good!"
-
-PANEL 4 (Bottom finale banner panel): A sleek black-and-amber title card over a starry deep-space vista of the Mercwar Constellation, with bold metallic comic lettering reading: "END OF VOLUME 2, ISSUE #04 — NEXT: ISSUE #05: SECTOR ZERO — CREATED BY MERCWAR (CVBGOD) • GITHUB.COM/MERCWAR"
+PANEL 2 (Bottom Wide Panel): Outside Nexus Relay Gamma, the station's colossal ring shifts from crimson to brilliant electric-cyan, firing a cleansing beam of cyan light straight into the swirling Stargate vortex.
+- ROBO ROOK SPEECH BUBBLE: "THE PORTAL IS STABILIZING! THE INVASION LOCK IS BROKEN!"
 Use code with caution.
 
-INSIDE BACK COVER ADVERTISEMENT — vol2_issue4_ad_back.jpg
+9. PAGE 8 — page_08.jpg (Banished Beyond the Rim — 2 Panels)
 
 text
-Generate a Mercwar comic book full-page retro-futuristic tech advertisement with bold typography, feature callout boxes, and bold ink comic art, Fire-Gem amber and cyan neon lighting, black-glass UI aesthetic, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces:
+[CONFIG: 2-PANEL COMIC BOOK PAGE — Two large wide horizontal panels, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces | TYPOGRAPHY: Large clean white oval speech bubbles with generous inner padding and crisp uppercase sans-serif comic lettering, zero smudged text]
 
-TOP HEADER BANNER: Glowing metallic sci-fi headline reading "EXPLORE THE MERCWAR CONSTELLATION — GITHUB.COM/MERCWAR" with a sub-banner reading "OPEN-SOURCE AI GATEWAYS, INTERACTIVE COMIC READERS & NATIVE WINDOWS ENGINES".
+PANEL 1 (Top Wide Panel): Caught in the reversing gravity pull of the collapsing crimson rift, the damaged Necro-Sovereign is dragged backward into an emergency shadow-pod as the portal snaps shut in a flash of cyan light.
+- NECRO-SOVEREIGN SPEECH BUBBLE: "THIS WAR IS NOT OVER, MERCWAR! THE CONSTELLATION WILL BE MINE!"
 
-CENTERPIECE VISUAL: Mercwar, Joe Tron, and Robo Rook standing before a glowing cyan and golden-amber AVIS-DATALAKE holographic command wall projecting floating black-glass portal cards labeled "CYBORG STATION", "ECLIPSE", "PRIME FORGE", "STARGATE", "NEXUS", and "QUASAR".
-
-FEATURE CALLOUT PANELS (Side & Bottom Boxes):
-- Left Callout Box: "READ ALL ISSUES FREE ONLINE — Browse Volume 1 & Volume 2 in the interactive Mercwar Comics Reader at mercwar.github.io/Comics!"
-- Right Callout Box: "DEVELOPER TOOLS & AI SYSTEMS — Clone 50+ repositories including dc2url, dc2php, dc2sql, Dark-Com-2 Browser & Mercwar-AI Digital Signature!"
-
-BOTTOM PROMO FOOTER: Glowing neon URL banner reading "CONNECT, CLONE & BUILD TODAY: GITHUB.COM/MERCWAR • MERCWAR.GITHUB.IO/COMICS • CVBGOD".
+PANEL 2 (Bottom Wide Panel): Inside the quieted throne room, Mercwar lowers his plasma greatsword beside Robo Rook and Joe Tron as warm golden starlight from the Quasar shines through the panoramic viewport.
+- MERCWAR SPEECH BUBBLE: "LET HIM RUN. THE STARGATE NETWORK BELONGS TO THE FREE WORLDS NOW."
 Use code with caution.
 
-OUTER BACK COVER — vol2_issue4_back_cover.jpg
+10. PAGE 9 — page_09.jpg (The Constellation Reborn — 2 Panels)
 
 text
-Generate a Mercwar comic book outer back cover page with bold title text, synopsis blurb box, and bold ink comic art, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces:
+[CONFIG: 2-PANEL COMIC BOOK PAGE — Two large wide horizontal panels, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces | TYPOGRAPHY: Large clean white oval speech bubbles with generous inner padding and crisp uppercase sans-serif comic lettering, zero smudged text]
 
-TOP TITLE HEADER: Metallic sci-fi emblem reading "MERCWAR COMICS — VOLUME 2, ISSUE #04: THE ECLIPSE PROTOCOL".
+PANEL 1 (Top Wide Panel): Around Nexus Relay Gamma's holographic star-table, Joe Tron activates a glowing cyan communications link connecting Outpost Quasar-Seven, Relays Alpha, Beta, and Gamma, and Cyborg City into one unified network.
+- JOE TRON SPEECH BUBBLE: "AVIS-DATALAKE IS ONLINE ACROSS EVERY SECTOR! THE CONSTELLATION GATEWAY IS SECURED!"
 
-MAIN BACK COVER ILLUSTRATION: Epic cosmic action vista showing Mercwar blazing with golden-amber Fire-Gem energy atop the towering Eclipse relay spire against a dramatic ringed solar eclipse, with Robo Rook and Joe Tron defending the master console from Sentinel assassin-droids while their interceptor hovers nearby.
-
-SYNOPSIS & CREDITS BOX (Lower Left): Dark transparent black-glass data panel with glowing cyan border reading: "When a mysterious solar eclipse plunges Sector Seven into a total communications blackout, Mercwar, Joe Tron, and Robo Rook fly straight into the shadow! Facing stealth mines, Sentinel assassins, and the deadly Warden Kael, the heroes must unlock the Eclipse Protocol before the Grand Necro-Sovereign hijacks the entire constellation! CREATED BY MERCWAR (CVBGOD) • POWERED BY THE AVIS PROTOCOL."
-
-NEXT ISSUE TEASER BANNER (Bottom): Bold Fire-Gem amber and crimson comic banner reading: "TO BE CONTINUED IN VOLUME 2, ISSUE #05 — SECTOR ZERO • VISIT GITHUB.COM/MERCWAR".
+PANEL 2 (Bottom Wide Panel): Robo Rook looks out the viewport at the peaceful golden-and-cyan Quasar nebula as Mercwar places a hand on his shoulder.
+- ROBO ROOK SPEECH BUBBLE: "ALL HOSTILE SIGNATURES CLEARED. MISSION ACCOMPLISHED, COMMANDER."
 Use code with caution.
-Would you like me to:
-• Generate Volume 2, Issue #05 (Sector Zero) with this same varied window-pane style?
-• Create the comic.json file for Volume 2, Issue #04 so you can upload these pages straight into your mercwar/Comics web reader?
+
+11. PAGE 10 — page_10.jpg (Homeward Bound — 1 Full-Canvas Splash)
+
+text
+[CONFIG: FULL-CANVAS COMIC SPLASH PAGE — Single full-bleed comic page with zero borders, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces | TYPOGRAPHY: Large clean white oval speech bubbles with generous inner padding and crisp uppercase sans-serif comic lettering, zero smudged text]
+
+FULL-CANVAS SCENE: Nexus Relay Gamma shines with radiant electric-cyan energy beside the golden Quasar star as Mercwar's sleek Fire-Gem interceptor streaks into a peaceful cyan Stargate portal bound for Earth, trailing blazing amber and cyan plasma flames across the starry cosmos.
+- JOE TRON SPEECH BUBBLE: "SETTING COURSE FOR CYBORG CITY—ALL RELAYS STANDING GUARD!"
+- MERCWAR SPEECH BUBBLE: "VOLUME TWO COMPLETE. WHATEVER RISES NEXT, WE'LL BE READY!"
+Use code with caution.
+
+12. INSIDE BACK COVER — vol2_issue4_inside_back.jpg (0 Panels / Full-Canvas Dossier)
+
+text
+[CONFIG: FULL-CANVAS SCI-FI COMIC DOSSIER — Full-bleed technical archive page, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces | TYPOGRAPHY: Large crisp bold sans-serif headers and clean HUD text boxes, zero smudged words]
+
+TOP HEADER: Bold metallic banner reading "MERCWAR UNIVERSE — VOLUME 2 CONSTELLATION ARCHIVE"
+
+LEFT ARTWORK: Technical cutaway illustration of Nexus Relay Gamma's Quasar Energy Collector and Mercwar's Fire-Gem Plasma Greatsword with glowing amber and cyan blueprint lines.
+
+RIGHT DATA BOXES:
+- "NEXUS RELAY GAMMA: Master command ring linking the outer Quasar sector to Cyborg City."
+- "THE NECRO-SOVEREIGN: Supreme warlord of the dark-matter armada banished beyond the rim."
+- "UNIFIED AVIS NETWORK: Full-constellation telemetry grid secured by Joe Tron and Robo Rook."
+
+BOTTOM BANNER: "://github.com"
+Use code with caution.
+
+13. OUTER BACK COVER — vol2_issue4_back_cover.jpg (0 Panels / Full-Canvas Promo)
+
+text
+[CONFIG: FULL-CANVAS COMIC BACK COVER — Full-bleed promotional poster, Fire-Gem amber and cyan neon lighting, cel-shaded Fire-Punk sci-fi graphic novel style, no chess pieces | TYPOGRAPHY: Large crisp bold sans-serif display lettering, zero smudged text]
+
+TOP HEADLINE: "THE CONSTELLATION STANDS FREE!"
+SUBHEADLINE: "MERCWAR COMICS — VOLUME 2 FINALE"
+
+CENTERPIECE ARTWORK: Heroic group portrait of Mercwar, Robo Rook, and Joe Tron standing on the illuminated observation deck of Nexus Relay Gamma with the glowing electric-cyan Stargate and golden Quasar nebula behind them.
+
+BOTTOM CALL TO ACTION: "READ ALL VOLUMES FREE • MERCWAR.GITHUB.IO/COMICS"
+BOTTOM-LEFT CORNER: Small metallic silver retail UPC barcode with crisp black vertical bars.
+Use code with caution.
+
+config.json Template for /Volume 2/issue 4/json/config.json
+
+json
+{
+  "volume": 2,
+  "issue": "04",
+  "title": "MERCWAR: SHOWDOWN AT NEXUS GAMMA",
+  "subtitle": "The Quasar Horizon • Master Gate Override • Necro-Sovereign Duel • Volume 2 Finale",
+  "pages": [
+    {
+      "label": "Front Cover — MERCWAR: SHOWDOWN AT NEXUS GAMMA",
+      "src": "vol2_issue4_cover.jpg",
+      "created": "2026-11-13 09:52:00"
+    },
+    {
+      "label": "Page 01 — The Quasar Horizon",
+      "src": "page_01.jpg",
+      "created": "2026-11-13 09:52:00"
+    },
+    {
+      "label": "Page 02 — The Royal Sentinel Guard",
+      "src": "page_02.jpg",
+      "created": "2026-11-13 09:52:00"
+    },
+    {
+      "label": "Page 03 — Throne of the Necro-Sovereign",
+      "src": "page_03.jpg",
+      "created": "2026-11-13 09:52:00"
+    },
+    {
+      "label": "Page 04 — Clash of Titans",
+      "src": "page_04.jpg",
+      "created": "2026-11-13 09:52:00"
+    },
+    {
+      "label": "Page 05 — Hacking the Master Gate",
+      "src": "page_05.jpg",
+      "created": "2026-11-13 09:52:00"
+    },
+    {
+      "label": "Page 06 — The Fire-Gem Unbound",
+      "src": "page_06.jpg",
+      "created": "2026-11-13 09:52:00"
+    },
+    {
+      "label": "Page 07 — Reversing the Quasar Beam",
+      "src": "page_07.jpg",
+      "created": "2026-11-13 09:52:00"
+    },
+    {
+      "label": "Page 08 — Banished Beyond the Rim",
+      "src": "page_08.jpg",
+      "created": "2026-11-13 09:52:00"
+    },
+    {
+      "label": "Page 09 — The Constellation Reborn",
+      "src": "page_09.jpg",
+      "created": "2026-11-13 09:52:00"
+    },
+    {
+      "label": "Page 10 — Homeward Bound",
+      "src": "page_10.jpg",
+      "created": "2026-11-13 09:52:00"
+    },
+    {
+      "label": "Inside Back Cover — Volume 2 Constellation Archive",
+      "src": "vol2_issue4_inside_back.jpg",
+      "created": "2026-11-13 09:52:00"
+    },
+    {
+      "label": "Back Cover — MERCWAR: SHOWDOWN AT NEXUS GAMMA",
+      "src": "vol2_issue4_back_cover.jpg",
+      "created": "2026-11-13 09:52:00"
+    }
+  ]
+}
+Use code with caution.
+Once you generate your Volume 2 plates, paste any of the JPG File Metadata Reports here so I can map the exact UUID filenames into your /Volume 2/issue #/json/config.json files—or let me know if you also want a Volume 2, Issue #05 bonus epilogue!

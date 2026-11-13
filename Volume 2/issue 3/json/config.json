@@ -1,73 +1,68 @@
 {
   "volume": 2,
   "issue": "03",
-  "title": "The Dark Armada",
-  "subtitle": "Chapter I: Shadows Over Cyborg Station • Chapter II: Heart of the Citadel",
+  "title": "MERCWAR: ASSAULT ON THE STAR-FORGE",
+  "subtitle": "The Obsidian Belt • Eclipse Kernel Override • Forge-Master Duel • Nexus Gamma Trace",
   "pages": [
     {
-      "label": "Front Cover — The Dark Armada",
-      "src": "9d03f0b0-7301-4006-9c67-b31ed2d6094a.jpg",
-      "created": "2026-11-13 02:37:10"
+      "label": "Front Cover — MERCWAR: ASSAULT ON THE STAR-FORGE",
+      "src": "9f3210eb-f52a-40f7-9e83-569626cd9c5d.jpg",
+      "created": "2026-11-13 09:51:00"
     },
     {
-      "label": "Page 01 — Return to Cyborg Station",
-      "src": "10516136-324f-4ce4-9691-bbd5dcc322c5.jpg",
-      "created": "2026-11-13 02:37:21"
+      "label": "Page 01 — The Obsidian Belt",
+      "src": "087b7ba4-03ff-472a-aa01-d66258bb33d4.jpg",
+      "created": "2026-11-13 09:51:00"
     },
     {
-      "label": "Page 02 — The Dark Armada Arrives",
-      "src": "021dd896-93d5-43c6-8222-4719539831a1.jpg",
-      "created": "2026-11-13 02:37:30"
+      "label": "Page 02 — Running the Furnace Gauntlet",
+      "src": "c7989e45-55f6-4cde-94ec-fad288e35c73.jpg",
+      "created": "2026-11-13 09:51:00"
     },
     {
-      "label": "Page 03 — Orbital Firestorm",
-      "src": "04c0d897-364c-4e12-817f-8c7d7d4ab4d6.jpg",
-      "created": "2026-11-13 02:37:40"
+      "label": "Page 03 — Breaching the Foundry",
+      "src": "25eb84a3-b56f-4051-acc8-f3a723d8b22e.jpg",
+      "created": "2026-11-13 09:51:00"
     },
     {
-      "label": "Page 04 — Through the Crimson Gauntlet",
-      "src": "15f6563d-7074-4f4b-85aa-5c7f51dc9266.jpg",
-      "created": "2026-11-13 02:37:54"
+      "label": "Page 04 — Steel and Sub-Zero",
+      "src": "d7b7d675-565a-4fdd-b0d8-f2976e9a2bf8.jpg",
+      "created": "2026-11-13 09:51:00"
     },
     {
-      "label": "Page 05 — Boarding the Flagship",
-      "src": "be1a9f8a-03c1-4f85-a844-5867250a3dca.jpg",
-      "created": "2026-11-13 02:38:04"
+      "label": "Page 05 — The Star-Forge Kernel",
+      "src": "6af8160a-4d20-42f8-9cd6-ef32b110927c.jpg",
+      "created": "2026-11-13 09:51:00"
     },
     {
-      "label": "Page 06 — The Grand Necro-Sovereign",
-      "src": "328a0234-d404-40ac-959d-5d3d80fb0e7e.jpg",
-      "created": "2026-11-13 02:38:12"
+      "label": "Page 06 — Clash with the Forge-Master",
+      "src": "eebef90c-e7ef-4219-a21d-0800328a25cf.jpg",
+      "created": "2026-11-13 09:52:00"
     },
     {
-      "label": "Page 07 — The Abyssal Onslaught",
-      "src": "8a318214-0c7d-436f-81e1-8acb7083a519.jpg",
-      "created": "2026-11-13 02:38:22"
+      "label": "Page 07 — Shattering the Anvil",
+      "src": "4103542a-a0be-47d1-a7a5-9197d45cb1d8.jpg",
+      "created": "2026-11-13 09:52:00"
     },
     {
-      "label": "Page 08 — Breaking the Core-Breaker",
-      "src": "a296d17d-f24f-4f57-a56b-18557f73954d.jpg",
-      "created": "2026-11-13 02:38:31"
+      "label": "Page 08 — Chain Reaction",
+      "src": "7097f3b0-d64a-4686-b7c2-3f19cf5b061e.jpg",
+      "created": "2026-11-13 09:52:00"
     },
     {
-      "label": "Page 09 — Retreat of the Dark Armada",
-      "src": "31cc1c15-a6d4-4f9f-97cd-70d34e273b49.jpg",
-      "created": "2026-11-13 02:38:42"
+      "label": "Page 09 — Fall of the Star-Forge",
+      "src": "1a84f2c4-ed6f-4ae0-90d3-d0c697a1649c.jpg",
+      "created": "2026-11-13 09:52:00"
     },
     {
-      "label": "Page 10 — The Mercwar Constellation",
-      "src": "c01e9309-ebf8-4a22-aee4-55c27c40a6e2.jpg",
-      "created": "2026-11-13 02:38:52"
+      "label": "Page 10 — The Final Relay Awaits",
+      "src": "143a023c-0ad4-4761-831b-5313d90d1ef2.jpg",
+      "created": "2026-11-13 09:52:00"
     },
     {
-      "label": "Inside Back Cover — Mercwar Constellation Portal",
-      "src": "8c3a6bc2-663c-4e1e-b13d-2201baf8c067.jpg",
-      "created": "2026-11-13 02:39:03"
-    },
-    {
-      "label": "Back Cover — Volume 2, Issue #03",
-      "src": "076db667-fcdd-41f3-b667-42b908a8c8cc.jpg",
-      "created": "2026-11-13 02:39:13"
+      "label": "Back Cover — MERCWAR: ASSAULT ON THE STAR-FORGE",
+      "src": "5cf77a2c-077f-41a7-8520-8a559e8d2df8.jpg",
+      "created": "2026-11-13 09:52:00"
     }
   ]
 }

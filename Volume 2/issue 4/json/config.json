@@ -1,68 +1,63 @@
 {
   "volume": 2,
   "issue": "04",
-  "title": "The Eclipse Protocol",
-  "subtitle": "Chapter I: Signal in the Eclipse • Chapter II: The Shadow Warden",
+  "title": "MERCWAR: SHOWDOWN AT NEXUS GAMMA",
+  "subtitle": "The Quasar Horizon • Master Gate Override • Necro-Sovereign Duel • Volume 2 Finale",
   "pages": [
     {
-      "label": "Front Cover — The Eclipse Protocol",
-      "src": "75fe07ed-aa2d-4291-ab82-dff7e399f445.jpg",
-      "created": "2026-11-13 02:44:55"
+      "label": "Front Cover — MERCWAR: SHOWDOWN AT NEXUS GAMMA",
+      "src": "748a1279-2389-4cd5-b47f-ce8b6fe4153d.jpg",
+      "created": "2026-11-13 09:53:00"
     },
     {
-      "label": "Page 01 — Signal in the Eclipse",
-      "src": "e0c055be-2ea0-4be4-afa8-c685a7c9ff8f.jpg",
-      "created": "2026-11-13 02:45:06"
+      "label": "Page 01 — The Quasar Horizon",
+      "src": "4e1efb60-db45-47d6-b776-f8cbf17adb62.jpg",
+      "created": "2026-11-13 09:54:00"
     },
     {
-      "label": "Page 02 — Stealth Mines in the Corona",
-      "src": "9bad6a08-330b-436c-9c34-b97f40d0e982.jpg",
-      "created": "2026-11-13 02:45:40"
+      "label": "Page 02 — The Royal Sentinel Guard",
+      "src": "0f112aaf-808f-48bd-a19e-d86453e952ac.jpg",
+      "created": "2026-11-13 09:54:00"
     },
     {
-      "label": "Page 03 — Boarding the Eclipse Citadel",
-      "src": "33bd0649-b387-4159-bf82-558157323a13.jpg",
-      "created": "2026-11-13 02:45:54"
+      "label": "Page 03 — Throne of the Necro-Sovereign",
+      "src": "8d57389c-b36a-4872-b1ab-2587aeee2592.jpg",
+      "created": "2026-11-13 09:54:00"
     },
     {
-      "label": "Page 04 — Battle on the Relay Spire",
-      "src": "6acd1221-f4c6-4a6f-94b8-3a332f06bac2.jpg",
-      "created": "2026-11-13 02:46:15"
+      "label": "Page 04 — Clash of Titans",
+      "src": "05f996ae-90c5-44eb-92b2-467f1470aa8c.jpg",
+      "created": "2026-11-13 09:54:00"
     },
     {
-      "label": "Page 05 — The Shadow Warden",
-      "src": "d4de344d-a798-4b1c-a6b7-830ad4faf978.jpg",
-      "created": "2026-11-13 02:46:25"
+      "label": "Page 05 — Hacking the Master Gate",
+      "src": "7a1ee4dd-155e-491f-a5a3-00d3190279b2.jpg",
+      "created": "2026-11-13 09:54:00"
     },
     {
-      "label": "Page 06 — Light Through the Shadow",
-      "src": "85eba6b8-bf45-45c8-9dda-8eca40e8a17a.jpg",
-      "created": "2026-11-13 02:46:35"
+      "label": "Page 06 — The Fire-Gem Unbound",
+      "src": "be35bc0a-681a-4d91-95f8-e4be50a6a5f5.jpg",
+      "created": "2026-11-13 09:54:00"
     },
     {
-      "label": "Page 06B — Light Through the Shadow (Variant)",
-      "src": "7c883f7e-5fa5-4376-b4d1-3821cc117d25.jpg",
-      "created": "2026-11-13 02:46:42"
+      "label": "Page 07 — Reversing the Quasar Beam",
+      "src": "a6b8ef7c-197d-4d18-a40c-e9eb463b74bb.jpg",
+      "created": "2026-11-13 09:54:00"
     },
     {
-      "label": "Page 07 — Protocol Restored",
-      "src": "638ae392-b7ec-4a3f-920f-ce527ef38b51.jpg",
-      "created": "2026-11-13 02:46:48"
+      "label": "Page 08 — Banished Beyond the Rim",
+      "src": "1c53ad22-20a4-4313-80ab-44b1d1385eaf.jpg",
+      "created": "2026-11-13 09:55:00"
     },
     {
-      "label": "Page 08 — Coordinates to Sector Zero",
-      "src": "41910c48-64e0-48b8-afaf-15854fe4e9b2.jpg",
-      "created": "2026-11-13 02:46:54"
+      "label": "Page 09 — The Constellation Reborn",
+      "src": "b05748e1-7446-403c-b563-33393837a268.jpg",
+      "created": "2026-11-13 09:55:00"
     },
     {
-      "label": "Inside Back Cover — Mercwar Constellation Portal",
-      "src": "28cbc0f6-e362-4e80-b080-ec87e1c977af.jpg",
-      "created": "2026-11-13 02:47:03"
-    },
-    {
-      "label": "Back Cover — Volume 2, Issue #04",
-      "src": "f4739cbb-7fd9-4be6-b2f0-a88176f6b491.jpg",
-      "created": "2026-11-13 02:47:12"
+      "label": "Back Cover — MERCWAR: SHOWDOWN AT NEXUS GAMMA",
+      "src": "4bd3d116-7e9c-4194-a09d-0bc82d318636.jpg",
+      "created": "2026-11-13 09:55:00"
     }
   ]
 }

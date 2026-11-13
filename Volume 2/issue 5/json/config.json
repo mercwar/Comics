@@ -1,63 +1,78 @@
 {
   "volume": 2,
   "issue": "05",
-  "title": "Sector Zero",
-  "subtitle": "Chapter I: Into the Void of Sector Zero • Chapter II: Throne of the Abyss",
+  "title": "MERCWAR: RETURN TO CYBORG CITY",
+  "subtitle": "Orbital Homecoming • Shadow Fleet Ambush • Unified Constellation • Volume 2 Finale",
   "pages": [
     {
-      "label": "Front Cover — Sector Zero",
-      "src": "0fc6a448-951b-49d4-be89-e826658667e8.jpg",
-      "created": "2026-11-13 02:47:48"
+      "label": "Front Cover — MERCWAR: RETURN TO CYBORG CITY",
+      "src": "307876cb-821f-4b59-baf4-ef8be03df41b.jpg",
+      "created": "2026-11-13 09:56:00"
     },
     {
-      "label": "Page 01 — Into the Void of Sector Zero",
-      "src": "2a6ecdc4-3866-49d6-9589-3b2c905288b0.jpg",
-      "created": "2026-11-13 02:47:58"
+      "label": "Page 01 — Homecoming in High Orbit",
+      "src": "1ee4214c-2bcf-4062-80e8-4684a7e22701.jpg",
+      "created": "2026-11-13 09:56:00"
     },
     {
-      "label": "Page 02 — Trench Run Under Fire",
-      "src": "bef6ebf5-a018-4448-9aa5-1a2422c8b312.jpg",
-      "created": "2026-11-13 02:48:05"
+      "label": "Page 02 — The Shadow Ambush",
+      "src": "2398aebf-d990-49ae-9c86-5c4582a94128.jpg",
+      "created": "2026-11-13 09:56:00"
     },
     {
-      "label": "Page 03 — The Foundry Bridge",
-      "src": "6179d0e7-1f36-4060-a494-646cb18a9f17.jpg",
-      "created": "2026-11-13 02:48:14"
+      "label": "Page 03 — Defense of the Orbital Ring",
+      "src": "021ea788-0061-4209-bf48-65e82e2f4efa.jpg",
+      "created": "2026-11-13 09:56:00"
     },
     {
-      "label": "Page 04 — Clash of Steel and Frost",
-      "src": "cf2978e4-018e-4b1a-928c-973df9c936be.jpg",
-      "created": "2026-11-13 02:48:23"
+      "label": "Page 04 — Boarding the Eclipse Flagship",
+      "src": "05ab589f-4c0a-47a1-83f9-0b792fabdef1.jpg",
+      "created": "2026-11-13 09:57:00"
     },
     {
-      "label": "Page 05 — Throne of the Abyss",
-      "src": "0d0c4766-af6f-4beb-b3bf-baa4792590bc.jpg",
-      "created": "2026-11-13 02:48:33"
+      "label": "Page 05 — Bridge Takedown",
+      "src": "e883dab0-e68a-4f3e-a42c-4ed9159e9248.jpg",
+      "created": "2026-11-13 09:57:00"
     },
     {
-      "label": "Page 06 — Heart of the Prime Forge",
-      "src": "f2fb8ab4-b285-42dc-a81c-3a8643d65206.jpg",
-      "created": "2026-11-13 02:49:10"
+      "label": "Page 06 — Fleet-Wide Override",
+      "src": "2826996a-9d40-495d-a098-2f6a714a37ad.jpg",
+      "created": "2026-11-13 09:57:00"
     },
     {
-      "label": "Page 07 — Collapse of Sector Zero",
-      "src": "4715f6db-b44f-425b-81a8-75ab621df9c3.jpg",
-      "created": "2026-11-13 02:49:21"
+      "label": "Page 07 — The Constellation Link",
+      "src": "a514680f-2dbd-47e6-983b-6e5bdce1a026.jpg",
+      "created": "2026-11-13 09:57:00"
     },
     {
-      "label": "Page 08 — United Constellation",
-      "src": "a778ad33-5bd4-4b98-9313-4479c25a8740.jpg",
-      "created": "2026-11-13 02:49:29"
+      "label": "Page 08 — Heroes of the Free Worlds",
+      "src": "f16d3b99-971c-4ff4-9586-fc72453ae3c6.jpg",
+      "created": "2026-11-13 09:57:00"
     },
     {
-      "label": "Inside Back Cover — Mercwar Constellation Portal",
-      "src": "1022a260-30f9-4f72-baa3-b65c0f2b3036.jpg",
-      "created": "2026-11-13 02:49:39"
+      "label": "Page 09 — A New Horizon",
+      "src": "e957b8bf-5b39-4b7b-8798-4c9b044f146d.jpg",
+      "created": "2026-11-13 09:57:00"
     },
     {
-      "label": "Back Cover — Volume 2, Issue #05",
-      "src": "def442c2-e020-41e8-a5ee-3ea1f5ed3648.jpg",
-      "created": "2026-11-13 02:49:51"
+      "label": "Page 10 — End of Volume Two",
+      "src": "ef70bea9-b592-4f01-98d9-8ee9fde08775.jpg",
+      "created": "2026-11-13 09:57:00"
+    },
+    {
+      "label": "Bonus Epilogue — Beyond the Outer Rim",
+      "src": "74d13938-3767-43d6-9372-79347a0f5ab6.jpg",
+      "created": "2026-11-13 09:58:00"
+    },
+    {
+      "label": "Inside Back Cover — Volume 2 Complete Archive",
+      "src": "dd1841ba-a526-4d22-932b-089a41355a5c.jpg",
+      "created": "2026-11-13 09:58:00"
+    },
+    {
+      "label": "Back Cover — MERCWAR: RETURN TO CYBORG CITY",
+      "src": "3d9573fb-48f1-45d5-b085-b951aaf43a08.jpg",
+      "created": "2026-11-13 09:59:00"
     }
   ]
 }
