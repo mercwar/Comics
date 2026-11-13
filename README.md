@@ -82,14 +82,22 @@ Note: The reader now loads the issues
 ### 🌌 *AVIS Protocol — Volume 3, Issues #01 - #05*
 
 
-
 🔥  *AVIS Under Attack* 
 > *"A NEXT ERA BEGINS"*
 
-##### 🗝️ Versions (Damaged/Cartoon only)
+##### 🗝️ Versions (Fair condition)
 ####
 
 -  [HTML](https://mercwar.github.io/Comics/Volume%203/index.html)
+   
+Note: The reader now loads the issues
+
+🔥  *The necro story* 
+> *"The Robo Knights and Joe Tron"*
+##### 🗝️ Versions (Good condition)
+####
+
+-  [HTML](https://mercwar.github.io/Comics/Volume%204/index.html)
    
 Note: The reader now loads the issues
 
