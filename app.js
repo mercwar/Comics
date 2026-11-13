@@ -1,245 +1,333 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const sidebar = document.getElementById("sidebar");
-    const pageList = document.getElementById("page-list");
-    const sidebarCount = document.getElementById("sidebar-count");
-    const pageViewport = document.getElementById("page-viewport");
-    const pageCard = document.getElementById("page-card");
-    const activeImg = document.getElementById("active-page-img");
-    const activeLabel = document.getElementById("active-page-label");
+(() => {
+  let pages = [];
+  let currentVolumeNum = "4"; // Default Volume
+  let currentIssueNum = "1";
+  let currentIndex = 0;
+  let zoomPercent = 100;
+  const BASE_WIDTH = 720;
 
-    const pageInput = document.getElementById("page-input");
-    const pageTotal = document.getElementById("page-total");
-    const zoomLabel = document.getElementById("zoom-label");
+  let flipSwapTimer = null;
+  let flipEndTimer = null;
 
-    const btnToggleSidebar = document.getElementById("btn-toggle-sidebar");
-    const btnFirst = document.getElementById("btn-first");
-    const btnPrev = document.getElementById("btn-prev");
-    const btnNext = document.getElementById("btn-next");
-    const btnLast = document.getElementById("btn-last");
+  // DOM Elements
+  const volumeSelector = document.getElementById("volumeSelector");
+  const issueSelector = document.getElementById("issueSelector");
+  const issueSubtitle = document.getElementById("issueSubtitle");
+  const pageIndicator = document.getElementById("pageIndicator");
+  const pageCaptionReadout = document.getElementById("pageCaptionReadout");
+  const thumbnailSidebar = document.getElementById("thumbnailSidebar");
+  const thumbnailGrid = document.getElementById("thumbnailGrid");
+  const thumbCount = document.getElementById("thumbCount");
+  const statusToast = document.getElementById("statusToast");
+  const stage = document.getElementById("stage");
+  const comicViewport = document.getElementById("comicViewport");
+  const comicImage = document.getElementById("comicImage");
+  const zoomReadout = document.getElementById("zoomReadout");
+  const fitWidthBtn = document.getElementById("fitWidthBtn");
+  const fitHeightBtn = document.getElementById("fitHeightBtn");
+  const toggleSidebarBtn = document.getElementById("toggleSidebarBtn");
+  
+  const firstBtn = document.getElementById("firstBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nextBtn = document.getElementById("nextBtn");
+  const lastBtn = document.getElementById("lastBtn");
+  const clickPrevZone = document.getElementById("clickPrevZone");
+  const clickNextZone = document.getElementById("clickNextZone");
+  const zoomInBtn = document.getElementById("zoomInBtn");
+  const zoomOutBtn = document.getElementById("zoomOutBtn");
 
-    const btnZoomOut = document.getElementById("btn-zoom-out");
-    const btnZoomIn = document.getElementById("btn-zoom-in");
-    const btnFit = document.getElementById("btn-fit");
+  const mercwarLinksBtn = document.getElementById("mercwarLinksBtn");
+  const mercwarLinksMenu = document.getElementById("mercwarLinksMenu");
 
-    const btnInfo = document.getElementById("btn-info");
-    const btnCloseModal = document.getElementById("btn-close-modal");
-    const infoModal = document.getElementById("info-modal");
-    const chapterItems = document.querySelectorAll("#chapter-index li[data-page]");
+  async function loadIssue(issueNum) {
+    currentIssueNum = String(issueNum);
+    currentIndex = 0;
+    pages = [];
 
-    const fallbackPages = [
-        { page: 1,  label: "Front Cover",        src: "image_ba7af5a7.jpg" },
-        { page: 2,  label: "Inside Front Cover", src: "image_f246a38d.jpg" },
-        { page: 3,  label: "Page 01",            src: "image_300dbfb7.jpg" },
-        { page: 4,  label: "Page 02",            src: "image_dcf22b1f.jpg" },
-        { page: 5,  label: "Page 03",            src: "image_b68eaa61.jpg" },
-        { page: 6,  label: "Page 04",            src: "image_15e568f9.jpg" },
-        { page: 7,  label: "Page 05",            src: "image_d2071447.jpg" },
-        { page: 8,  label: "Page 06",            src: "image_c3470f29.jpg" },
-        { page: 9,  label: "Page 07",            src: "image_b7eeabf5.jpg" },
-        { page: 10, label: "Page 08",            src: "image_609d0584.jpg" },
-        { page: 11, label: "Page 09",            src: "image_d79d0f47.jpg" },
-        { page: 12, label: "Page 10",            src: "image_627b3484.jpg" },
-        { page: 13, label: "Page 11",            src: "image_fcfa2bfd.jpg" },
-        { page: 14, label: "Page 12",            src: "image_58dd4a1b.jpg" },
-        { page: 15, label: "Page 13",            src: "image_8d90fe87.jpg" },
-        { page: 16, label: "Page 14",            src: "image_3d021a82.jpg" },
-        { page: 17, label: "Page 15",            src: "image_220ca66e.jpg" },
-        { page: 18, label: "Page 16",            src: "image_309b54f9.jpg" },
-        { page: 19, label: "Page 17",            src: "image_92b2fd17.jpg" },
-        { page: 20, label: "Page 18",            src: "image_3ebe4b56.jpg" },
-        { page: 21, label: "Page 19",            src: "image_710b3e20.jpg" },
-        { page: 22, label: "Page 20",            src: "image_d14c9b44.jpg" },
-        { page: 23, label: "Inside Back Cover",  src: "image_3217442d.jpg" },
-        { page: 24, label: "Back Cover",         src: "image_b6d9a022.jpg" }
-    ];
+    // Search 1 level deeper: Volume first, then Issue
+    const volumeFolder = `volume ${currentVolumeNum}`;
+    const issueFolder = `issue ${currentIssueNum}`;
+    
+    const encodedVolume = encodeURIComponent(volumeFolder);
+    const encodedIssue = encodeURIComponent(issueFolder);
+    const jsonPath = `./${encodedVolume}/${encodedIssue}/json/config.json`;
 
-    let pages = [];
-    let currentIndex = 0;
-    let zoomPercent = null;
-
-    async function initReader() {
-        try {
-            const response = await fetch("comic.json");
-            if (!response.ok) throw new Error(`HTTP ${response.status}`);
-            const data = await response.json();
-            pages = Array.isArray(data.pages) && data.pages.length > 0 ? data.pages : fallbackPages;
-        } catch (err) {
-            pages = fallbackPages;
-        }
-
-        sidebarCount.textContent = pages.length;
-        pageTotal.textContent = `/ ${pages.length}`;
-        pageInput.max = pages.length;
-
-        buildSidebarThumbnails();
-        renderPage(0, "none");
+    if (issueSubtitle) {
+      issueSubtitle.textContent = `Vol. ${currentVolumeNum}, Issue #0${currentIssueNum} • Loading configuration...`;
     }
 
-    function buildSidebarThumbnails() {
-        pageList.innerHTML = "";
+    try {
+      const response = await fetch(jsonPath, { cache: "no-store" });
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status} fetching ./${volumeFolder}/${issueFolder}/json/config.json`);
+      }
 
-        pages.forEach((page, idx) => {
-            const item = document.createElement("div");
-            item.className = "thumb-item";
-            item.dataset.index = idx;
+      const data = await response.json();
+      const rawPages = Array.isArray(data) ? data : data.pages || [];
 
-            const frame = document.createElement("div");
-            frame.className = "thumb-frame";
+      if (issueSubtitle) {
+        issueSubtitle.textContent = data.title
+          ? `Vol. ${currentVolumeNum} • Issue #0${currentIssueNum} — ${data.title}`
+          : `Volume ${currentVolumeNum}, Issue #0${currentIssueNum}`;
+      }
 
-            const img = document.createElement("img");
-            img.src = page.src;
-            img.alt = page.label || `Page ${idx + 1}`;
-            img.loading = "lazy";
+      pages = rawPages.map((entry, idx) => {
+        if (typeof entry === "string") {
+          return {
+            title: `Page ${String(idx + 1).padStart(2, "0")}`,
+            file: entry
+          };
+        }
+        return {
+          title: entry.label || entry.title || `Page ${String(idx + 1).padStart(2, "0")}`,
+          file: entry.src || entry.file || entry.image
+        };
+      });
 
-            const numBadge = document.createElement("span");
-            numBadge.className = "thumb-num";
-            numBadge.textContent = `#${idx + 1}`;
+      if (thumbCount) thumbCount.textContent = `${pages.length} PAGES`;
 
-            const label = document.createElement("span");
-            label.className = "thumb-label";
-            label.textContent = page.label || `Page ${idx + 1}`;
+      if (pages.length === 0) {
+        if (comicViewport) comicViewport.hidden = true;
+        if (comicImage) comicImage.removeAttribute("src");
+        if (pageIndicator) pageIndicator.textContent = "0 / 0";
+        if (pageCaptionReadout) pageCaptionReadout.textContent = "NO PAGES";
+        if (thumbnailGrid) thumbnailGrid.innerHTML = "";
+        showToast(`No pages listed in ./${volumeFolder}/${issueFolder}/json/config.json.`);
+        updateNavButtons();
+        return;
+      }
 
-            frame.appendChild(img);
-            frame.appendChild(numBadge);
-            item.appendChild(frame);
-            item.appendChild(label);
+      hideToast();
+      if (comicViewport) comicViewport.hidden = false;
+      renderThumbnails();
+      showPage(0, false);
+    } catch (err) {
+      if (comicViewport) comicViewport.hidden = true;
+      if (comicImage) comicImage.removeAttribute("src");
+      if (pageIndicator) pageIndicator.textContent = "0 / 0";
+      if (pageCaptionReadout) pageCaptionReadout.textContent = "LOAD ERROR";
+      if (thumbnailGrid) thumbnailGrid.innerHTML = "";
+      if (thumbCount) thumbCount.textContent = "0 PAGES";
+      showToast(`Could not load configuration for Vol. ${currentVolumeNum}, Issue #${currentIssueNum} (${err.message})`);
+      updateNavButtons();
+    }
+  }
 
-            item.addEventListener("click", () => {
-                const direction = idx > currentIndex ? "next" : idx < currentIndex ? "prev" : "none";
-                renderPage(idx, direction);
-            });
+  function renderThumbnails() {
+    if (!thumbnailGrid) return;
+    thumbnailGrid.innerHTML = "";
+    
+    const encodedVolume = encodeURIComponent(`volume ${currentVolumeNum}`);
+    const encodedIssue = encodeURIComponent(`issue ${currentIssueNum}`);
 
-            pageList.appendChild(item);
-        });
+    pages.forEach((page, idx) => {
+      const card = document.createElement("div");
+      card.className = "thumb-card";
+      card.title = page.title;
+
+      const img = document.createElement("img");
+      img.loading = "lazy";
+      img.src = `./${encodedVolume}/${encodedIssue}/images/${encodeURIComponent(page.file)}`;
+      img.alt = page.title;
+
+      const badge = document.createElement("span");
+      badge.className = "thumb-num";
+      badge.textContent = String(idx + 1).padStart(2, "0");
+
+      card.appendChild(img);
+      card.appendChild(badge);
+
+      if (idx === currentIndex) card.classList.add("active");
+      card.addEventListener("click", () => showPage(idx, true));
+      thumbnailGrid.appendChild(card);
+    });
+  }
+
+  function showPage(index, animate = true) {
+    if (index < 0 || index >= pages.length) return;
+
+    const prevIndex = currentIndex;
+    currentIndex = index;
+    const pageObj = pages[currentIndex];
+    
+    const encodedVolume = encodeURIComponent(`volume ${currentVolumeNum}`);
+    const encodedIssue = encodeURIComponent(`issue ${currentIssueNum}`);
+    const encodedFile = encodeURIComponent(pageObj.file);
+    
+    const nextSrc = `./${encodedVolume}/${encodedIssue}/images/${encodedFile}`;
+    const nextAlt = `Vol. ${currentVolumeNum}, Issue #0${currentIssueNum} — ${pageObj.title}`;
+
+    if (pageIndicator) pageIndicator.textContent = `${currentIndex + 1} / ${pages.length}`;
+    if (pageCaptionReadout) pageCaptionReadout.textContent = pageObj.title;
+
+    if (thumbnailGrid) {
+      Array.from(thumbnailGrid.children).forEach((card, idx) => {
+        const isActive = idx === currentIndex;
+        card.classList.toggle("active", isActive);
+        if (isActive) {
+          card.scrollIntoView({ block: "nearest", behavior: "smooth" });
+        }
+      });
     }
 
-    function renderPage(index, direction = "next") {
-        if (index < 0 || index >= pages.length) return;
-        currentIndex = index;
+    updateNavButtons();
+    if (stage) stage.scrollTo({ top: 0, behavior: "smooth" });
 
-        const pageData = pages[currentIndex];
+    if (flipSwapTimer) clearTimeout(flipSwapTimer);
+    if (flipEndTimer) clearTimeout(flipEndTimer);
 
-        pageCard.classList.remove("anim-next", "anim-prev");
-        void pageCard.offsetWidth;
-        if (direction === "next") {
-            pageCard.classList.add("anim-next");
-        } else if (direction === "prev") {
-            pageCard.classList.add("anim-prev");
-        }
+    if (!comicViewport || !comicImage) return;
+    comicViewport.classList.remove("flip-next", "flip-prev");
 
-        activeImg.src = pageData.src;
-        activeImg.alt = pageData.label || `Page ${currentIndex + 1}`;
-        activeLabel.textContent = `${pageData.label || `Page ${currentIndex + 1}`} — (${currentIndex + 1} of ${pages.length})`;
-
-        pageInput.value = currentIndex + 1;
-        btnFirst.disabled = currentIndex === 0;
-        btnPrev.disabled = currentIndex === 0;
-        btnNext.disabled = currentIndex === pages.length - 1;
-        btnLast.disabled = currentIndex === pages.length - 1;
-
-        const thumbs = pageList.querySelectorAll(".thumb-item");
-        thumbs.forEach((thumb, idx) => {
-            const isActive = idx === currentIndex;
-            thumb.classList.toggle("active", isActive);
-            if (isActive) {
-                thumb.scrollIntoView({ behavior: "smooth", block: "nearest" });
-            }
-        });
-
-        pageViewport.scrollTop = 0;
-
-        if (currentIndex + 1 < pages.length) {
-            const preload = new Image();
-            preload.src = pages[currentIndex + 1].src;
-        }
+    if (!animate || prevIndex === currentIndex) {
+      comicImage.src = nextSrc;
+      comicImage.alt = nextAlt;
+      return;
     }
 
-    function applyZoom(newZoom) {
-        if (newZoom === null) {
-            zoomPercent = null;
-            pageCard.classList.remove("zoomed");
-            pageCard.style.width = "";
-            zoomLabel.textContent = "Fit";
-            return;
-        }
+    const flipClass = currentIndex > prevIndex ? "flip-next" : "flip-prev";
+    void comicViewport.offsetWidth;
+    comicViewport.classList.add(flipClass);
 
-        zoomPercent = Math.min(200, Math.max(50, newZoom));
-        pageCard.classList.add("zoomed");
-        pageCard.style.width = `${zoomPercent}%`;
-        zoomLabel.textContent = `${zoomPercent}%`;
+    flipSwapTimer = setTimeout(() => {
+      comicImage.src = nextSrc;
+      comicImage.alt = nextAlt;
+    }, 240);
+
+    flipEndTimer = setTimeout(() => {
+      comicViewport.classList.remove("flip-next", "flip-prev");
+    }, 490);
+  }
+
+  function updateNavButtons() {
+    const total = pages.length;
+    const hasPages = total > 0;
+
+    if (firstBtn) firstBtn.disabled = !hasPages || currentIndex === 0;
+    if (prevBtn) prevBtn.disabled = !hasPages || currentIndex === 0;
+    if (nextBtn) nextBtn.disabled = !hasPages || currentIndex >= total - 1;
+    if (lastBtn) lastBtn.disabled = !hasPages || currentIndex >= total - 1;
+  }
+
+  function setFitWidthMode() {
+    if (stage) stage.classList.remove("fit-height-mode");
+    if (fitWidthBtn) fitWidthBtn.classList.add("active");
+    if (fitHeightBtn) fitHeightBtn.classList.remove("active");
+    applyZoom();
+  }
+
+  function setFitHeightMode() {
+    if (stage) stage.classList.add("fit-height-mode");
+    if (fitHeightBtn) fitHeightBtn.classList.add("active");
+    if (fitWidthBtn) fitWidthBtn.classList.remove("active");
+    if (zoomReadout) zoomReadout.textContent = "FIT";
+  }
+
+  function applyZoom() {
+    if (stage && stage.classList.contains("fit-height-mode")) {
+      setFitWidthMode();
+      return;
     }
+    const targetWidth = Math.round((BASE_WIDTH * zoomPercent) / 100);
+    if (comicViewport) comicViewport.style.width = `${targetWidth}px`;
+    if (zoomReadout) zoomReadout.textContent = `${zoomPercent}%`;
+  }
 
-    btnToggleSidebar.addEventListener("click", () => {
-        sidebar.classList.toggle("collapsed");
+  function showToast(msg) {
+    if (!statusToast) return;
+    statusToast.textContent = msg;
+    statusToast.hidden = false;
+  }
+
+  function hideToast() {
+    if (!statusToast) return;
+    statusToast.hidden = true;
+  }
+
+  // Event Listeners Binding
+  if (volumeSelector) {
+    volumeSelector.addEventListener("change", (e) => {
+      currentVolumeNum = e.target.value;
+      loadIssue(issueSelector ? issueSelector.value : "1");
+    });
+  }
+
+  if (issueSelector) {
+    issueSelector.addEventListener("change", (e) => loadIssue(e.target.value));
+  }
+
+  if (firstBtn) firstBtn.addEventListener("click", () => showPage(0, true));
+  if (prevBtn) prevBtn.addEventListener("click", () => showPage(currentIndex - 1, true));
+  if (nextBtn) nextBtn.addEventListener("click", () => showPage(currentIndex + 1, true));
+  if (lastBtn) lastBtn.addEventListener("click", () => showPage(pages.length - 1, true));
+
+  if (clickPrevZone) clickPrevZone.addEventListener("click", () => showPage(currentIndex - 1, true));
+  if (clickNextZone) clickNextZone.addEventListener("click", () => showPage(currentIndex + 1, true));
+
+  if (fitWidthBtn) fitWidthBtn.addEventListener("click", setFitWidthMode);
+  if (fitHeightBtn) fitHeightBtn.addEventListener("click", setFitHeightMode);
+
+  if (zoomInBtn) {
+    zoomInBtn.addEventListener("click", () => {
+      zoomPercent = Math.min(200, zoomPercent + 15);
+      applyZoom();
+    });
+  }
+
+  if (zoomOutBtn) {
+    zoomOutBtn.addEventListener("click", () => {
+      zoomPercent = Math.max(55, zoomPercent - 15);
+      applyZoom();
+    });
+  }
+
+  if (toggleSidebarBtn && thumbnailSidebar) {
+    toggleSidebarBtn.addEventListener("click", () => {
+      thumbnailSidebar.classList.toggle("collapsed");
+    });
+  }
+
+  // Links Dropdown Event Handlers
+  if (mercwarLinksBtn && mercwarLinksMenu) {
+    mercwarLinksBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isOpen = !mercwarLinksMenu.hidden;
+      mercwarLinksMenu.hidden = isOpen;
+      mercwarLinksBtn.setAttribute("aria-expanded", String(!isOpen));
     });
 
-    btnFirst.addEventListener("click", () => renderPage(0, "prev"));
-    btnPrev.addEventListener("click", () => renderPage(currentIndex - 1, "prev"));
-    btnNext.addEventListener("click", () => renderPage(currentIndex + 1, "next"));
-    btnLast.addEventListener("click", () => renderPage(pages.length - 1, "next"));
-
-    pageInput.addEventListener("change", () => {
-        const target = parseInt(pageInput.value, 10) - 1;
-        if (!isNaN(target) && target >= 0 && target < pages.length) {
-            renderPage(target, target >= currentIndex ? "next" : "prev");
-        } else {
-            pageInput.value = currentIndex + 1;
-        }
+    document.addEventListener("click", (e) => {
+      if (!mercwarLinksBtn.contains(e.target) && !mercwarLinksMenu.contains(e.target)) {
+        mercwarLinksMenu.hidden = true;
+        mercwarLinksBtn.setAttribute("aria-expanded", "false");
+      }
     });
+  }
 
-    btnZoomIn.addEventListener("click", () => {
-        const base = zoomPercent === null ? 90 : zoomPercent;
-        applyZoom(base + 15);
-    });
+  // Global Keyboard Navigation
+  document.addEventListener("keydown", (e) => {
+    if (e.target.tagName === "SELECT" || e.target.tagName === "INPUT") return;
 
-    btnZoomOut.addEventListener("click", () => {
-        const base = zoomPercent === null ? 90 : zoomPercent;
-        applyZoom(base - 15);
-    });
+    if (e.key === "ArrowRight" || e.key === " ") {
+      e.preventDefault();
+      showPage(currentIndex + 1, true);
+    } else if (e.key === "ArrowLeft") {
+      e.preventDefault();
+      showPage(currentIndex - 1, true);
+    } else if (e.key === "+" || e.key === "=") {
+      zoomPercent = Math.min(200, zoomPercent + 15);
+      applyZoom();
+    } else if (e.key === "-") {
+      zoomPercent = Math.max(55, zoomPercent - 15);
+      applyZoom();
+    } else if (e.key === "Escape") {
+      if (mercwarLinksMenu && !mercwarLinksMenu.hidden) {
+        mercwarLinksMenu.hidden = true;
+        mercwarLinksBtn.setAttribute("aria-expanded", "false");
+      }
+    }
+  });
 
-    btnFit.addEventListener("click", () => applyZoom(null));
-
-    btnInfo.addEventListener("click", () => infoModal.classList.remove("hidden"));
-    btnCloseModal.addEventListener("click", () => infoModal.classList.add("hidden"));
-    infoModal.addEventListener("click", (e) => {
-        if (e.target === infoModal) infoModal.classList.add("hidden");
-    });
-
-    chapterItems.forEach((item) => {
-        item.addEventListener("click", () => {
-            const targetIdx = parseInt(item.dataset.page, 10);
-            infoModal.classList.add("hidden");
-            renderPage(targetIdx, targetIdx >= currentIndex ? "next" : "prev");
-        });
-    });
-
-    activeImg.addEventListener("click", (e) => {
-        const rect = activeImg.getBoundingClientRect();
-        const clickX = e.clientX - rect.left;
-        if (clickX < rect.width * 0.35) {
-            renderPage(currentIndex - 1, "prev");
-        } else {
-            renderPage(currentIndex + 1, "next");
-        }
-    });
-
-    document.addEventListener("keydown", (e) => {
-        if (document.activeElement === pageInput) return;
-        if (e.key === "ArrowRight" || e.key === " ") {
-            e.preventDefault();
-            renderPage(currentIndex + 1, "next");
-        } else if (e.key === "ArrowLeft") {
-            e.preventDefault();
-            renderPage(currentIndex - 1, "prev");
-        } else if (e.key === "+" || e.key === "=") {
-            btnZoomIn.click();
-        } else if (e.key === "-") {
-            btnZoomOut.click();
-        } else if (e.key === "0") {
-            applyZoom(null);
-        } else if (e.key === "Escape") {
-infoModal.classList.add("hidden");
-}
-});
-initReader();
-});
+  // Boot initial issue
+  loadIssue(issueSelector ? issueSelector.value : "1");
+})();

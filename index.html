@@ -1,132 +1,116 @@
-<!--
- * AIFVS-ARTIFACT
- * @id: AVIS-STUDIO-HTML-001
- * @version: 1.1.0
- * @nexus_root: NEXUS.ROOT.V3
- * @visibility: PUBLIC_INDEX
- * @deps: [AVIS-STUDIO-CSS-002, AVIS-STUDIO-JS-003]
- * @description: Main HTML layout for the Mercwar AVIS Paste-Programmer Studio with folder and multi-file resource loading.
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mercwar AVIS &amp; NEXUS v3 — Paste-Programmer Studio</title>
-  <link rel="stylesheet" href="avisStudio.css" />
+  <title>MERCWAR COMICS — COMIC READER</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="theme-webkit.css" />
 </head>
 <body>
 
-  <header>
-    <h1>Mercwar AVIS &amp; NEXUS v3 — Paste-Programmer Studio</h1>
-    <span>AIFVS-ARTIFACT // RESOURCE &amp; HEADER FORGE</span>
+  <!-- Top Navigation & Controls Bar -->
+  <header class="topbar">
+    <div class="brand-group">
+      <button id="toggleSidebarBtn" class="btn" title="Toggle Page Thumbnails" aria-label="Toggle Page Thumbnails">☰ Pages</button>
+      <div class="brand-title">
+        <h1>MERCWAR COMICS</h1>
+        <p id="issueSubtitle">Loading Configuration...</p>
+      </div>
+    </div>
+
+    <div class="controls-bar">
+      <!-- Volume Selector (Volumes 1-4) -->
+      <select id="volumeSelector" aria-label="Select Comic Volume">
+        <option value="1" selected>Volume 1</option>
+        <option value="2">Volume 2</option>
+        <option value="3">Volume 3</option>
+        <option value="4">Volume 4</option>
+      </select>
+
+      <!-- Issue Selector -->
+      <select id="issueSelector" aria-label="Select Comic Issue">
+        <option value="1">Issue #01 — MERCWAR: THE NECRO-SOVEREIGN AWAKENS</option>
+        <option value="2">Issue #02 — Siege of the Obsidian Dreadnoughts</option>
+        <option value="3">Issue #03 — Into the Dark Sector</option>
+        <option value="4">Issue #04 — Heart of the Necro-Forge</option>
+        <option value="5">Issue #05 — Ascension of the Firegem</option>
+      </select>
+
+      <div class="control-group">
+        <button id="firstBtn" class="btn" title="First Page" aria-label="First Page">⏮</button>
+        <button id="prevBtn" class="btn" title="Previous Page" aria-label="Previous Page">◀ Prev</button>
+        <span class="page-counter" id="pageIndicator">0 / 0</span>
+        <button id="nextBtn" class="btn btn-primary" title="Next Page" aria-label="Next Page">Next ▶</button>
+        <button id="lastBtn" class="btn" title="Last Page" aria-label="Last Page">⏭</button>
+      </div>
+
+      <div class="control-group">
+        <button id="fitWidthBtn" class="btn active" title="Fit to Width">Width</button>
+        <button id="fitHeightBtn" class="btn" title="Fit to Screen Height">Fit</button>
+        <button id="zoomOutBtn" class="btn" title="Zoom Out" aria-label="Zoom Out">−</button>
+        <span class="zoom-readout" id="zoomReadout">100%</span>
+        <button id="zoomInBtn" class="btn" title="Zoom In" aria-label="Zoom In">+</button>
+      </div>
+    </div>
   </header>
 
-  <!-- STEP 1: WINDOW FORGE SETTINGS -->
-  <section class="card">
-    <h2>1. Configure Target AI Window Persona</h2>
-    <div class="grid-2">
-      <div>
-        <label for="projectName">Project Name</label>
-        <input id="projectName" type="text" value="Mercwar AVIS Workspace" />
+  <!-- Main Reader Workspace -->
+  <div class="reader-shell" id="readerShell">
+    
+    <!-- Thumbnail Drawer -->
+    <aside class="sidebar" id="thumbnailSidebar">
+      <!-- Mercwar Links Dropdown -->
+      <div class="sidebar-links-bar">
+        <button class="links-dropdown-btn" id="mercwarLinksBtn" type="button" aria-expanded="false" aria-controls="mercwarLinksMenu">
+          <span>🔗 MERCWAR LINKS</span>
+          <span class="dropdown-arrow">▼</span>
+        </button>
+        <ul class="links-dropdown-menu" id="mercwarLinksMenu" hidden>
+          <li><a href="https://github.com/mercwar" target="_blank" rel="noopener noreferrer">🌐 Mercwar Github</a></li>
+          <li><a href="https://github.com/mercwar/COMICS" target="_blank" rel="noopener noreferrer">📚 Mercwar Comics</a></li>
+          <li><a href="https://cron.iblogger.org/Station" target="_blank" rel="noopener noreferrer">🛒 Cyborg Station</a></li>
+          <li><a href="https://cron.iblogger.org/nexus" target="_blank" rel="noopener noreferrer">📜 NEXUS</a></li>
+          <li><a href="https://mercwar01.byet3host.com" target="_blank" rel="noopener noreferrer">💬 Mercwar AI</a></li>
+        </ul>
       </div>
-      <div>
-        <label for="windowRole">Window Forge Type</label>
-        <select id="windowRole">
-          <option value="AVIS Header/Body Build Engine">AVIS Header/Body Build Engine</option>
-          <option value="Datalake &amp; JSON Node Compiler">Datalake &amp; JSON Node Compiler</option>
-          <option value="Game &amp; Simulation Engine Forge">Game &amp; Simulation Engine Forge</option>
-          <option value="Full-Stack Web Module Forge">Full-Stack Web Module Forge</option>
-          <option value="CLI &amp; Automation Script Forge">CLI &amp; Automation Script Forge</option>
-        </select>
-      </div>
-      <div>
-        <label for="targetStack">Target Language / Stack</label>
-        <input id="targetStack" type="text" value="Vanilla JS / HTML5 / JSON" />
-      </div>
-      <div>
-        <label for="directories">Allowed Directories (comma-separated)</label>
-        <input id="directories" type="text" value="/VERSION 1/, /VERSION 2/, /VERSION 3/, /dl/, /SYMBOLIC/, /GEMINI/" />
-      </div>
-    </div>
-  </section>
 
-  <!-- STEP 2: LOAD RESOURCE FOLDERS & PACKS -->
-  <section class="card">
-    <h2>
-      <span>2. Load AI Resource Folders &amp; Header Packs</span>
-      <button type="button" id="loadSampleBtn" class="secondary small">Load 2 Sample Headers</button>
-    </h2>
-
-    <div id="dropZone" class="drop-zone">
-      <p><strong>Drop a resource folder or files here</strong> (<code>.ref</code>, <code>.json</code>, <code>.js</code>, <code>.html</code>, <code>.txt</code>)</p>
-      <div class="btn-row center-row">
-        <button type="button" id="pickFolderBtn">Load Resource Folder</button>
-        <button type="button" id="pickFilesBtn" class="secondary">Load Individual Files</button>
+      <div class="sidebar-header">
+        <h2>🗂️ Page Index</h2>
+        <span class="thumb-count" id="thumbCount">0 PAGES</span>
       </div>
-      <input id="folderInput" type="file" webkitdirectory directory multiple hidden />
-      <input id="fileInput" type="file" multiple accept=".ref,.txt,.json,.js,.html,.md" hidden />
-    </div>
 
-    <div id="resourcePackPills" class="pill-list"></div>
+      <div class="thumbnail-grid" id="thumbnailGrid"></div>
 
-    <details class="manual-drawer">
-      <summary>+ Add a Single Header Manually</summary>
-      <div class="grid-3 row-gap">
-        <div>
-          <label for="modId">Module @id</label>
-          <input id="modId" type="text" placeholder="e.g. CORE-LOOP-001" />
-        </div>
-        <div>
-          <label for="modPath">File @path</label>
-          <input id="modPath" type="text" placeholder="e.g. /engine/coreLoop.js" />
-        </div>
-        <div>
-          <label for="modDeps">Dependencies @deps</label>
-          <input id="modDeps" type="text" placeholder="e.g. UTIL-001, STATE-002" />
-        </div>
+      <div class="sidebar-footer">
+        <div><strong>SOURCE:</strong> ./volume #/issue #/json/config.json</div>
+        <div><strong>HOTKEYS:</strong> ← → Navigate • + − Zoom</div>
       </div>
-      <div class="grid-2 row-gap">
-        <div>
-          <label for="modExports">Exported Signatures @exports</label>
-          <input id="modExports" type="text" placeholder="e.g. initApp(cfg) -> Void" />
-        </div>
-        <div>
-          <label for="modSchema">Data Shape @schema</label>
-          <input id="modSchema" type="text" placeholder='e.g. { status: "string" }' />
-        </div>
+    </aside>
+
+    <!-- Comic Stage -->
+    <main class="stage" id="stage">
+      
+      <!-- Error / Status Toast -->
+      <div class="status-toast" id="statusToast" hidden></div>
+
+      <!-- Comic Page Viewport -->
+      <div class="comic-viewport" id="comicViewport" hidden>
+        <img id="comicImage" alt="Comic Page" />
+
+        <!-- Invisible Left/Right Click Zones for Easy Reading -->
+        <div class="click-zone click-prev" id="clickPrevZone" title="Previous Page" aria-hidden="true"></div>
+        <div class="click-zone click-next" id="clickNextZone" title="Next Page" aria-hidden="true"></div>
       </div>
-      <div class="btn-row">
-        <button type="button" id="addHeaderBtn" class="secondary">+ Add Header to AVIS.REF</button>
+
+      <!-- Bottom Caption Bar -->
+      <div class="caption-bar">
+        <span id="pageCaptionReadout">LOADING...</span>
       </div>
-    </details>
+    </main>
 
-    <div class="row-gap">
-      <div class="label-bar">
-        <label for="initialHeaders">Consolidated AVIS.REF Header Registry (<span id="headerCount">0</span> headers loaded)</label>
-        <button type="button" id="clearHeadersBtn" class="danger small">Clear All</button>
-      </div>
-      <textarea id="initialHeaders" placeholder="Loaded folder resources and headers appear here automatically..."></textarea>
-    </div>
-  </section>
+  </div>
 
-  <!-- STEP 3: GENERATED PASTE-PROGRAMMER OUTPUT -->
-  <section class="card">
-    <h2>3. Copy &amp; Paste into Any AI Chat Window (Message #1)</h2>
-    <div class="btn-row toolbar-top">
-      <button type="button" id="generateBtn">Forge Paste-Programmer</button>
-      <button type="button" id="copyBtn" class="secondary">Copy Kernel to Clipboard</button>
-      <button type="button" id="downloadKernelBtn" class="secondary">Download .txt</button>
-      <button type="button" id="downloadRefBtn" class="secondary">Download AVIS.REF</button>
-      <span id="status"></span>
-    </div>
-
-    <textarea id="output" readonly></textarea>
-    <p class="hint">
-      Workflow: 1) Load a resource folder for your AI program type. 2) Copy the forged kernel and paste it into a fresh AI window. 3) Compile individual files on demand with <strong>/body &lt;MODULE-ID&gt;</strong>.
-    </p>
-  </section>
-
-  <script src="avisStudio.js"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>
