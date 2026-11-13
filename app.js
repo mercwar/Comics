@@ -4,6 +4,7 @@
   // ==========================================
   const VOLUME_FOLDER_NAME = "Volume"; // Exact folder prefix (case-sensitive)
   const JSON_SUBDIR_NAME = "json";     // Configuration subdirectory name
+  const IMAGES_SUBDIR_NAME = "images"; // Images subdirectory name
 
   let pages = [];
   let currentVolumeNum = "1";
@@ -205,7 +206,7 @@
 
       const img = document.createElement("img");
       img.loading = "lazy";
-      img.src = `./${volumeFolderName}/${issueFolderName}/images/${page.file}`;
+      img.src = `./${volumeFolderName}/${issueFolderName}/${IMAGES_SUBDIR_NAME}/${page.file}`;
       img.alt = page.title;
 
       const badge = document.createElement("span");
@@ -228,7 +229,7 @@
     currentIndex = index;
     const pageObj = pages[currentIndex];
     
-    const nextSrc = `./${volumeFolderName}/${issueFolderName}/images/${pageObj.file}`;
+    const nextSrc = `./${volumeFolderName}/${issueFolderName}/${IMAGES_SUBDIR_NAME}/${pageObj.file}`;
     const nextAlt = `${volumeFolderName}, ${issueFolderName} — ${pageObj.title}`;
 
     if (pageIndicator) pageIndicator.textContent = `${currentIndex + 1} / ${pages.length}`;
