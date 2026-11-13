@@ -78,7 +78,23 @@
    
 Note: The reader now loads the issues
 #
-  
+
+### 🌌 *AVIS Protocol — Volume 3, Issues #01 - #05*
+
+
+
+🔥  *AVIS Under Attack* 
+> *"A NEXT ERA BEGINS"*
+
+##### 🗝️ Versions (Damaged/Cartoon only)
+####
+
+-  [HTML](https://mercwar.github.io/Comics/Volume%203/index.html)
+   
+Note: The reader now loads the issues
+
+#
+
 ## 📥 Clone Repository
 ```bash
 git clone https://github.com/mercwar/Comics
