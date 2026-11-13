@@ -1,0 +1,78 @@
+{
+  "volume": 3,
+  "issue": "01",
+  "title": "MERCWAR: AVIS UNDER ATTACK",
+  "subtitle": "Cyborg Station • AVIS-DATALAKE • ECLIPSE • Mercwar-AI Digital Signature",
+  "pages": [
+    {
+      "label": "Front Cover — MERCWAR: AVIS UNDER ATTACK",
+      "src": "1b0908df-4eaf-4b50-9b1b-12eafdb90694.jpg",
+      "created": "2026-11-13 03:47:33"
+    },
+    {
+      "label": "Page 01 — Breach in the AVIS-DATALAKE",
+      "src": "a3f280dd-d487-4124-8726-8e6ab0031576.jpg",
+      "created": "2026-11-13 03:47:47"
+    },
+    {
+      "label": "Page 02 — Siege of Cyborg Station",
+      "src": "dcac8d5b-9c61-4484-a28f-b2d255d4e172.jpg",
+      "created": "2026-11-13 03:48:01"
+    },
+    {
+      "label": "Page 02B — Siege of Cyborg Station (Variant)",
+      "src": "88563f8a-f450-4364-a4e7-e3b964d9e076.jpg",
+      "created": "2026-11-13 03:48:44"
+    },
+    {
+      "label": "Page 03 — Firing dc2url Counter-Payloads",
+      "src": "b83bf568-fd62-4b6a-af2e-16ecfa75be72.jpg",
+      "created": "2026-11-13 03:48:55"
+    },
+    {
+      "label": "Page 04 — Battle in the NEXUS Conduits",
+      "src": "f255f73d-97fe-4a42-b349-59a3188db31b.jpg",
+      "created": "2026-11-13 03:49:08"
+    },
+    {
+      "label": "Page 05 — Rebuilding with dc2php & dc2sql",
+      "src": "3caf0ac9-f898-46fd-bb03-b2bb2e21e27a.jpg",
+      "created": "2026-11-13 03:49:17"
+    },
+    {
+      "label": "Page 06 — The Rogue Cyborg Overlord",
+      "src": "92b8d62c-6138-4230-a5ce-aa3faceed935.jpg",
+      "created": "2026-11-13 03:49:31"
+    },
+    {
+      "label": "Page 07 — Clash at the AVIS Core",
+      "src": "832cea64-8ba3-4269-b467-801a99fcc387.jpg",
+      "created": "2026-11-13 03:49:46"
+    },
+    {
+      "label": "Page 08 — Mercwar-AI Digital Signature",
+      "src": "f6406264-cf62-44ac-820f-d36524d5730e.jpg",
+      "created": "2026-11-13 03:49:57"
+    },
+    {
+      "label": "Page 09 — Closing the Stargate Rift",
+      "src": "daa4f9b6-069e-4d7b-a08d-74243e9eaa13.jpg",
+      "created": "2026-11-13 03:50:13"
+    },
+    {
+      "label": "Page 10 — Guardians of the Constellation",
+      "src": "b0c8048a-81ab-444e-b9d1-e2011aefa38f.jpg",
+      "created": "2026-11-13 03:50:23"
+    },
+    {
+      "label": "Inside Back Cover — Mercwar AI Portal",
+      "src": "745f76a9-956b-4361-b79f-f7ae887920a5.jpg",
+      "created": "2026-11-13 03:50:32"
+    },
+    {
+      "label": "Back Cover — MERCWAR: AVIS UNDER ATTACK",
+      "src": "a79fdaaf-12ba-4c41-a6c8-7b5a7c112470.jpg",
+      "created": "2026-11-13 03:50:44"
+    }
+  ]
+}

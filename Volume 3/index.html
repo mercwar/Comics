@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MERCWAR COMICS — VOLUME 3 READER</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Navigation & Controls Bar -->
+  <header class="topbar">
+    <div class="brand-group">
+      <button id="toggleSidebarBtn" class="btn" title="Toggle Page Thumbnails">☰ Pages</button>
+      <span class="brand-badge">VOL. 3</span>
+      <div class="brand-title">
+        <h1>MERCWAR COMICS — VOLUME 3</h1>
+        <p id="issueSubtitle">AVIS Protocol • Loading Issue...</p>
+      </div>
+    </div>
+
+    <div class="controls-bar">
+      <select id="issueSelector" aria-label="Select Volume 3 Issue">
+        <option value="1">Issue #01 — MERCWAR: AVIS UNDER ATTACK</option>
+        <option value="2">Issue #02 — Eclipse Gateway</option>
+        <option value="3">Issue #03 — The NEXUS Override</option>
+        <option value="4">Issue #04 — Stargate Constellation</option>
+        <option value="5">Issue #05 — Sovereign Protocol</option>
+      </select>
+
+      <div class="control-group">
+        <button id="firstBtn" class="btn" title="First Page">⏮</button>
+        <button id="prevBtn" class="btn" title="Previous Page">◀ Prev</button>
+        <span class="page-counter" id="pageIndicator">0 / 0</span>
+        <button id="nextBtn" class="btn btn-primary" title="Next Page">Next ▶</button>
+        <button id="lastBtn" class="btn" title="Last Page">⏭</button>
+      </div>
+
+      <div class="control-group">
+        <button id="fitWidthBtn" class="btn active" title="Fit to Width">Width</button>
+        <button id="fitHeightBtn" class="btn" title="Fit to Screen Height">Fit</button>
+        <button id="zoomOutBtn" class="btn" title="Zoom Out">−</button>
+        <span class="zoom-readout" id="zoomReadout">100%</span>
+        <button id="zoomInBtn" class="btn" title="Zoom In">+</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Reader Workspace -->
+  <div class="reader-shell" id="readerShell">
+    
+    <!-- Thumbnail Drawer -->
+    <aside class="sidebar" id="thumbnailSidebar">
+	<!-- Mercwar Links Dropdown -->
+<div class="sidebar-links-bar">
+  <button class="links-dropdown-btn" id="mercwarLinksBtn" type="button" aria-expanded="false">
+    <span>🔗 MERCWAR LINKS</span>
+    <span class="dropdown-arrow">▼</span>
+  </button>
+  <ul class="links-dropdown-menu" id="mercwarLinksMenu" hidden>
+    <li><a href="https://cron.iblogger.org/nexus" target="_blank" rel="noopener">🌐 Mercwar Github</a></li>
+    <li><a href="https://github.com/mercwar/COMICS" target="_blank" rel="noopener">📚 Mercwar Comics</a></li>
+    <li><a href="https://cron.iblogger.org/Station" target="_blank" rel="noopener"> 🛒 Cyborg Station</a></li>
+    <li><a href="https://cron.iblogger.org/nexus" target="_blank" rel="noopener">📜 NEXUS</a></li>
+    <li><a href="https://mercwar01.byet3host.com" target="_blank" rel="noopener">💬 Mercwar AI</a></li>
+  </ul>
+</div>
+
+
+      <div class="sidebar-header">
+        <h2>🗂️ Page Index</h2>
+        <span class="thumb-count" id="thumbCount">0 PAGES</span>
+      </div>
+
+      <div class="thumbnail-grid" id="thumbnailGrid"></div>
+
+      <div class="sidebar-footer">
+        <div><strong>SOURCE:</strong> ./issue #/json/config.json</div>
+        <div><strong>HOTKEYS:</strong> ← → Navigate • + − Zoom</div>
+      </div>
+    </aside>
+
+    <!-- Comic Stage -->
+    <main class="stage" id="stage">
+      
+      <!-- Error / Status Toast -->
+      <div class="status-toast" id="statusToast" hidden></div>
+
+      <!-- Comic Page Viewport -->
+      <div class="comic-viewport" id="comicViewport" hidden>
+        <img id="comicImage" src="" alt="Comic Page" />
+
+        <!-- Invisible Left/Right Click Zones for Easy Reading -->
+        <div class="click-zone click-prev" id="clickPrevZone" title="Previous Page"></div>
+        <div class="click-zone click-next" id="clickNextZone" title="Next Page"></div>
+      </div>
+
+      <!-- Bottom Caption Bar -->
+      <div class="caption-bar">
+        <span id="pageCaptionReadout">LOADING...</span>
+      </div>
+    </main>
+
+  </div>
+
+  <!-- Make sure your JS file is saved as app.js (or update the src below) -->
+  <script src="app.js"></script>
+</body>
+</html>
