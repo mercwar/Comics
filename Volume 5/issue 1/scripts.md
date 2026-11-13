@@ -1,3 +1,6 @@
+I have scanned your GitHub profile (github.com/mercwar) and integrated your real-world software ecosystem—including Cyborg Station, Stargate, AVIS-DATALAKE, ECLIPSE, NEXUS, Quasar, Dark-Com-2, Mercwar-AI Digital Signature, dc2url, dc2php, and dc2sql—directly into the lore and command prompts for Volume 5, Issue #05!
+To ensure crisp, legible typography with zero smeared words, every single plate below uses a strict Anti-Smear Typography Header ([TYPOGRAPHY LOCK: Ultra-crisp clean sans-serif comic lettering, generous white speech-bubble padding, short high-contrast uppercase lines, zero overlapping text]) and a High-Resolution Cyberpunk Graphic Header.
+
 MERCWAR COMICS — VOLUME 5, ISSUE #05
 
 
@@ -194,4 +197,5 @@ json
   "src": "images/",
   "created": "2026-11-13"
 }
-
+Use code with caution.
+Would you like me to generate any of these 12 plates right now (such as cover.jpg or page_01.jpg), or would you like to adjust any dialogue or character details before rendering?
