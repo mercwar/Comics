@@ -1,8 +1,73 @@
 {
   "volume": 5,
   "issue": "02",
-  "title": "MERCWAR COMICS",
-  "subtitle": "",
-  "created": "2026-11-13 12:47:50",
-  "pages": []
+  "title": "MERCWAR: ECHOES BEYOND THE NEXUS",
+  "subtitle": "The Obsidian Relay • Void-Sentinels • ECLIPSE & DC2 Engine • New Constellation Map",
+  "pages": [
+    {
+      "label": "Front Cover — MERCWAR: ECHOES BEYOND THE NEXUS",
+      "src": "ba801f77-0b8c-4eb7-99e1-ebc5c6fa6ab1.jpg",
+      "created": "2026-11-13 07:21:00"
+    },
+    {
+      "label": "Page 01 — The Ghost Signal",
+      "src": "378d7807-5382-422f-9c8a-1d2ce9100053.jpg",
+      "created": "2026-11-13 07:21:00"
+    },
+    {
+      "label": "Page 02 — Crossing the Threshold",
+      "src": "9076c798-e722-4066-9e4f-f2cb734fb00a.jpg",
+      "created": "2026-11-13 07:21:00"
+    },
+    {
+      "label": "Page 03 — The Obsidian Relay",
+      "src": "59c05f9d-1d34-4f48-b7c6-1e75fe90a694.jpg",
+      "created": "2026-11-13 07:22:00"
+    },
+    {
+      "label": "Page 04 — Awakening of the Void-Sentinels",
+      "src": "2e54beb7-b496-46e0-833d-dc4f08d1b514.jpg",
+      "created": "2026-11-13 07:22:00"
+    },
+    {
+      "label": "Page 05 — Sonic & Solar Assault",
+      "src": "78868018-cf74-4d4f-94a8-c26841535fc3.jpg",
+      "created": "2026-11-13 07:22:00"
+    },
+    {
+      "label": "Page 06 — Breaching the Archive Vault",
+      "src": "36e9442a-7342-4538-8793-fd9d420d496c.jpg",
+      "created": "2026-11-13 07:22:00"
+    },
+    {
+      "label": "Page 07 — The Cryo-Fortress",
+      "src": "e03bf4b2-37ec-4cd5-9d0d-45b8d237b8f5.jpg",
+      "created": "2026-11-13 07:22:00"
+    },
+    {
+      "label": "Page 08 — The Core Guardian Awakens",
+      "src": "ce355ac8-2df9-4fba-9f90-85b1a21ada82.jpg",
+      "created": "2026-11-13 07:22:00"
+    },
+    {
+      "label": "Page 09 — Blade of the Fire-Gem",
+      "src": "00238bec-3348-45c2-b9fd-53acaec04705.jpg",
+      "created": "2026-11-13 07:22:00"
+    },
+    {
+      "label": "Page 10 — The Blueprint of Evolution",
+      "src": "68927bc6-be53-4123-8575-f9bcfead025a.jpg",
+      "created": "2026-11-13 07:23:00"
+    },
+    {
+      "label": "Inside Back Cover — Mercwar AI Portal",
+      "src": "878cf8ae-40e8-4692-9c9d-944d235bee1e.jpg",
+      "created": "2026-11-13 07:23:00"
+    },
+    {
+      "label": "Back Cover — MERCWAR: ECHOES BEYOND THE NEXUS",
+      "src": "89a77263-e0e3-438a-994a-7d6dd3f3065d.jpg",
+      "created": "2026-11-13 07:03:00"
+    }
+  ]
 }
