@@ -74,8 +74,9 @@
 ##### 🗝️ Versions (Damaged/Cartoon only)
 ####
 -  [MD](https://github.com/mercwar/Comics/blob/main/Volume%202/README.md)
--  [HTML](https://mercwar.github.io/Comics/Volume%201/issue%202/index.html)
-
+-  [HTML](https://mercwar.github.io/Comics/Volume%202/index.html)
+-  
+Note: The reader now loads the issues
 #
   
 ## 📥 Clone Repository
