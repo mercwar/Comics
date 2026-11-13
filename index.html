@@ -1,65 +1,132 @@
+<!--
+ * AIFVS-ARTIFACT
+ * @id: AVIS-STUDIO-HTML-001
+ * @version: 1.1.0
+ * @nexus_root: NEXUS.ROOT.V3
+ * @visibility: PUBLIC_INDEX
+ * @deps: [AVIS-STUDIO-CSS-002, AVIS-STUDIO-JS-003]
+ * @description: Main HTML layout for the Mercwar AVIS Paste-Programmer Studio with folder and multi-file resource loading.
+-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Loading…</title>
-  <style>
-    body {
-      background: #000;
-      color: #0ff;
-      font-family: monospace;
-      text-align: center;
-      padding-top: 20vh;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mercwar AVIS &amp; NEXUS v3 — Paste-Programmer Studio</title>
+  <link rel="stylesheet" href="avisStudio.css" />
 </head>
 <body>
 
-<h2>Loading Repository…</h2>
+  <header>
+    <h1>Mercwar AVIS &amp; NEXUS v3 — Paste-Programmer Studio</h1>
+    <span>AIFVS-ARTIFACT // RESOURCE &amp; HEADER FORGE</span>
+  </header>
 
-<script>
-// -----------------------------------------
-// 1. DETECT THIS FILE'S REPO NAME
-// -----------------------------------------
-const path = window.location.pathname.split("/").filter(Boolean);
+  <!-- STEP 1: WINDOW FORGE SETTINGS -->
+  <section class="card">
+    <h2>1. Configure Target AI Window Persona</h2>
+    <div class="grid-2">
+      <div>
+        <label for="projectName">Project Name</label>
+        <input id="projectName" type="text" value="Mercwar AVIS Workspace" />
+      </div>
+      <div>
+        <label for="windowRole">Window Forge Type</label>
+        <select id="windowRole">
+          <option value="AVIS Header/Body Build Engine">AVIS Header/Body Build Engine</option>
+          <option value="Datalake &amp; JSON Node Compiler">Datalake &amp; JSON Node Compiler</option>
+          <option value="Game &amp; Simulation Engine Forge">Game &amp; Simulation Engine Forge</option>
+          <option value="Full-Stack Web Module Forge">Full-Stack Web Module Forge</option>
+          <option value="CLI &amp; Automation Script Forge">CLI &amp; Automation Script Forge</option>
+        </select>
+      </div>
+      <div>
+        <label for="targetStack">Target Language / Stack</label>
+        <input id="targetStack" type="text" value="Vanilla JS / HTML5 / JSON" />
+      </div>
+      <div>
+        <label for="directories">Allowed Directories (comma-separated)</label>
+        <input id="directories" type="text" value="/VERSION 1/, /VERSION 2/, /VERSION 3/, /dl/, /SYMBOLIC/, /GEMINI/" />
+      </div>
+    </div>
+  </section>
 
-// Example paths:
-//   /Mercwar/index.html          → repo = Mercwar
-//   /Constellation/index.html    → repo = Constellation
-//   ../../Mercwar/index.html     → repo = Mercwar
+  <!-- STEP 2: LOAD RESOURCE FOLDERS & PACKS -->
+  <section class="card">
+    <h2>
+      <span>2. Load AI Resource Folders &amp; Header Packs</span>
+      <button type="button" id="loadSampleBtn" class="secondary small">Load 2 Sample Headers</button>
+    </h2>
 
-// Repo name is ALWAYS the folder BEFORE this file
-const repo_name = path[path.length - 2] || "mercwar";
+    <div id="dropZone" class="drop-zone">
+      <p><strong>Drop a resource folder or files here</strong> (<code>.ref</code>, <code>.json</code>, <code>.js</code>, <code>.html</code>, <code>.txt</code>)</p>
+      <div class="btn-row center-row">
+        <button type="button" id="pickFolderBtn">Load Resource Folder</button>
+        <button type="button" id="pickFilesBtn" class="secondary">Load Individual Files</button>
+      </div>
+      <input id="folderInput" type="file" webkitdirectory directory multiple hidden />
+      <input id="fileInput" type="file" multiple accept=".ref,.txt,.json,.js,.html,.md" hidden />
+    </div>
 
-// -----------------------------------------
-// 2. LOCAL MODE SWITCH
-// -----------------------------------------
-const LOCAL_MODE = false;
+    <div id="resourcePackPills" class="pill-list"></div>
 
-let git_url = LOCAL_MODE
-  ? "../../"
-  : "https://mercwar.github.io/";
+    <details class="manual-drawer">
+      <summary>+ Add a Single Header Manually</summary>
+      <div class="grid-3 row-gap">
+        <div>
+          <label for="modId">Module @id</label>
+          <input id="modId" type="text" placeholder="e.g. CORE-LOOP-001" />
+        </div>
+        <div>
+          <label for="modPath">File @path</label>
+          <input id="modPath" type="text" placeholder="e.g. /engine/coreLoop.js" />
+        </div>
+        <div>
+          <label for="modDeps">Dependencies @deps</label>
+          <input id="modDeps" type="text" placeholder="e.g. UTIL-001, STATE-002" />
+        </div>
+      </div>
+      <div class="grid-2 row-gap">
+        <div>
+          <label for="modExports">Exported Signatures @exports</label>
+          <input id="modExports" type="text" placeholder="e.g. initApp(cfg) -> Void" />
+        </div>
+        <div>
+          <label for="modSchema">Data Shape @schema</label>
+          <input id="modSchema" type="text" placeholder='e.g. { status: "string" }' />
+        </div>
+      </div>
+      <div class="btn-row">
+        <button type="button" id="addHeaderBtn" class="secondary">+ Add Header to AVIS.REF</button>
+      </div>
+    </details>
 
-// -----------------------------------------
-// 3. CLEAN URL JOINER (NO DOUBLE SLASHES)
-// -----------------------------------------
-function joinURL(base, path) {
-  return base.replace(/\/+$/, "") + "/" + path.replace(/^\/+/, "");
-}
+    <div class="row-gap">
+      <div class="label-bar">
+        <label for="initialHeaders">Consolidated AVIS.REF Header Registry (<span id="headerCount">0</span> headers loaded)</label>
+        <button type="button" id="clearHeadersBtn" class="danger small">Clear All</button>
+      </div>
+      <textarea id="initialHeaders" placeholder="Loaded folder resources and headers appear here automatically..."></textarea>
+    </div>
+  </section>
 
-// -----------------------------------------
-// 4. BUILD FINAL REDIRECT URL
-// LIVE is ALWAYS inside Constellation
-// -----------------------------------------
-const clean_url =
-  joinURL(git_url, "Constellation/LIVE/index.html") +
-  `?index=${repo_name}`;
+  <!-- STEP 3: GENERATED PASTE-PROGRAMMER OUTPUT -->
+  <section class="card">
+    <h2>3. Copy &amp; Paste into Any AI Chat Window (Message #1)</h2>
+    <div class="btn-row toolbar-top">
+      <button type="button" id="generateBtn">Forge Paste-Programmer</button>
+      <button type="button" id="copyBtn" class="secondary">Copy Kernel to Clipboard</button>
+      <button type="button" id="downloadKernelBtn" class="secondary">Download .txt</button>
+      <button type="button" id="downloadRefBtn" class="secondary">Download AVIS.REF</button>
+      <span id="status"></span>
+    </div>
 
-// -----------------------------------------
-// 5. REDIRECT
-// -----------------------------------------
-window.location.href = clean_url;
-</script>
+    <textarea id="output" readonly></textarea>
+    <p class="hint">
+      Workflow: 1) Load a resource folder for your AI program type. 2) Copy the forged kernel and paste it into a fresh AI window. 3) Compile individual files on demand with <strong>/body &lt;MODULE-ID&gt;</strong>.
+    </p>
+  </section>
 
+  <script src="avisStudio.js"></script>
 </body>
 </html>

@@ -1,0 +1,188 @@
+/* ==========================================================================
+   MERCWAR COMICS — WEBKIT ENHANCEMENT & CYBER-FX LAYER (theme-webkit.css)
+   (Transparent panels & NO blur filters)
+   ========================================================================== */
+
+/* 1. Hardware Acceleration & Smooth WebKit Font/Image Rendering */
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* 2. Transparent Topbar & Floating Caption Bar (No Backdrop Blur) */
+.topbar {
+  background: rgba(14, 19, 31, 0.65);
+  border-bottom: 1px solid rgba(0, 229, 255, 0.25);
+}
+
+.caption-bar {
+  background: rgba(10, 14, 24, 0.7);
+  border: 1px solid rgba(0, 229, 255, 0.35);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.85), 0 0 12px rgba(0, 229, 255, 0.2);
+}
+
+/* 3. WebKit Metallic Gradient Text & Glow on Header */
+.brand-title h1 {
+  background: -webkit-linear-gradient(90deg, #ffffff 0%, #bae6fd 55%, #00e5ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-filter: drop-shadow(0 2px 6px rgba(0, 229, 255, 0.35));
+  filter: drop-shadow(0 2px 6px rgba(0, 229, 255, 0.35));
+}
+
+.brand-badge {
+  background: -webkit-linear-gradient(135deg, #ff6a00 0%, #ee0979 100%);
+  -webkit-box-shadow: 0 0 14px rgba(255, 85, 0, 0.55);
+  box-shadow: 0 0 14px rgba(255, 85, 0, 0.55);
+}
+
+/* 4. Custom WebKit Select Dropdown & Button Gloss */
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: -webkit-linear-gradient(45deg, transparent 50%, #00e5ff 50%),
+                    -webkit-linear-gradient(135deg, #00e5ff 50%, transparent 50%);
+  background-position: calc(100% - 14px) calc(50% - 2px),
+                       calc(100% - 9px) calc(50% - 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  padding-right: 2rem;
+}
+
+.btn,
+select,
+.links-dropdown-btn {
+  -webkit-transition: all 0.18s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: all 0.18s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* 5. Transparent Dropdown Menu Overlay (No Blur) */
+.links-dropdown-menu {
+  background: rgba(15, 22, 38, 0.85);
+  -webkit-box-shadow: 0 18px 40px rgba(0, 0, 0, 0.9), 0 0 18px rgba(0, 229, 255, 0.28);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.9), 0 0 18px rgba(0, 229, 255, 0.28);
+}
+
+/* 6. Comic Viewport & Image Crispness + GPU Acceleration */
+.stage {
+  -webkit-perspective: 1800px;
+  perspective: 1800px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.comic-viewport {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-box-shadow:
+    0 28px 70px rgba(0, 0, 0, 0.92),
+    0 0 24px rgba(0, 229, 255, 0.16),
+    0 0 0 1px rgba(0, 229, 255, 0.25);
+  box-shadow:
+    0 28px 70px rgba(0, 0, 0, 0.92),
+    0 0 24px rgba(0, 229, 255, 0.16),
+    0 0 0 1px rgba(0, 229, 255, 0.25);
+}
+
+.comic-viewport img {
+  image-rendering: -webkit-optimize-contrast;
+  -webkit-user-drag: none;
+  -webkit-box-reflect: below 6px -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(transparent),
+    color-stop(92%, transparent),
+    to(rgba(0, 229, 255, 0.12))
+  );
+}
+
+/* 7. WebKit Thumbnail Card Hover & Active Glow */
+.thumb-card {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition: -webkit-transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.thumb-card:hover {
+  -webkit-transform: translateY(-3px) scale(1.02);
+  transform: translateY(-3px) scale(1.02);
+  -webkit-box-shadow: 0 8px 20px rgba(0, 229, 255, 0.25);
+  box-shadow: 0 8px 20px rgba(0, 229, 255, 0.25);
+}
+
+.thumb-card.active {
+  -webkit-box-shadow: 0 0 16px rgba(255, 85, 0, 0.65);
+  box-shadow: 0 0 16px rgba(255, 85, 0, 0.65);
+}
+
+/* 8. WebKit Keyframe Page Flip Animations */
+.comic-viewport.flip-next {
+  -webkit-animation: wkFlipNext 0.46s cubic-bezier(0.25, 0.8, 0.25, 1);
+  animation: wkFlipNext 0.46s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.comic-viewport.flip-prev {
+  -webkit-animation: wkFlipPrev 0.46s cubic-bezier(0.25, 0.8, 0.25, 1);
+  animation: wkFlipPrev 0.46s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+@-webkit-keyframes wkFlipNext {
+  0% {
+    -webkit-transform: rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+  50% {
+    -webkit-transform: rotateY(-14deg) scale(0.97);
+    opacity: 0.72;
+  }
+  100% {
+    -webkit-transform: rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes wkFlipPrev {
+  0% {
+    -webkit-transform: rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+  50% {
+    -webkit-transform: rotateY(14deg) scale(0.97);
+    opacity: 0.72;
+  }
+  100% {
+    -webkit-transform: rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+/* 9. Custom Neon Cybernetic WebKit Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(6, 8, 13, 0.5);
+  border-left: 1px solid rgba(37, 49, 77, 0.4);
+}
+
+::-webkit-scrollbar-thumb {
+  background: -webkit-linear-gradient(180deg, #28385c 0%, #1a243d 100%);
+  border-radius: 999px;
+  border: 1px solid rgba(0, 229, 255, 0.25);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: -webkit-linear-gradient(180deg, #00e5ff 0%, #0088aa 100%);
+}
