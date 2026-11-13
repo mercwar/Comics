@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERCWAR COMICS — Entrance of Cyborg City (Part 2)</title>
+    <link rel="stylesheet" href="style.css?v=4">
+    <link rel="stylesheet" href="atom.css?v=4">
+</head>
+<body>
+    <div class="app-shell">
+        <!-- Top Adobe-Style Reader Toolbar -->
+        <header class="topbar">
+            <div class="brand-group">
+                <button id="btn-toggle-sidebar" class="icon-btn" type="button" title="Toggle Page Sidebar">☰</button>
+
+                <div class="title-block">
+                    <h1 id="animated-title">
+                       <a href="https://github.com" title="This uplink: Back to Mercwar">
+                           <span class="atom-emblem inline-atom" id="atom-emblem" aria-hidden="true">
+                                <span class="atom-nucleus"></span>
+                                <span class="atom-ring ring-1"><span class="electron fire-e"></span></span>
+                                <span class="atom-ring ring-2"><span class="electron ice-e"></span></span>
+                                <span class="atom-ring ring-3"><span class="electron gold-e"></span></span>
+                            </span>
+                        </a>
+                        <span class="title-text">MERCWAR COMICS — Entrance of Cyborg City (Part 2)</span>
+                    </h1>
+                    <span class="subtitle" id="animated-subtitle">🌌 <em>AVIS Protocol — Volume 1, Issue #04</em></span>
+                </div>
+            </div>
+
+            <div class="nav-controls" aria-label="Page Navigation">
+                <button id="btn-first" class="ctrl-btn" type="button" title="First Page">⏮</button>
+                <button id="btn-prev" class="ctrl-btn" type="button" title="Previous Page (Left Arrow)">◀ Prev</button>
+                <div class="page-jump">
+                    <input id="page-input" type="number" min="1" value="1" aria-label="Current Page Number">
+                    <span id="page-total">/ --</span>
+                </div>
+                <button id="btn-next" class="ctrl-btn" type="button" title="Next Page (Right Arrow)">Next ▶</button>
+                <button id="btn-last" class="ctrl-btn" type="button" title="Last Page">⏭</button>
+            </div>
+
+            <div class="zoom-controls" aria-label="Zoom & View Controls">
+                <button id="btn-zoom-out" class="ctrl-btn" type="button" title="Zoom Out (-)">−</button>
+                <span id="zoom-label">Fit</span>
+                <button id="btn-zoom-in" class="ctrl-btn" type="button" title="Zoom In (+)">+</button>
+                <button id="btn-fit" class="ctrl-btn" type="button" title="Fit to Viewport">Fit Page</button>
+                <button id="btn-info" class="ctrl-btn accent-btn" type="button" title="Chapter Index & Info">📖 Index</button>
+            </div>
+        </header>
+
+        <!-- Main Split-Pane Adobe Reader Workspace -->
+        <div class="reader-workspace">
+            <!-- Left Sidebar: Page Numbers & Thumbnail Navigator -->
+            <aside id="sidebar" class="sidebar" aria-label="Page Thumbnails">
+                <div class="sidebar-header">
+                    <span>PAGES</span>
+                    <span id="sidebar-count" class="badge">0</span>
+                </div>
+                <div id="page-list" class="page-list">
+                    <!-- Page number cards injected dynamically by app.js from comic.json -->
+                </div>
+            </aside>
+
+            <!-- Right Stage: Active Comic Page Viewport -->
+            <main id="stage" class="stage">
+                <div class="tagline-banner">
+                    <blockquote>"NEON STREETS. IRON UPRISING. THE REBELLION IGNITES WITHIN."</blockquote>
+                </div>
+
+                <div id="page-viewport" class="page-viewport">
+                    <div id="page-card" class="page-card">
+                        <img id="active-page-img" src="banner.png" alt="Comic Page">
+                        <div class="page-caption-bar">
+                            <span id="active-page-label">Loading comic.json...</span>
+                            <span class="creator-sig">🌈 <i>"I am CVBGOD, and I have given it to you!"</i></span>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!-- Modal for Chapter Index & GitHub Uplinks -->
+        <div id="info-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <div class="modal-panel">
+                <div class="modal-header">
+                    <h2 id="modal-title">🗂️ Page &amp; Chapter Index</h2>
+                    <button id="btn-close-modal" class="icon-btn" type="button" aria-label="Close">✕</button>
+                </div>
+
+                <ul id="chapter-index" class="chapter-list">
+                    <li data-page="0"><strong>Front Cover</strong> — <em>Mercwar: The Firegem War — Issue #04: Entrance of Cyborg City (Part 2)</em></li>
+                    <li data-page="1"><strong>Inside Front Cover</strong> — <em>Table of Contents &amp; Constellation Uplink Index</em></li>
+                    <li data-page="2"><strong>Act I: Beyond the Neon Gates</strong> <em>(Pages 1–5)</em> — Deeper inside Cyborg City, the five heroes navigate the towering lower districts and uncover the source of the AVIS signal.</li>
+                    <li data-page="7"><strong>Act II: Sparks of the Rebellion</strong> <em>(Pages 6–10)</em> — Rogue machines and cybernetic insurgents emerge from the undercity, turning the neon avenues into an active warzone.</li>
+                    <li data-page="12"><strong>Act III: Clash in the Core Sector</strong> <em>(Pages 11–15)</em> — Surrounded by rebellion forces, the Cybernetic Angels, Robo-Knight, and Heavy Fire-Gem Warrior unite to hold the central conduit.</li>
+                    <li data-page="17"><strong>Act IV: Heart of Cyborg City</strong> <em>(Pages 16–20)</em> — The squad confronts the architects of the uprising and uncovers a deeper threat tied to the Firegem War.</li>
+                    <li data-page="22"><strong>Inside Back Cover</strong> — <em>CYBORG // Mercwar Constellation Gateway Uplink</em></li>
+                    <li data-page="23"><strong>Back Cover</strong> — <em>Cyborg City Rebellion Archives &amp; Issue #05 Preview</em></li>
+                </ul>
+
+                <div class="modal-footer">
+                    <h3>🔗 Ecosystem &amp; Uplinks</h3>
+                    <ul>
+                        <li><strong>Main GitHub Profile:</strong> <a href="https://github.com" target="_blank" rel="noopener noreferrer">Mercwar</a></li>
+                        <li><strong>Robo-Knight Gallery:</strong> <a href="https://github.com" target="_blank" rel="noopener noreferrer">Robo-Knight-Gallery</a></li>
+                        <li><strong>Created by:</strong> <strong>Mercwar (CVBGOD)</strong> — <em>Geared for Digital Vibrance.</em></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js?v=4"></script>
+    <script src="atom.js?v=4"></script>
+</body>
+</html>
