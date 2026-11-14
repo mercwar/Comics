@@ -11,7 +11,7 @@
 ### 🌎 MERCWAR COMICS
 
 <div style="text-align: center; margin-bottom: 24px;">
-    <a target="_self" title="CLICK HERE to Access Mercwar Comics  FREE!" href="[https://mercwar.github.io/Constellation/index.html](https://mercwar.github.io/Comics/index.html)">
+    <a target="_self" title="CLICK HERE to Access Mercwar Comics  FREE!" href="https://mercwar.github.io/Comics/index.html">
     <img 
         src="images/mwcss.png" 
         alt="Mercwar Comics - Free Access" 
