@@ -9,6 +9,18 @@
 </div>
 
 ### 🌎 MERCWAR COMICS
+
+<div style="text-align: center; margin-bottom: 24px;">
+    <a target="_self" title="CLICK HERE to Access Mercwar Comics  FREE!" href="[https://mercwar.github.io/Constellation/index.html](https://mercwar.github.io/Comics/index.html)">
+    <img 
+        src="images/mwcss.png" 
+        alt="Mercwar Comics - Free Access" 
+        style="width:100%; height:auto; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.6);"
+    />
+    </a>
+</div>
+
+
 ###### 📦 Featured Characters & Lore
 
 
@@ -38,14 +50,12 @@
 #### 💥 Volume 4 New 3D -very Good Condition
 View in the FREE reader [HERE](https://mercwar.github.io/Comics/index.html)
 
-
 #
 
 ## 📥 Clone Repository
 ```bash
 git clone https://github.com/mercwar/Comics
 ```
-![cbi](images/cb1.png)
 
 
 
