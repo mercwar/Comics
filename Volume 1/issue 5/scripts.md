@@ -166,3 +166,76 @@ Would you like me to:
 • Generate the comic.json file for Volume 1, Issue #05 (mapping cover.jpg and page_01.jpg through page_10.jpg into chapters for your web reader)?
 • Write the README.md file for Issue #05 matching your repository's style?
 • Create the Back Cover prompt (back_cover.jpg) to complete the issue?
+{
+  "volume": 6,
+  "issue": "01",
+  "title": "MERCWAR: BEYOND THE SINGULARITY",
+  "subtitle": "Quasar Stargate • Citadel of Aethel • First Forge • Volume 6 Premiere",
+  "pages": [
+    {
+      "label": "Front Cover — MERCWAR: BEYOND THE SINGULARITY",
+      "src": "cover.jpg",
+      "created": "2026-11-14 03:15:00"
+    },
+    {
+      "label": "Page 01 — The Deep-Space Beacon",
+      "src": "page_01.jpg",
+      "created": "2026-11-14 03:15:01"
+    },
+    {
+      "label": "Page 02 — Crossing the Star-Bridge",
+      "src": "page_02.jpg",
+      "created": "2026-11-14 03:15:02"
+    },
+    {
+      "label": "Page 03 — The Crystal Citadel of Aethel",
+      "src": "page_03.jpg",
+      "created": "2026-11-14 03:15:03"
+    },
+    {
+      "label": "Page 04 — Ambush of the Chrono-Wardens",
+      "src": "page_04.jpg",
+      "created": "2026-11-14 03:15:04"
+    },
+    {
+      "label": "Page 05 — Breaching the Prism Gate",
+      "src": "page_05.jpg",
+      "created": "2026-11-14 03:15:05"
+    },
+    {
+      "label": "Page 06 — The First Forge Archive",
+      "src": "page_06.jpg",
+      "created": "2026-11-14 03:15:06"
+    },
+    {
+      "label": "Page 07 — Rise of the Sovereign Prime",
+      "src": "page_07.jpg",
+      "created": "2026-11-14 03:15:07"
+    },
+    {
+      "label": "Page 08 — Clash of Eternal Blades",
+      "src": "page_08.jpg",
+      "created": "2026-11-14 03:15:08"
+    },
+    {
+      "label": "Page 09 — Overloading the Star-Core",
+      "src": "page_09.jpg",
+      "created": "2026-11-14 03:15:09"
+    },
+    {
+      "label": "Page 10 — The Star-Map of Eternity",
+      "src": "page_10.jpg",
+      "created": "2026-11-14 03:15:10"
+    },
+    {
+      "label": "Back Insert — Mercwar-AI & Dark-Com-2 Tech Showcase",
+      "src": "back_insert.jpg",
+      "created": "2026-11-14 03:15:11"
+    },
+    {
+      "label": "Back Cover — MERCWAR: BEYOND THE SINGULARITY",
+      "src": "back_cover.jpg",
+      "created": "2026-11-14 03:15:12"
+    }
+  ]
+}

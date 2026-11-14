@@ -1,0 +1,73 @@
+{
+  "volume": 6,
+  "issue": "04",
+  "title": "MERCWAR: THE THIRTEENTH CROWN",
+  "subtitle": "Gate Thirteen • Crown Citadel • Eternal Sovereign • Volume 6 Chapter Four",
+  "pages": [
+    {
+      "label": "Front Cover — MERCWAR: THE THIRTEENTH CROWN",
+      "src": "cover.jpg",
+      "created": "2026-11-14 03:29:00"
+    },
+    {
+      "label": "Page 01 — Alignment of the Twelve Rings",
+      "src": "page_01.jpg",
+      "created": "2026-11-14 03:29:01"
+    },
+    {
+      "label": "Page 02 — The Crown Citadel",
+      "src": "page_02.jpg",
+      "created": "2026-11-14 03:29:02"
+    },
+    {
+      "label": "Page 03 — The Praetorian Seraphs",
+      "src": "page_03.jpg",
+      "created": "2026-11-14 03:29:03"
+    },
+    {
+      "label": "Page 04 — Cryo-Solar Vanguard",
+      "src": "page_04.jpg",
+      "created": "2026-11-14 03:29:04"
+    },
+    {
+      "label": "Page 05 — The Architect of the Crown",
+      "src": "page_05.jpg",
+      "created": "2026-11-14 03:29:05"
+    },
+    {
+      "label": "Page 06 — The Crown Siphon",
+      "src": "page_06.jpg",
+      "created": "2026-11-14 03:29:06"
+    },
+    {
+      "label": "Page 07 — Brotherhood of Blades",
+      "src": "page_07.jpg",
+      "created": "2026-11-14 03:29:07"
+    },
+    {
+      "label": "Page 08 — The Mercwar-AI Override",
+      "src": "page_08.jpg",
+      "created": "2026-11-14 03:29:08"
+    },
+    {
+      "label": "Page 09 — Shattering the Thirteenth Crown",
+      "src": "page_09.jpg",
+      "created": "2026-11-14 03:29:09"
+    },
+    {
+      "label": "Page 10 — Custodians of the Constellation",
+      "src": "page_10.jpg",
+      "created": "2026-11-14 03:29:10"
+    },
+    {
+      "label": "Back Insert — Mercwar-AI Stargate Command Core",
+      "src": "back_insert.jpg",
+      "created": "2026-11-14 03:29:11"
+    },
+    {
+      "label": "Back Cover — MERCWAR: THE THIRTEENTH CROWN",
+      "src": "back_cover.jpg",
+      "created": "2026-11-14 03:29:12"
+    }
+  ]
+}

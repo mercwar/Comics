@@ -1,0 +1,73 @@
+{
+  "volume": 6,
+  "issue": "02",
+  "title": "MERCWAR: THE STAR-MAP OF ETERNITY",
+  "subtitle": "Gate Seven • Twin-Sun Foundry • Forge-Titan • Volume 6 Chapter Two",
+  "pages": [
+    {
+      "label": "Front Cover — MERCWAR: THE STAR-MAP OF ETERNITY",
+      "src": "cover.jpg",
+      "created": "2026-11-14 03:21:00"
+    },
+    {
+      "label": "Page 01 — Decoding the Twelve Rings",
+      "src": "page_01.jpg",
+      "created": "2026-11-14 03:21:01"
+    },
+    {
+      "label": "Page 02 — Launch Through Gate Seven",
+      "src": "page_02.jpg",
+      "created": "2026-11-14 03:21:02"
+    },
+    {
+      "label": "Page 03 — The Twin-Sun Foundry",
+      "src": "page_03.jpg",
+      "created": "2026-11-14 03:21:03"
+    },
+    {
+      "label": "Page 04 — Iron Legion Intercept",
+      "src": "page_04.jpg",
+      "created": "2026-11-14 03:21:04"
+    },
+    {
+      "label": "Page 05 — Solar-Plasma Counterstrike",
+      "src": "page_05.jpg",
+      "created": "2026-11-14 03:21:05"
+    },
+    {
+      "label": "Page 06 — Hijacking the Star-Siphon",
+      "src": "page_06.jpg",
+      "created": "2026-11-14 03:21:06"
+    },
+    {
+      "label": "Page 07 — The Forge-Titan Awakens",
+      "src": "page_07.jpg",
+      "created": "2026-11-14 03:21:07"
+    },
+    {
+      "label": "Page 08 — Cryo-Thermal Shatter",
+      "src": "page_08.jpg",
+      "created": "2026-11-14 03:21:08"
+    },
+    {
+      "label": "Page 09 — Cleaving the Star-Core",
+      "src": "page_09.jpg",
+      "created": "2026-11-14 03:21:09"
+    },
+    {
+      "label": "Page 10 — Signal from the Void",
+      "src": "page_10.jpg",
+      "created": "2026-11-14 03:21:10"
+    },
+    {
+      "label": "Back Insert — AVIS-Datalake & Stargate Security Suite",
+      "src": "back_insert.jpg",
+      "created": "2026-11-14 03:21:11"
+    },
+    {
+      "label": "Back Cover — MERCWAR: THE STAR-MAP OF ETERNITY",
+      "src": "back_cover.jpg",
+      "created": "2026-11-14 03:21:12"
+    }
+  ]
+}

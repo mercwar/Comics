@@ -1,0 +1,73 @@
+{
+  "volume": 6,
+  "issue": "03",
+  "title": "MERCWAR: GATE TWELVE — THE VOID ABYSS",
+  "subtitle": "Event Horizon • Void Leviathan • Gatekeeper Aurelius • Volume 6 Chapter Three",
+  "pages": [
+    {
+      "label": "Front Cover — MERCWAR: GATE TWELVE — THE VOID ABYSS",
+      "src": "cover.jpg",
+      "created": "2026-11-14 03:26:00"
+    },
+    {
+      "label": "Page 01 — Through the Crimson Ring",
+      "src": "page_01.jpg",
+      "created": "2026-11-14 03:26:01"
+    },
+    {
+      "label": "Page 02 — The Abyssal Bastion",
+      "src": "page_02.jpg",
+      "created": "2026-11-14 03:26:02"
+    },
+    {
+      "label": "Page 03 — Swarm of the Void Wraiths",
+      "src": "page_03.jpg",
+      "created": "2026-11-14 03:26:03"
+    },
+    {
+      "label": "Page 04 — Zero-Gravity Breach",
+      "src": "page_04.jpg",
+      "created": "2026-11-14 03:26:04"
+    },
+    {
+      "label": "Page 05 — The Prisoner of Gate Twelve",
+      "src": "page_05.jpg",
+      "created": "2026-11-14 03:26:05"
+    },
+    {
+      "label": "Page 06 — The Void Leviathan Rises",
+      "src": "page_06.jpg",
+      "created": "2026-11-14 03:26:06"
+    },
+    {
+      "label": "Page 07 — Breaking the Dark Shackles",
+      "src": "page_07.jpg",
+      "created": "2026-11-14 03:26:07"
+    },
+    {
+      "label": "Page 08 — Wrath of the Gatekeeper",
+      "src": "page_08.jpg",
+      "created": "2026-11-14 03:26:08"
+    },
+    {
+      "label": "Page 09 — Severing the Abyss",
+      "src": "page_09.jpg",
+      "created": "2026-11-14 03:26:09"
+    },
+    {
+      "label": "Page 10 — The Warning of Aurelius",
+      "src": "page_10.jpg",
+      "created": "2026-11-14 03:26:10"
+    },
+    {
+      "label": "Back Insert — Mercwar Chronicles — Volume 1–5 Collector's Archive",
+      "src": "back_insert.jpg",
+      "created": "2026-11-14 03:26:11"
+    },
+    {
+      "label": "Back Cover — MERCWAR: GATE TWELVE — THE VOID ABYSS",
+      "src": "back_cover.jpg",
+      "created": "2026-11-14 03:26:12"
+    }
+  ]
+}
