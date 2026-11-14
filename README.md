@@ -41,13 +41,22 @@
 
 ### 🌌 *AVIS Protocol — Origional Volumes 1-4 and Issues*
 
-##### 🗝️ ALL Versions (Origional Cartoon and new 3d)
+##### 🗝️ ALL Versions (Origional Cartoon and revised)
 
 #### 💥 Volume 1 Original Cartoon - Good Condition
 #### 💥 Volume 2 Re-write 3D -  Good Condition 
 #### 💥 Volume 3 New 3D - Fair Condition
 #### 💥 Volume 4 New 3D - Good Condition
 #### 💥 Volume 4 New 3D -very Good Condition
+#### 💥 Volume 5 Re-write 3D - Good Condition
+#### 💥 Volume 6 Re-write 3D -  Good Condition 
+#### 💥 Volume 7 Upgraded 3D - Fair Condition
+#### 💥 Volume 8 Upgraded 3D - Good Condition
+#### 💥 Volume 9 Fair 3D -very Good Condition
+#### 💥 Volume 10 Fair 3D -Excellent Condition
+#### 💥 Volume 11 Good 3D -Excellent Condition
+#### 💥 Volume 12 Good 3D - Excellent  Condition
+
 View in the FREE reader [HERE](https://mercwar.github.io/Comics/index.html)
 
 #
