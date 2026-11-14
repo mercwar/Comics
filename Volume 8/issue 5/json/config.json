@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Origin Architect",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T09:33:57Z"
+		}, {
+			"label":	"Beyond the End of Time",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T09:34:04Z"
+		}, {
+			"label":	"The Trial of the Fire-Gem",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T09:34:09Z"
+		}, {
+			"label":	"Constructs of Pure Starlight",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T09:34:16Z"
+		}, {
+			"label":	"Harmony of Ice and Sound",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T09:34:22Z"
+		}, {
+			"label":	"The Architect's Judgment",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T09:34:29Z"
+		}, {
+			"label":	"Linking the Genesis Core",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T09:34:35Z"
+		}, {
+			"label":	"Ascension of the Fire-Gem",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T09:34:41Z"
+		}, {
+			"label":	"Wave Across All Eras",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T09:34:48Z"
+		}, {
+			"label":	"Homecoming to Cyborg Station",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T09:34:53Z"
+		}, {
+			"label":	"The Legend Across Time",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T09:34:59Z"
+		}, {
+			"label":	"The Complete Mercwar Odyssey — Volumes 1–8",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T09:35:05Z"
+		}, {
+			"label":	"The Origin Architect — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T09:35:11Z"
+		}]
+}

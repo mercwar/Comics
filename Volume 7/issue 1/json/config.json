@@ -1,0 +1,73 @@
+{
+  "volume": 7,
+  "issue": "01",
+  "title": "MERCWAR: ECHOES OF THE MULTIVERSE RIFT",
+  "subtitle": "Dimensional Rift • Dread-Mercwar • Earth-Null • Volume 7 Premiere",
+  "pages": [
+    {
+      "label": "Front Cover — MERCWAR: ECHOES OF THE MULTIVERSE RIFT",
+      "src": "cover.jpg",
+      "created": "2026-11-14 03:54:00"
+    },
+    {
+      "label": "Page 01 — The Prismatic Anomaly",
+      "src": "page_01.jpg",
+      "created": "2026-11-14 03:54:01"
+    },
+    {
+      "label": "Page 02 — Ghost Fleet from Earth-Null",
+      "src": "page_02.jpg",
+      "created": "2026-11-14 03:54:02"
+    },
+    {
+      "label": "Page 03 — Skirmish in the Prism Wake",
+      "src": "page_03.jpg",
+      "created": "2026-11-14 03:54:03"
+    },
+    {
+      "label": "Page 04 — Infiltrators on the Glass Deck",
+      "src": "page_04.jpg",
+      "created": "2026-11-14 03:54:04"
+    },
+    {
+      "label": "Page 05 — Enter Dread-Mercwar",
+      "src": "page_05.jpg",
+      "created": "2026-11-14 03:54:05"
+    },
+    {
+      "label": "Page 06 — Fire-Gem Against Void-Gem",
+      "src": "page_06.jpg",
+      "created": "2026-11-14 03:54:06"
+    },
+    {
+      "label": "Page 07 — The Dimensional Anchor",
+      "src": "page_07.jpg",
+      "created": "2026-11-14 03:54:07"
+    },
+    {
+      "label": "Page 08 — Repelling the Shadow Vanguard",
+      "src": "page_08.jpg",
+      "created": "2026-11-14 03:54:08"
+    },
+    {
+      "label": "Page 09 — Decision at the Threshold",
+      "src": "page_09.jpg",
+      "created": "2026-11-14 03:54:09"
+    },
+    {
+      "label": "Page 10 — Leap Into the Mirror Universe",
+      "src": "page_10.jpg",
+      "created": "2026-11-14 03:54:10"
+    },
+    {
+      "label": "Back Insert — Dark-Com Multiverse Bridge & Mercwar-AI",
+      "src": "back_insert.jpg",
+      "created": "2026-11-14 03:54:11"
+    },
+    {
+      "label": "Back Cover — MERCWAR: ECHOES OF THE MULTIVERSE RIFT",
+      "src": "back_cover.jpg",
+      "created": "2026-11-14 03:54:12"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Empire of the Clockwork Sun",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T09:28:35Z"
+		}, {
+			"label":	"Ten Millennia Ahead",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T09:28:41Z"
+		}, {
+			"label":	"Patrol of the Temporal Armada",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T09:28:47Z"
+		}, {
+			"label":	"Dogfight in the Solar Rings",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T09:28:53Z"
+		}, {
+			"label":	"The Future Resistance",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T09:29:00Z"
+		}, {
+			"label":	"The Temporal Siphon Engine",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T09:29:05Z"
+		}, {
+			"label":	"Breaching the Clockwork Core",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T09:29:11Z"
+		}, {
+			"label":	"Throne of the Clockwork Sun",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T09:29:17Z"
+		}, {
+			"label":	"Clash of Past and Future",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T09:29:23Z"
+		}, {
+			"label":	"Releasing the Clockwork Star",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T09:29:29Z"
+		}, {
+			"label":	"Beacon to the End of Time",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T09:29:35Z"
+		}, {
+			"label":	"Dyson Solar Core & AVIS-Datalake Future Grid",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T09:29:40Z"
+		}, {
+			"label":	"Empire of the Clockwork Sun — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T09:29:46Z"
+		}]
+}

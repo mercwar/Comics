@@ -1,0 +1,73 @@
+{
+  "volume": 8,
+  "issue": "01",
+  "title": "MERCWAR: THE CHRONOS ANOMALY",
+  "subtitle": "Chrono-Rift • Chronos-Vex • Time-Stream • Volume 8 Premiere",
+  "pages": [
+    {
+      "label": "Front Cover — MERCWAR: THE CHRONOS ANOMALY",
+      "src": "cover.jpg",
+      "created": "2026-11-14 04:11:00"
+    },
+    {
+      "label": "Page 01 — Echoes Out of Time",
+      "src": "page_01.jpg",
+      "created": "2026-11-14 04:11:01"
+    },
+    {
+      "label": "Page 02 — Armada from Yesterday",
+      "src": "page_02.jpg",
+      "created": "2026-11-14 04:11:02"
+    },
+    {
+      "label": "Page 03 — Clash Across Centuries",
+      "src": "page_03.jpg",
+      "created": "2026-11-14 04:11:03"
+    },
+    {
+      "label": "Page 04 — Temporal Stasis Trap",
+      "src": "page_04.jpg",
+      "created": "2026-11-14 04:11:04"
+    },
+    {
+      "label": "Page 05 — Enter Chronos-Vex",
+      "src": "page_05.jpg",
+      "created": "2026-11-14 04:11:05"
+    },
+    {
+      "label": "Page 06 — Blade Against the Hourglass",
+      "src": "page_06.jpg",
+      "created": "2026-11-14 04:11:06"
+    },
+    {
+      "label": "Page 07 — Tracing the Temporal Citadel",
+      "src": "page_07.jpg",
+      "created": "2026-11-14 04:11:07"
+    },
+    {
+      "label": "Page 08 — Retreat Through the Clockwork Gate",
+      "src": "page_08.jpg",
+      "created": "2026-11-14 04:11:08"
+    },
+    {
+      "label": "Page 09 — Calibrating the Chrono-Drive",
+      "src": "page_09.jpg",
+      "created": "2026-11-14 04:11:09"
+    },
+    {
+      "label": "Page 10 — Jump Into the Time-Stream",
+      "src": "page_10.jpg",
+      "created": "2026-11-14 04:11:10"
+    },
+    {
+      "label": "Back Insert — Dark-Com Chrono-Drive & Temporal Sync",
+      "src": "back_insert.jpg",
+      "created": "2026-11-14 04:11:11"
+    },
+    {
+      "label": "Back Cover — MERCWAR: THE CHRONOS ANOMALY",
+      "src": "back_cover.jpg",
+      "created": "2026-11-14 04:11:12"
+    }
+  ]
+}

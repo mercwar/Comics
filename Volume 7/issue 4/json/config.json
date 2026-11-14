@@ -1,0 +1,73 @@
+{
+  "volume": 7,
+  "issue": "04",
+  "title": "MERCWAR: THE STAR-SEED OF EARTH-NULL",
+  "subtitle": "Quasar Forge • Core Chasm • Genesis Ignition • Volume 7 Chapter Four",
+  "pages": [
+    {
+      "label": "Front Cover — MERCWAR: THE STAR-SEED OF EARTH-NULL",
+      "src": "cover.jpg",
+      "created": "2026-11-14 04:05:00"
+    },
+    {
+      "label": "Page 01 — Forging the Star-Seed",
+      "src": "page_01.jpg",
+      "created": "2026-11-14 04:05:01"
+    },
+    {
+      "label": "Page 02 — Reopening the Mirror Bridge",
+      "src": "page_02.jpg",
+      "created": "2026-11-14 04:05:02"
+    },
+    {
+      "label": "Page 03 — The Iron Remnant Blockade",
+      "src": "page_03.jpg",
+      "created": "2026-11-14 04:05:03"
+    },
+    {
+      "label": "Page 04 — Descent Into the Core Chasm",
+      "src": "page_04.jpg",
+      "created": "2026-11-14 04:05:04"
+    },
+    {
+      "label": "Page 05 — The Dying Heart of Earth-Null",
+      "src": "page_05.jpg",
+      "created": "2026-11-14 04:05:05"
+    },
+    {
+      "label": "Page 06 — Guardians of the Dead Core",
+      "src": "page_06.jpg",
+      "created": "2026-11-14 04:05:06"
+    },
+    {
+      "label": "Page 07 — Planting the Star-Seed",
+      "src": "page_07.jpg",
+      "created": "2026-11-14 04:05:07"
+    },
+    {
+      "label": "Page 08 — Wave of Rebirth",
+      "src": "page_08.jpg",
+      "created": "2026-11-14 04:05:08"
+    },
+    {
+      "label": "Page 09 — Dawn Over New Earth-Null",
+      "src": "page_09.jpg",
+      "created": "2026-11-14 04:05:09"
+    },
+    {
+      "label": "Page 10 — The Architect Beyond the Void",
+      "src": "page_10.jpg",
+      "created": "2026-11-14 04:05:10"
+    },
+    {
+      "label": "Back Insert — Quasar Star-Seed Energy & AVIS-Datalake Sync",
+      "src": "back_insert.jpg",
+      "created": "2026-11-14 04:05:11"
+    },
+    {
+      "label": "Back Cover — MERCWAR: THE STAR-SEED OF EARTH-NULL",
+      "src": "back_cover.jpg",
+      "created": "2026-11-14 04:05:12"
+    }
+  ]
+}

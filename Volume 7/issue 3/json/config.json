@@ -1,0 +1,73 @@
+{
+  "volume": 7,
+  "issue": "03",
+  "title": "MERCWAR: SIEGE OF CYBORG STATION",
+  "subtitle": "Orbital Siege • Twin Veyras • Quasar Relay • Volume 7 Chapter Three",
+  "pages": [
+    {
+      "label": "Front Cover — MERCWAR: SIEGE OF CYBORG STATION",
+      "src": "cover.jpg",
+      "created": "2026-11-14 04:02:00"
+    },
+    {
+      "label": "Page 01 — Crimson Sky Over Cyborg Station",
+      "src": "page_01.jpg",
+      "created": "2026-11-14 04:02:01"
+    },
+    {
+      "label": "Page 02 — Return of the Vanguard",
+      "src": "page_02.jpg",
+      "created": "2026-11-14 04:02:02"
+    },
+    {
+      "label": "Page 03 — Twin Blades on the Glass Deck",
+      "src": "page_03.jpg",
+      "created": "2026-11-14 04:02:03"
+    },
+    {
+      "label": "Page 04 — Celestial Dogfight Over the Quasar",
+      "src": "page_04.jpg",
+      "created": "2026-11-14 04:02:04"
+    },
+    {
+      "label": "Page 05 — Cryo-Solar Bastion",
+      "src": "page_05.jpg",
+      "created": "2026-11-14 04:02:05"
+    },
+    {
+      "label": "Page 06 — Dark-Com-2 Counter-Hack",
+      "src": "page_06.jpg",
+      "created": "2026-11-14 04:02:06"
+    },
+    {
+      "label": "Page 07 — Dread-Mercwar's Gambit",
+      "src": "page_07.jpg",
+      "created": "2026-11-14 04:02:07"
+    },
+    {
+      "label": "Page 08 — Titans of Light and Shadow",
+      "src": "page_08.jpg",
+      "created": "2026-11-14 04:02:08"
+    },
+    {
+      "label": "Page 09 — The Resonance Severance",
+      "src": "page_09.jpg",
+      "created": "2026-11-14 04:02:09"
+    },
+    {
+      "label": "Page 10 — Shattering the Void-Gem",
+      "src": "page_10.jpg",
+      "created": "2026-11-14 04:02:10"
+    },
+    {
+      "label": "Back Insert — Cyborg Station Defense Grid & Quasar Shielding",
+      "src": "back_insert.jpg",
+      "created": "2026-11-14 04:02:11"
+    },
+    {
+      "label": "Back Cover — MERCWAR: SIEGE OF CYBORG STATION",
+      "src": "back_cover.jpg",
+      "created": "2026-11-14 04:02:12"
+    }
+  ]
+}

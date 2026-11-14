@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Siege of the Temporal Citadel",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T09:31:38Z"
+		}, {
+			"label":	"Threshold of Eternity",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T09:31:44Z"
+		}, {
+			"label":	"The Pendulum Bastion",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T09:31:50Z"
+		}, {
+			"label":	"Echoes of Fallen Eras",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T09:31:56Z"
+		}, {
+			"label":	"Shattering the Stasis Maze",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T09:32:03Z"
+		}, {
+			"label":	"The Hourglass Sanctum",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T09:32:08Z"
+		}, {
+			"label":	"Rewind Strike",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T09:32:14Z"
+		}, {
+			"label":	"Anchoring the Present",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T09:32:20Z"
+		}, {
+			"label":	"The Final Second",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T09:32:26Z"
+		}, {
+			"label":	"Shattering the Grand Hourglass",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T09:32:33Z"
+		}, {
+			"label":	"Return to the Present",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T09:32:38Z"
+		}, {
+			"label":	"Mercwar-AI Temporal Firewall & AVIS Sync",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T09:32:43Z"
+		}, {
+			"label":	"Siege of the Temporal Citadel — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T09:32:49Z"
+		}]
+}
