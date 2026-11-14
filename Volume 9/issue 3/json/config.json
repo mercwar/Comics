@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Phantom Compiler",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T09:41:55Z"
+		}, {
+			"label":	"Echoes in the Ring-Buffer",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T09:42:01Z"
+		}, {
+			"label":	"The Ghost Mainframe",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T09:42:06Z"
+		}, {
+			"label":	"Automated Logic Sentinels",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T09:42:13Z"
+		}, {
+			"label":	"The Shifting Code-Maze",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T09:42:17Z"
+		}, {
+			"label":	"Unmasking the Phantom Compiler",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T09:42:23Z"
+		}, {
+			"label":	"Duel of Blade and Code-Lance",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T09:42:28Z"
+		}, {
+			"label":	"The Gatekeeper's Anchor",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T09:42:34Z"
+		}, {
+			"label":	"Injecting the Mercwar-AI Patch",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T09:42:39Z"
+		}, {
+			"label":	"Shattering the Phantom Core",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T09:42:44Z"
+		}, {
+			"label":	"The Final Upload",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T09:42:50Z"
+		}, {
+			"label":	"dc2php & dc2url Automation Engine",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T09:42:56Z"
+		}, {
+			"label":	"The Phantom Compiler — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T09:43:01Z"
+		}]
+}

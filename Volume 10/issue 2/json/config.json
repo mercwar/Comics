@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Inside the Inverted Realm",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T09:50:19Z"
+		}, {
+			"label":	"Upside-Down Arrival",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T09:50:24Z"
+		}, {
+			"label":	"The Slippery Slope of Evil",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T09:50:30Z"
+		}, {
+			"label":	"Dogfight in the Inverted Spires",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T09:50:36Z"
+		}, {
+			"label":	"The Wrong Password",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T09:50:41Z"
+		}, {
+			"label":	"The Core of Inverted Light",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T09:50:47Z"
+		}, {
+			"label":	"Wrath of Sovereign Null-Star",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T09:50:53Z"
+		}, {
+			"label":	"Duel in Zero Gravity",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T09:50:58Z"
+		}, {
+			"label":	"Reversing the Polarity",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T09:51:07Z"
+		}, {
+			"label":	"Shattering the Null-Crown",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T09:51:13Z"
+		}, {
+			"label":	"Right-Side Up Again",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T09:51:18Z"
+		}, {
+			"label":	"Dark-Com-2 Anti-Gravity Boots & Mercwar-AI",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T09:51:25Z"
+		}, {
+			"label":	"Inside the Inverted Realm — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T09:51:30Z"
+		}]
+}

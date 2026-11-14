@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Into the Dark-Net Abyss",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T09:39:52Z"
+		}, {
+			"label":	"Crossing the Proxy Veil",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T09:39:57Z"
+		}, {
+			"label":	"City of Rogue Proxies",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T09:40:03Z"
+		}, {
+			"label":	"Ambush of the Trojan Wyrms",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T09:40:09Z"
+		}, {
+			"label":	"The Quarantine Firewall",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T09:40:14Z"
+		}, {
+			"label":	"Shattering the Rootkit Line",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T09:40:20Z"
+		}, {
+			"label":	"The Stolen Academy Cadets",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T09:40:26Z"
+		}, {
+			"label":	"The Demonizer's True Form",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T09:40:32Z"
+		}, {
+			"label":	"Storm of Corrupted Code",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T09:40:39Z"
+		}, {
+			"label":	"Academy Counter-Protocol",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T09:40:46Z"
+		}, {
+			"label":	"Collapse of the Shadow Grid",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T09:40:52Z"
+		}, {
+			"label":	"Joe Tron's Academy & Eclipse Gateway v1.0",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T09:40:58Z"
+		}, {
+			"label":	"Into the Dark-Net Abyss — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T09:41:04Z"
+		}]
+}

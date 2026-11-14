@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Celestial Singularity",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T09:48:25Z"
+		}, {
+			"label":	"The Tenth Constellation",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T09:48:30Z"
+		}, {
+			"label":	"Birth of the Null-Star",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T09:48:35Z"
+		}, {
+			"label":	"Heralds of the Null-Star",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T09:48:40Z"
+		}, {
+			"label":	"Gravity Surge on the Deck",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T09:48:45Z"
+		}, {
+			"label":	"Descent of Sovereign Null-Star",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T09:48:52Z"
+		}, {
+			"label":	"Fire-Gem Against Singularity",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T09:48:57Z"
+		}, {
+			"label":	"Stabilizing the Quasar Grid",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T09:49:02Z"
+		}, {
+			"label":	"Convergence of the Vanguard",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T09:49:07Z"
+		}, {
+			"label":	"Retreat to the Null-Star",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T09:49:14Z"
+		}, {
+			"label":	"Voyage Into the Inverted Star",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T09:49:20Z"
+		}, {
+			"label":	"Mercwar Comics Tenth Volume Milestone & Developer Portal",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T09:49:26Z"
+		}, {
+			"label":	"The Celestial Singularity — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T09:49:31Z"
+		}]
+}

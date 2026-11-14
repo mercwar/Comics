@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Rise of the Demonizer",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T09:36:47Z"
+		}, {
+			"label":	"Cyborg Evolution Version 5",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T09:36:54Z"
+		}, {
+			"label":	"Joe Tron's Academy Under Fire",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T09:37:00Z"
+		}, {
+			"label":	"Unleashing The Demonizer",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T09:37:06Z"
+		}, {
+			"label":	"Cryo-Lock and Solar-Plasma",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T09:37:12Z"
+		}, {
+			"label":	"The Jet-4.0 Memory Vault",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T09:37:19Z"
+		}, {
+			"label":	"Fire-Gem Against Malware Scythe",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T09:37:25Z"
+		}, {
+			"label":	"Multi-Vector API Strike",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T09:37:31Z"
+		}, {
+			"label":	"The Mercwar-AI Digital Signature",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T09:37:37Z"
+		}, {
+			"label":	"Restoring the Constellation",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T09:37:43Z"
+		}, {
+			"label":	"Hunt Into the Deep-Net",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T09:37:51Z"
+		}, {
+			"label":	"Mercwar AI Portal — Open Source Developer Suite",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T09:37:57Z"
+		}, {
+			"label":	"Rise of the Demonizer — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T09:38:03Z"
+		}]
+}

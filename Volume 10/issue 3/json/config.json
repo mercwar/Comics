@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Eclipse Architect",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T09:52:06Z"
+		}, {
+			"label":	"Signal From the Drafting Void",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T09:52:13Z"
+		}, {
+			"label":	"The Blueprint Armada",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T09:52:19Z"
+		}, {
+			"label":	"Hard-Hat Hazard",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T09:52:25Z"
+		}, {
+			"label":	"Maze of Hard-Light Walls",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T09:52:30Z"
+		}, {
+			"label":	"The Architect's Sanctum",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T09:52:36Z"
+		}, {
+			"label":	"Blades of Gold and Hard-Light",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T09:52:41Z"
+		}, {
+			"label":	"Ctrl-Alt-Delete",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T09:52:47Z"
+		}, {
+			"label":	"Convergence of the Vanguard",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T09:52:53Z"
+		}, {
+			"label":	"The Fire-Gem Revision",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T09:52:58Z"
+		}, {
+			"label":	"A Message From Beyond the Stars",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T09:53:03Z"
+		}, {
+			"label":	"Robo-Knight's Cryo-Freeze Detention Cubes & Mercwar-AI",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T09:53:10Z"
+		}, {
+			"label":	"The Eclipse Architect — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T09:53:15Z"
+		}]
+}
