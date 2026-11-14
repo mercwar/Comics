@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Buried Vault of Aethel",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T10:04:20Z"
+		}, {
+			"label":	"Beneath the Crystal Crust",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T10:04:26Z"
+		}, {
+			"label":	"Aurelius's Confession",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T10:04:31Z"
+		}, {
+			"label":	"Ambush in the Echo Hall",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T10:04:37Z"
+		}, {
+			"label":	"Solidified and Iced",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T10:04:43Z"
+		}, {
+			"label":	"The Bronze Golems Awaken",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T10:04:51Z"
+		}, {
+			"label":	"The Proto-Crucible Chamber",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T10:04:57Z"
+		}, {
+			"label":	"Brother Against Brother",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T10:05:03Z"
+		}, {
+			"label":	"Ancient Hardware, Modern Hack",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T10:05:09Z"
+		}, {
+			"label":	"The Memory Transfer",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T10:05:15Z"
+		}, {
+			"label":	"An Uninvited Shadow",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T10:05:22Z"
+		}, {
+			"label":	"dc2url Universal Protocol Adapter & Sonic Tech",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T10:05:27Z"
+		}, {
+			"label":	"The Buried Vault of Aethel — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T10:05:33Z"
+		}]
+}

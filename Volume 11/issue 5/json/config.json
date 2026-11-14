@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Forbidden Fourteenth Gate",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T10:12:57Z"
+		}, {
+			"label":	"The Hidden Channel",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T10:13:03Z"
+		}, {
+			"label":	"The Crimson Exile Ring",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T10:13:08Z"
+		}, {
+			"label":	"Rise of Lord Malakor-Prime",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T10:13:14Z"
+		}, {
+			"label":	"Clash of the Crimson Armada",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T10:13:19Z"
+		}, {
+			"label":	"The Gate-Ring Assault",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T10:13:25Z"
+		}, {
+			"label":	"Return of the First Wielder",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T10:13:32Z"
+		}, {
+			"label":	"Twin Greatswords vs. Void-Fire",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T10:13:37Z"
+		}, {
+			"label":	"The Eclipse Gateway Lockout",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T10:13:43Z"
+		}, {
+			"label":	"Sealing the Fourteenth Gate",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T10:13:49Z"
+		}, {
+			"label":	"Guardians of Past, Present, and Future",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T10:13:55Z"
+		}, {
+			"label":	"The Complete Eleven-Volume Mercwar Saga & Open Source Portal",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T10:14:01Z"
+		}, {
+			"label":	"The Forbidden Fourteenth Gate — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T10:14:05Z"
+		}]
+}

@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Wrath of the Ash-Wraith",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T10:06:49Z"
+		}, {
+			"label":	"Reigniting the Flame",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T10:06:54Z"
+		}, {
+			"label":	"Swarm of the Cinder-Fiends",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T10:07:01Z"
+		}, {
+			"label":	"Hotfoot in the Vault",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T10:07:07Z"
+		}, {
+			"label":	"Three Blades Against the Storm",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T10:07:13Z"
+		}, {
+			"label":	"The Ash-Wraith's Escape",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T10:07:19Z"
+		}, {
+			"label":	"Ascent to the Crystal Spires",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T10:07:25Z"
+		}, {
+			"label":	"A Little Traffic Trouble",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T10:07:31Z"
+		}, {
+			"label":	"Overloading the Siphon Spire",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T10:07:37Z"
+		}, {
+			"label":	"The Triple Solar-Fire Strike",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T10:07:44Z"
+		}, {
+			"label":	"A Peaceful Farewell—Almost",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T10:07:51Z"
+		}, {
+			"label":	"Heavy Fire-Gem Warrior's Transit Rescue & Cyborg Live v2",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T10:07:55Z"
+		}, {
+			"label":	"Wrath of the Ash-Wraith — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T10:08:03Z"
+		}]
+}

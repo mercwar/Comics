@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Galactic Championship",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T10:15:04Z"
+		}, {
+			"label":	"A Peaceful Week Is Too Quiet",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T10:15:10Z"
+		}, {
+			"label":	"The Starlight Coliseum",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T10:15:16Z"
+		}, {
+			"label":	"Enter Grandmaster Vaelor",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T10:15:21Z"
+		}, {
+			"label":	"Round One: The Asteroid Crushers",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T10:15:27Z"
+		}, {
+			"label":	"Sky-Joust of the Angels",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T10:15:33Z"
+		}, {
+			"label":	"The Obsidian Marauders",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T10:15:38Z"
+		}, {
+			"label":	"Dark-Com-2 Scans the Brackets",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T10:15:46Z"
+		}, {
+			"label":	"Sabotage in the Tunnel",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T10:15:52Z"
+		}, {
+			"label":	"Calling Out the Host",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T10:15:56Z"
+		}, {
+			"label":	"Battle Royale Begins",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T10:16:02Z"
+		}, {
+			"label":	"Cyborg Live v2 Intergalactic Sports & Telemetry",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T10:16:07Z"
+		}, {
+			"label":	"The Galactic Championship — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T10:16:11Z"
+		}]
+}

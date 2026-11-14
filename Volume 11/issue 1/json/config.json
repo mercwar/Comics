@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Ghosts of the Fire-Gem",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T10:02:20Z"
+		}, {
+			"label":	"Quiet Shift on Cyborg Station",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T10:02:26Z"
+		}, {
+			"label":	"The Living Archive Awakens",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T10:02:32Z"
+		}, {
+			"label":	"The First Wielder Steps Forth",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T10:02:38Z"
+		}, {
+			"label":	"Ghosts Don't Slip on Ice",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T10:02:44Z"
+		}, {
+			"label":	"Aurelius's Secret Guilt",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T10:02:50Z"
+		}, {
+			"label":	"Hijacking the Stargate Array",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T10:02:55Z"
+		}, {
+			"label":	"Duel of Two Generations",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T10:03:03Z"
+		}, {
+			"label":	"Sonic Containment",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T10:03:09Z"
+		}, {
+			"label":	"The Diminished Flame",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T10:03:15Z"
+		}, {
+			"label":	"Course Set for the Buried Vault",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T10:03:21Z"
+		}, {
+			"label":	"AVIS-Datalake Memory Archive & Sonic Resonance Tech",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T10:03:27Z"
+		}, {
+			"label":	"Ghosts of the Fire-Gem — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T10:03:33Z"
+		}]
+}

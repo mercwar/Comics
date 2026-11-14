@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Sub-Arena Rebellion",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T10:17:57Z"
+		}, {
+			"label":	"Beneath the Coliseum Floor",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T10:18:03Z"
+		}, {
+			"label":	"The Champion Detention Cells",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T10:18:09Z"
+		}, {
+			"label":	"Ambush of the Pit-Wardens",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T10:18:15Z"
+		}, {
+			"label":	"Bowling With Rock-Cyborgs",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T10:18:20Z"
+		}, {
+			"label":	"The Siphon Core Chamber",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T10:18:24Z"
+		}, {
+			"label":	"Unleashing the Titan-Mech",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T10:18:29Z"
+		}, {
+			"label":	"Clash of Titans",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T10:18:34Z"
+		}, {
+			"label":	"Reversing the Siphon",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T10:18:38Z"
+		}, {
+			"label":	"The Champion's Cleave",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T10:18:42Z"
+		}, {
+			"label":	"An Uninvited Challenger",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T10:18:48Z"
+		}, {
+			"label":	"Dark-Com-2 Energy Reversal & DC2SQL Telemetry",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T10:18:54Z"
+		}, {
+			"label":	"Sub-Arena Rebellion — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T10:18:59Z"
+		}]
+}

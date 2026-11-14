@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Siege of the Starlight Coliseum",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T10:20:04Z"
+		}, {
+			"label":	"The Iron Armada Descends",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T10:20:10Z"
+		}, {
+			"label":	"Celestial Evacuation",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T10:20:16Z"
+		}, {
+			"label":	"Heated Snow-Boots",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T10:20:22Z"
+		}, {
+			"label":	"Rule of Three Payoff",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T10:20:28Z"
+		}, {
+			"label":	"Gladiators Side-by-Side",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T10:20:35Z"
+		}, {
+			"label":	"Dread-Admiral Vane's Broadside",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T10:20:40Z"
+		}, {
+			"label":	"Boarding the Dreadnought",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T10:20:46Z"
+		}, {
+			"label":	"Duel on the Command Bridge",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T10:20:52Z"
+		}, {
+			"label":	"Severing the Harpoons",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T10:20:58Z"
+		}, {
+			"label":	"The Armada Arrives in Full",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T10:21:05Z"
+		}, {
+			"label":	"Dark-Com-2 Bluetooth Firewall & Boot-Heater Patch",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T10:21:11Z"
+		}, {
+			"label":	"Siege of the Starlight Coliseum — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T10:21:17Z"
+		}]
+}

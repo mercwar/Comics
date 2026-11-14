@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Thirteen-Gate Hijack",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T10:10:27Z"
+		}, {
+			"label":	"Tollbooth in Deep Space",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T10:10:33Z"
+		}, {
+			"label":	"Tracing the Syndicate Signal",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T10:10:38Z"
+		}, {
+			"label":	"The Neon Asteroid Fortress",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T10:10:44Z"
+		}, {
+			"label":	"No Shirt, No Shoes, No Service",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T10:10:52Z"
+		}, {
+			"label":	"Laser-Whip Ambush",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T10:10:57Z"
+		}, {
+			"label":	"The Syndicate Trap",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T10:11:03Z"
+		}, {
+			"label":	"Ghost in the Machine",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T10:11:09Z"
+		}, {
+			"label":	"Crashing the Auction",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T10:11:14Z"
+		}, {
+			"label":	"A Slippery Getaway",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T10:11:20Z"
+		}, {
+			"label":	"Who Bought the Signal?",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T10:11:26Z"
+		}, {
+			"label":	"AVIS-Datalake Anti-Ransomware & Stargate Security",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T10:11:31Z"
+		}, {
+			"label":	"The Thirteen-Gate Hijack — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T10:11:37Z"
+		}]
+}
