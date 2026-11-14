@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Light of the Eternal Constellation",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T09:57:06Z"
+		}, {
+			"label":	"The Shadow Over Ten Realms",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T09:57:11Z"
+		}, {
+			"label":	"United Across the Stars",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T09:57:17Z"
+		}, {
+			"label":	"Swarm of the Eclipse Drones",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T09:57:23Z"
+		}, {
+			"label":	"The Obsidian Shell",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T09:57:28Z"
+		}, {
+			"label":	"The Heart of Darkness",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T09:57:34Z"
+		}, {
+			"label":	"Avatar of the Cosmic Eclipse",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T09:57:40Z"
+		}, {
+			"label":	"The Ten-Volume Protocol",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T09:57:46Z"
+		}, {
+			"label":	"Ascension of the Eternal Knight",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T09:57:51Z"
+		}, {
+			"label":	"Light of the Eternal Constellation",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T09:57:57Z"
+		}, {
+			"label":	"The Legend Never Ends",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T09:58:03Z"
+		}, {
+			"label":	"The Complete Ten-Volume Mercwar Saga & Open Source Portal",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T09:58:08Z"
+		}, {
+			"label":	"Light of the Eternal Constellation — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T09:58:14Z"
+		}]
+}

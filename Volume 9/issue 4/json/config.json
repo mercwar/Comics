@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Omega Gateway",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T09:43:49Z"
+		}, {
+			"label":	"Race Through the Data-Stream",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T09:43:55Z"
+		}, {
+			"label":	"The Ancient Omega Ring",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T09:44:00Z"
+		}, {
+			"label":	"Orbital Battery Barrage",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T09:44:05Z"
+		}, {
+			"label":	"Breaching the Monolith Vault",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T09:44:11Z"
+		}, {
+			"label":	"Awakening of the Omega Overlord",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T09:44:17Z"
+		}, {
+			"label":	"Barrage of Six Cannons",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T09:44:23Z"
+		}, {
+			"label":	"Full-Vanguard Convergence",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T09:44:29Z"
+		}, {
+			"label":	"Eclipse Gateway Override",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T09:44:34Z"
+		}, {
+			"label":	"Shattering the Omega Core",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T09:44:40Z"
+		}, {
+			"label":	"The Awakening Beyond the Ring",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T09:44:46Z"
+		}, {
+			"label":	"Eclipse Gateway v1.0 & AVIS State Broker",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T09:44:52Z"
+		}, {
+			"label":	"The Omega Gateway — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T09:44:58Z"
+		}]
+}

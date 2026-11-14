@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Trial of the Celestial Council",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T09:54:10Z"
+		}, {
+			"label":	"Summons to the Star-Court",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T09:54:15Z"
+		}, {
+			"label":	"The Grand Astral Tribunal",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T09:54:21Z"
+		}, {
+			"label":	"Testimony on Ice",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T09:54:26Z"
+		}, {
+			"label":	"The Trial by Star-Fire",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T09:54:31Z"
+		}, {
+			"label":	"Bowling for Justiciars",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T09:54:37Z"
+		}, {
+			"label":	"The Architect's Sneak Attack",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T09:54:43Z"
+		}, {
+			"label":	"Gavel vs. Greatsword",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T09:54:48Z"
+		}, {
+			"label":	"System Restore",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T09:54:53Z"
+		}, {
+			"label":	"Verdict of the Stars",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T09:54:59Z"
+		}, {
+			"label":	"The Final Shadow",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T09:56:41Z"
+		}, {
+			"label":	"Mercwar-AI Digital Signature & Firewall Protection",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T09:56:48Z"
+		}, {
+			"label":	"Trial of the Celestial Council — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T09:56:53Z"
+		}]
+}

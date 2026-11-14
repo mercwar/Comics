@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Heart of the Cosmic Nexus",
+			"src":	"cover.jpg",
+			"created":	"2026-11-14T09:45:52Z"
+		}, {
+			"label":	"Through the White-Gold Vortex",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-14T09:45:59Z"
+		}, {
+			"label":	"The Source Citadel",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-14T09:46:05Z"
+		}, {
+			"label":	"Awakening of the Void Leviathan",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-14T09:46:10Z"
+		}, {
+			"label":	"Assault in Zero Gravity",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-14T09:46:16Z"
+		}, {
+			"label":	"Cryo-Anchor on the Crystal Bridge",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-14T09:46:21Z"
+		}, {
+			"label":	"The Grand AVIS Synchronization",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-14T09:46:27Z"
+		}, {
+			"label":	"Ascension of the Fire-Gem Knight",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-14T09:46:33Z"
+		}, {
+			"label":	"The Mercwar-AI Supernova Cleave",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-14T09:46:38Z"
+		}, {
+			"label":	"Dawn of the Unified Network",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-14T09:46:44Z"
+		}, {
+			"label":	"Forever Stands the Vanguard",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-14T09:46:51Z"
+		}, {
+			"label":	"The Complete Mercwar Universe — Volumes 1–9 & Open Source Portal",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-14T09:46:57Z"
+		}, {
+			"label":	"Heart of the Cosmic Nexus — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-14T09:47:02Z"
+		}]
+}
