@@ -1,0 +1,15 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Starlight Shield",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:50:44Z"
+		}, {
+			"label":	"Morning Over New Aethelgard",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:50:48Z"
+		}]
+}

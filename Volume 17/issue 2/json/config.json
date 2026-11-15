@@ -1,0 +1,55 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Empire of the Obsidian Sun",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:34:45Z"
+		}, {
+			"label":	"Landing Under a Dark Sun",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:34:49Z"
+		}, {
+			"label":	"Ambush in the Ruins",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:34:55Z"
+		}, {
+			"label":	"Steel Meets Dark Matter",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:35:03Z"
+		}, {
+			"label":	"The Resistance Survivors",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T07:35:08Z"
+		}, {
+			"label":	"Siphoning the Architect",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T07:35:14Z"
+		}, {
+			"label":	"Sky-Dive Assault",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T07:35:18Z"
+		}, {
+			"label":	"Acrobatic Rematch",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T07:35:24Z"
+		}, {
+			"label":	"Hacking the Void Cage",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T07:35:30Z"
+		}, {
+			"label":	"Titan Sword Clash",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T07:35:37Z"
+		}, {
+			"label":	"Unleashing the Void-Engine",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T07:35:42Z"
+		}, {
+			"label":	"Mercwar Studios 3D Poster",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T07:35:47Z"
+		}]
+}

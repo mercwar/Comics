@@ -1,0 +1,55 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Siege of the Clockwork Citadel",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:28:49Z"
+		}, {
+			"label":	"Out of the Time Stream",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:28:53Z"
+		}, {
+			"label":	"The Bronze Phalanx",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:28:59Z"
+		}, {
+			"label":	"Gears of War",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:29:03Z"
+		}, {
+			"label":	"Wings in the Vortex",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T07:29:06Z"
+		}, {
+			"label":	"The Pendulum Trap",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T07:29:11Z"
+		}, {
+			"label":	"The Hourglass Altar",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T07:29:15Z"
+		}, {
+			"label":	"Rewinding the Strike",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T07:29:21Z"
+		}, {
+			"label":	"Starlight Anchor",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T07:29:26Z"
+		}, {
+			"label":	"Shattering the Scythes",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T07:29:30Z"
+		}, {
+			"label":	"Overload in the Hourglass",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T07:29:35Z"
+		}, {
+			"label":	"Mercwar Studios 3D Poster",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T07:29:41Z"
+		}]
+}

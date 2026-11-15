@@ -1,0 +1,55 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Chronos Anomaly",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:27:13Z"
+		}, {
+			"label":	"Echoes in the Archive",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:27:19Z"
+		}, {
+			"label":	"Ghosts of Yesterday",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:27:23Z"
+		}, {
+			"label":	"The Bronze Rift",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:27:27Z"
+		}, {
+			"label":	"Legion of the Past",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T07:27:33Z"
+		}, {
+			"label":	"Frozen in Seconds",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T07:27:37Z"
+		}, {
+			"label":	"Enter Chronos-Zero",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T07:27:44Z"
+		}, {
+			"label":	"The Unmaking Decree",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T07:27:50Z"
+		}, {
+			"label":	"Duel Across Seconds",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T07:27:54Z"
+		}, {
+			"label":	"Dark-Com-2 Chrono-Lock",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T07:27:58Z"
+		}, {
+			"label":	"Scattered Through Time",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T07:28:04Z"
+		}, {
+			"label":	"Mercwar Studios 3D Poster",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T07:28:08Z"
+		}]
+}

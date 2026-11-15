@@ -1,0 +1,55 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Awakening of the Constellation Gateway",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:13:49Z"
+		}, {
+			"label":	"The Black-Glass Hub",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:13:56Z"
+		}, {
+			"label":	"Echoes in the Datalake",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:14:01Z"
+		}, {
+			"label":	"Guardians of the Stargate",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:14:08Z"
+		}, {
+			"label":	"Invasion of the Null-Wraiths",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T07:14:12Z"
+		}, {
+			"label":	"Eclipse Protocol Override",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T07:14:16Z"
+		}, {
+			"label":	"Quasar Array Under Fire",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T07:14:21Z"
+		}, {
+			"label":	"The Digital Signature",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T07:14:25Z"
+		}, {
+			"label":	"Purging the Station",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T07:14:30Z"
+		}, {
+			"label":	"Tracing the Source",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T07:14:36Z"
+		}, {
+			"label":	"Into the Stargate Universals",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T07:14:41Z"
+		}, {
+			"label":	"Mercwar Studios Next-Gen 3D Graphics & Portal Showcase Ad",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T07:14:44Z"
+		}]
+}

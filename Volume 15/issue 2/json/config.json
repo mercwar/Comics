@@ -1,0 +1,55 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Labyrinth of the Stargate Universals",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:15:54Z"
+		}, {
+			"label":	"The Dimensional Crossroads",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:16:02Z"
+		}, {
+			"label":	"The Knight and the Rook",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:16:06Z"
+		}, {
+			"label":	"Wardens of the Mirror",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:16:11Z"
+		}, {
+			"label":	"Clash of Glass and Plasma",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T07:16:19Z"
+		}, {
+			"label":	"The Sinking Outpost",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T07:16:24Z"
+		}, {
+			"label":	"Distress Call Across Realities",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T07:16:28Z"
+		}, {
+			"label":	"Cryo-Wall Defense",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T07:16:32Z"
+		}, {
+			"label":	"Hacking the Core Vault",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T07:16:37Z"
+		}, {
+			"label":	"Emergency Gate Recall",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T07:16:42Z"
+		}, {
+			"label":	"Betrayal in the Hub",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T07:16:47Z"
+		}, {
+			"label":	"Mercwar Studios Next-Gen 3D Graphics Showcase Ad",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T07:16:52Z"
+		}]
+}

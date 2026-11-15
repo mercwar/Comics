@@ -1,0 +1,35 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Echoes of the Astral Nexus",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T06:52:22Z"
+		}, {
+			"label":	"Ashes of the Blockade",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T06:52:27Z"
+		}, {
+			"label":	"Decoding the Astral Frequency",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T06:52:34Z"
+		}, {
+			"label":	"Oath of the Gladiator",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T06:52:39Z"
+		}, {
+			"label":	"Crossing the Rift",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T06:52:43Z"
+		}, {
+			"label":	"The Weaver of the Void",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T06:52:51Z"
+		}, {
+			"label":	"Next Issue Preview",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T06:52:55Z"
+		}]
+}

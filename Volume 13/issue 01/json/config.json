@@ -1,0 +1,43 @@
+{
+	"volume":	13,
+	"issue":	"01",
+	"title":	"Frozen Moons of the Outer Rim",
+	"subtitle":	"The Firegem War Continues",
+	"pages":	[{
+			"label":	"Front Cover — Frozen Moons of the Outer Rim",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T16:04:04Z"
+		}, {
+			"label":	"Table of Contents",
+			"src":	"toc.jpg",
+			"created":	"2026-11-15T16:04:10Z"
+		}, {
+			"label":	"Page 01 — Outer Rim Recon",
+			"src":	"page-01.jpg",
+			"created":	"2026-11-15T16:04:16Z"
+		}, {
+			"label":	"Page 02 — Stargate Surge",
+			"src":	"page-02.jpg",
+			"created":	"2026-11-15T16:04:21Z"
+		}, {
+			"label":	"Page 03 — Orbital Bombardment",
+			"src":	"page-03.jpg",
+			"created":	"2026-11-15T16:04:28Z"
+		}, {
+			"label":	"Page 04 — Solar-Plasma Counterstrike",
+			"src":	"page-04.jpg",
+			"created":	"2026-11-15T16:04:38Z"
+		}, {
+			"label":	"Page 05 — Cybernetic Angels Arrive",
+			"src":	"page-05.jpg",
+			"created":	"2026-11-15T16:04:45Z"
+		}, {
+			"label":	"Page 06 — Hard-Light Aerial Strike",
+			"src":	"page-06.jpg",
+			"created":	"2026-11-15T16:04:51Z"
+		}, {
+			"label":	"Page 07 — Sub-Zero Breach",
+			"src":	"page-07.jpg",
+			"created":	"2026-11-15T16:04:58Z"
+		}]
+}

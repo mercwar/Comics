@@ -1,0 +1,15 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Assault on Cyborg Station",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:52:49Z"
+		}, {
+			"label":	"Breach at the Stargate",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:52:55Z"
+		}]
+}
