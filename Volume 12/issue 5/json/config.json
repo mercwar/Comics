@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Crown of the Star-Champions",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T06:45:48Z"
+		}, {
+			"label":	"Against a Hundred Dreadnoughts",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T06:45:53Z"
+		}, {
+			"label":	"The Gladiators Take Flight",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T06:46:00Z"
+		}, {
+			"label":	"Boarding the Command Carrier",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T06:46:04Z"
+		}, {
+			"label":	"No Snow-Boots This Time",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T06:46:09Z"
+		}, {
+			"label":	"Dread-Admiral Vane's Doomsday Salvo",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T06:46:14Z"
+		}, {
+			"label":	"The Thirteen-Gate Resonance",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T06:46:20Z"
+		}, {
+			"label":	"Flight of the Golden Comet",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T06:46:27Z"
+		}, {
+			"label":	"Showdown on the Carrier Hull",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T06:46:32Z"
+		}, {
+			"label":	"The Armada Stand-Down",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T06:46:37Z"
+		}, {
+			"label":	"Champions of the Galaxy",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T06:46:44Z"
+		}, {
+			"label":	"The Complete Twelve-Volume Mercwar Saga & Open Source Portal",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-15T06:46:49Z"
+		}, {
+			"label":	"Crown of the Star-Champions — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T06:46:53Z"
+		}]
+}
