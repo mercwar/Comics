@@ -1,0 +1,55 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Breach at the Eclipse State Broker",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:18:57Z"
+		}, {
+			"label":	"Crossfire on the Stargate Deck",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:19:02Z"
+		}, {
+			"label":	"Trapped in the Citadel Vault",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:19:07Z"
+		}, {
+			"label":	"Quasar Satellites Gone Rogue",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:19:11Z"
+		}, {
+			"label":	"Carving Through the Firewall",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T07:19:15Z"
+		}, {
+			"label":	"The Rogue Kernel Avatar",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T07:19:23Z"
+		}, {
+			"label":	"Whips of Corrupted Code",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T07:19:29Z"
+		}, {
+			"label":	"Dark-Com-2 Counter-Hack",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T07:19:33Z"
+		}, {
+			"label":	"Cavalry From Above",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T07:19:38Z"
+		}, {
+			"label":	"Severing the Virus Link",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T07:19:43Z"
+		}, {
+			"label":	"The Evolution Protocol",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T07:19:47Z"
+		}, {
+			"label":	"Mercwar Studios Next-Gen 3D Graphics Showcase Ad",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T07:19:53Z"
+		}]
+}

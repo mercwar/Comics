@@ -1,0 +1,55 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Siege of the Celestial Fortress",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:08:01Z"
+		}, {
+			"label":	"Sky-Bridge to the Citadel",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:08:08Z"
+		}, {
+			"label":	"Trapped Behind Enemy Lines",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:08:11Z"
+		}, {
+			"label":	"Breaching the Outer Bastion",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:08:15Z"
+		}, {
+			"label":	"Dogfight in the Spire Rings",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T07:08:20Z"
+		}, {
+			"label":	"The Stasis Gallery",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T07:08:26Z"
+		}, {
+			"label":	"The Omega Engine Awakens",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T07:08:32Z"
+		}, {
+			"label":	"Guardians of the Core",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T07:08:37Z"
+		}, {
+			"label":	"Breaking the Cage",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T07:08:42Z"
+		}, {
+			"label":	"Power Overwhelming",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T07:08:48Z"
+		}, {
+			"label":	"Awakening of the Pantheon",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T07:08:54Z"
+		}, {
+			"label":	"Next Issue Preview",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T07:08:58Z"
+		}]
+}

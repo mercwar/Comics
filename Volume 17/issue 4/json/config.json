@@ -1,0 +1,55 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Reunion of the Star-Champions",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:43:02Z"
+		}, {
+			"label":	"Brothers in Arms Again",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:43:07Z"
+		}, {
+			"label":	"The Obsidian Invasion",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:43:13Z"
+		}, {
+			"label":	"The Constellation Call",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:43:20Z"
+		}, {
+			"label":	"Return of the Astral Weaver",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T07:43:25Z"
+		}, {
+			"label":	"Thunder From the Pantheon",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T07:43:31Z"
+		}, {
+			"label":	"Sentinels and Gladiators",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T07:43:39Z"
+		}, {
+			"label":	"Wings and Sonic Blades",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T07:43:43Z"
+		}, {
+			"label":	"Classic Duo Combo",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T07:43:49Z"
+		}, {
+			"label":	"Every Hero United",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T07:43:54Z"
+		}, {
+			"label":	"The Champion Roster Stands Ready",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T07:44:01Z"
+		}, {
+			"label":	"Mercwar Studios 3D Poster",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T07:44:06Z"
+		}]
+}

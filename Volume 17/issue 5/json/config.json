@@ -1,0 +1,55 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Demonizer Protocol",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:46:15Z"
+		}, {
+			"label":	"Breach at the Black-Glass Portal",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:46:20Z"
+		}, {
+			"label":	"Assault on the AVIS-DATALAKE",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:46:25Z"
+		}, {
+			"label":	"Defense of the Quasar Array",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:46:29Z"
+		}, {
+			"label":	"Sentinel Wall",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T07:46:35Z"
+		}, {
+			"label":	"Shadow Assassin's Last Strike",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T07:46:40Z"
+		}, {
+			"label":	"Overwhelming Force",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T07:46:44Z"
+		}, {
+			"label":	"Joe Tron Demonizer Unleashed",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T07:46:48Z"
+		}, {
+			"label":	"Digital Signature Lock",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T07:46:53Z"
+		}, {
+			"label":	"FFF Forever Finisher",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T07:47:00Z"
+		}, {
+			"label":	"The Constellation Stands Eternal",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T07:47:05Z"
+		}, {
+			"label":	"Mercwar Studios 3D Finale Poster",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T07:47:13Z"
+		}]
+}

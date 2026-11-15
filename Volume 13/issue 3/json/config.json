@@ -1,0 +1,35 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Wrath of the Star-Devourer",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T06:56:40Z"
+		}, {
+			"label":	"Leviathan of the Abyss",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T06:56:46Z"
+		}, {
+			"label":	"Fire and Absolute Zero",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T06:56:52Z"
+		}, {
+			"label":	"Wings Against the Void",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T06:56:58Z"
+		}, {
+			"label":	"The Astrolabe Convergence",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T06:57:02Z"
+		}, {
+			"label":	"Ascension of the Star-Knight",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T06:57:08Z"
+		}, {
+			"label":	"Next Issue Preview",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T06:57:13Z"
+		}]
+}

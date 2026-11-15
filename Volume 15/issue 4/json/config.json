@@ -1,0 +1,55 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Cyborg eV5 Ascension",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:24:12Z"
+		}, {
+			"label":	"The Upgrade Chamber",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:24:17Z"
+		}, {
+			"label":	"Forged in Starlight",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:24:24Z"
+		}, {
+			"label":	"Diving Into the Datalake",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:24:29Z"
+		}, {
+			"label":	"Landscape of Living Code",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T07:24:32Z"
+		}, {
+			"label":	"Ambush on the Data Bridge",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T07:24:38Z"
+		}, {
+			"label":	"Wings Over the Core",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T07:24:46Z"
+		}, {
+			"label":	"Hacking the Virus Wall",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T07:24:51Z"
+		}, {
+			"label":	"Return of Malware-Prime",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T07:24:56Z"
+		}, {
+			"label":	"Full eV5 Overdrive",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T07:25:01Z"
+		}, {
+			"label":	"The Final Threshold",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T07:25:08Z"
+		}, {
+			"label":	"Mercwar Studios 3D Poster",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T07:25:14Z"
+		}]
+}

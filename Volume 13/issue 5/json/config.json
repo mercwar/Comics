@@ -1,0 +1,35 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Return of the Iron Emperor",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T06:59:29Z"
+		}, {
+			"label":	"Ambush at Exit Warp",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T06:59:33Z"
+		}, {
+			"label":	"The Sovereign Revealed",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T06:59:37Z"
+		}, {
+			"label":	"Breaching the Flagship",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T06:59:41Z"
+		}, {
+			"label":	"Clash of Crown and Empire",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T06:59:46Z"
+		}, {
+			"label":	"Fall of the Iron Flagship",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T06:59:53Z"
+		}, {
+			"label":	"Next Volume Preview",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T06:59:57Z"
+		}]
+}

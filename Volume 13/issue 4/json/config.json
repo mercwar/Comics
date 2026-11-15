@@ -1,0 +1,35 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Nova of the Crowned Knight",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T06:58:15Z"
+		}, {
+			"label":	"Singularity Maelstrom",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T06:58:19Z"
+		}, {
+			"label":	"Vanguard Convergence",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T06:58:24Z"
+		}, {
+			"label":	"The Star-Forged Cleave",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T06:58:28Z"
+		}, {
+			"label":	"Sealing the Astral Gate",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T06:58:33Z"
+		}, {
+			"label":	"Dawn Over the Nexus",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T06:58:37Z"
+		}, {
+			"label":	"Next Issue Preview",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T06:58:43Z"
+		}]
+}

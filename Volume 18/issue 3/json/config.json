@@ -1,0 +1,23 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Vengeance of the Fire-Gem",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:54:01Z"
+		}, {
+			"label":	"Counter-Invasion Through the Stargate",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:54:08Z"
+		}, {
+			"label":	"Storming the Dreadnought Deck",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:54:12Z"
+		}, {
+			"label":	"Relentless Blade Rush",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:54:16Z"
+		}]
+}

@@ -1,0 +1,55 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Dawn of the Eternal Timeline",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:30:20Z"
+		}, {
+			"label":	"The Whiteout Surge",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:30:27Z"
+		}, {
+			"label":	"Echoes Across Cyborg Station",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:30:32Z"
+		}, {
+			"label":	"Cryo-Anchor Lock",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:30:39Z"
+		}, {
+			"label":	"The Final Stand of Chronos",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T07:30:43Z"
+		}, {
+			"label":	"Sonic Disruption",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T07:30:48Z"
+		}, {
+			"label":	"Rewriting the Clock",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T07:30:52Z"
+		}, {
+			"label":	"Fire-Gem Convergence",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T07:30:58Z"
+		}, {
+			"label":	"The Eternal Cleave",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T07:31:02Z"
+		}, {
+			"label":	"Return to the Present",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T07:31:08Z"
+		}, {
+			"label":	"Legends of Tomorrow",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T07:31:12Z"
+		}, {
+			"label":	"Mercwar Studios 3D Finale Poster",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T07:31:18Z"
+		}]
+}

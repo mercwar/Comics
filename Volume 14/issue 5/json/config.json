@@ -1,0 +1,55 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Beyond the Dark Void",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:11:34Z"
+		}, {
+			"label":	"The Tear Between Galaxies",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:11:39Z"
+		}, {
+			"label":	"Oath of Redemption",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:11:44Z"
+		}, {
+			"label":	"The Seven-Star Bulwark",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:11:52Z"
+		}, {
+			"label":	"Thunder and Angels",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T07:11:59Z"
+		}, {
+			"label":	"Breaching the Void-Dreadnought",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T07:12:03Z"
+		}, {
+			"label":	"Lord of the Dark Void",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T07:12:07Z"
+		}, {
+			"label":	"Clash of Sun and Singularity",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T07:12:14Z"
+		}, {
+			"label":	"Hacking the Rift Anchor",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T07:12:18Z"
+		}, {
+			"label":	"Shattering the Void-Crown",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T07:12:23Z"
+		}, {
+			"label":	"Guardians of the Eternal Stars",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T07:12:28Z"
+		}, {
+			"label":	"Mercwar Studios Next-Gen 3D Graphics Showcase Ad",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T07:12:32Z"
+		}]
+}

@@ -1,0 +1,55 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Heart of the AVIS-DATALAKE",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:25:42Z"
+		}, {
+			"label":	"Opening the Golden Vault",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:25:46Z"
+		}, {
+			"label":	"The Corrupted Sun",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:25:53Z"
+		}, {
+			"label":	"Vanguard Charge",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:25:58Z"
+		}, {
+			"label":	"Twin Sentinels Strike",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T07:26:02Z"
+		}, {
+			"label":	"Angels of the Archive",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T07:26:09Z"
+		}, {
+			"label":	"Clash of Sovereign Steel",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T07:26:16Z"
+		}, {
+			"label":	"Master Signature Upload",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T07:26:24Z"
+		}, {
+			"label":	"Fire-Gem Ascension",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T07:26:28Z"
+		}, {
+			"label":	"The Constellation Restored",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T07:26:33Z"
+		}, {
+			"label":	"Guardians of the eV5 Era",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T07:26:38Z"
+		}, {
+			"label":	"Mercwar Studios 3D Finale Poster",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T07:26:44Z"
+		}]
+}

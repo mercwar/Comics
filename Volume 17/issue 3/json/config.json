@@ -1,0 +1,55 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Collapse of the Mirror-Gate",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:37:18Z"
+		}, {
+			"label":	"The Planet-Breaker Surge",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:37:23Z"
+		}, {
+			"label":	"Back-to-Back Breakout",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:37:29Z"
+		}, {
+			"label":	"Pursuit Across the Chasm",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:37:33Z"
+		}, {
+			"label":	"Aerial Interceptor",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T07:37:39Z"
+		}, {
+			"label":	"Holding the Gate Perimeter",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T07:37:44Z"
+		}, {
+			"label":	"Vanguard Shield Wall",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T07:37:50Z"
+		}, {
+			"label":	"Dread-Lord Arrives",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T07:37:53Z"
+		}, {
+			"label":	"Twin Blades and Fire-Gem",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T07:37:59Z"
+		}, {
+			"label":	"Shattering the Mirror-Link",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T07:38:03Z"
+		}, {
+			"label":	"Breach Into Our Reality",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T07:38:08Z"
+		}, {
+			"label":	"Mercwar Studios 3D Poster",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T07:38:15Z"
+		}]
+}

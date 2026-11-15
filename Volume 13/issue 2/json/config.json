@@ -1,0 +1,35 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Trials of the Eclipse",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T06:55:23Z"
+		}, {
+			"label":	"The Astrolabe Trap",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T06:55:26Z"
+		}, {
+			"label":	"Awakening the Eclipse Sentinels",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T06:55:32Z"
+		}, {
+			"label":	"Harmonic Resonance",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T06:55:36Z"
+		}, {
+			"label":	"Blade of Solar Fire",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T06:55:40Z"
+		}, {
+			"label":	"The Rift Opens",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T06:55:43Z"
+		}, {
+			"label":	"Next Issue Preview",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T06:55:48Z"
+		}]
+}

@@ -1,0 +1,55 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"Wrath of the Omega Engine",
+			"src":	"cover.jpg",
+			"created":	"2026-11-15T07:09:52Z"
+		}, {
+			"label":	"March of the Seven",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-15T07:09:58Z"
+		}, {
+			"label":	"The Living Supernova",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-15T07:10:01Z"
+		}, {
+			"label":	"Reinforcements at the Gate",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-15T07:10:08Z"
+		}, {
+			"label":	"Arrival of the True Pantheon",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-15T07:10:14Z"
+		}, {
+			"label":	"The Planetary Shockwave",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-15T07:10:19Z"
+		}, {
+			"label":	"Wrath of the Herald",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-15T07:10:23Z"
+		}, {
+			"label":	"The Fire-Gem Resonance",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-15T07:10:28Z"
+		}, {
+			"label":	"Blade of the Seven Stars",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-15T07:10:34Z"
+		}, {
+			"label":	"Reversing the Omega Core",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-15T07:10:40Z"
+		}, {
+			"label":	"A Shadow Beyond the Stars",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-15T07:10:44Z"
+		}, {
+			"label":	"Mercwar Studios Next-Gen 3D Graphics Showcase Ad",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-15T07:10:50Z"
+		}]
+}
