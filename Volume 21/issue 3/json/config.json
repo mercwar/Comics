@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Siege of Iron-Bastion",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:58:37Z"
+		}, {
+			"label":	"The Caged Mining Moon",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:58:41Z"
+		}, {
+			"label":	"Mapping the Bastion's Weak Point",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:58:46Z"
+		}, {
+			"label":	"The Cipher-Hunter's Challenge",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:58:50Z"
+		}, {
+			"label":	"Toppling Tower One",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:58:54Z"
+		}, {
+			"label":	"Overloading Tower Two",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:58:58Z"
+		}, {
+			"label":	"Unlocking the Space Elevators",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:59:02Z"
+		}, {
+			"label":	"Greatsword vs. Phase-Lances",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:59:06Z"
+		}, {
+			"label":	"Pyre-Moon Liberated",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:59:10Z"
+		}, {
+			"label":	"Coordinates of the Gravity Forge",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:59:15Z"
+		}, {
+			"label":	"Course for the Gravity Forge",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:59:23Z"
+		}, {
+			"label":	"Cyborg Project Explorer & AVIS Suite",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:59:28Z"
+		}, {
+			"label":	"The Siege of Iron-Bastion — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:59:33Z"
+		}]
+}

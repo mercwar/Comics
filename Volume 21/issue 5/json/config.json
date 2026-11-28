@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Cipher Vault of Nyx-Zero",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T09:01:58Z"
+		}, {
+			"label":	"The Polyhedral Fortress",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T09:02:04Z"
+		}, {
+			"label":	"The Shifting Labyrinth",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T09:02:08Z"
+		}, {
+			"label":	"The Arch-Weaver's Trap",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T09:02:14Z"
+		}, {
+			"label":	"Breaking the Root-Lock",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T09:02:20Z"
+		}, {
+			"label":	"Freezing the Cipher Rings",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T09:02:24Z"
+		}, {
+			"label":	"Shattering the Shadow-Web",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T09:02:30Z"
+		}, {
+			"label":	"Final Stand of the Arch-Weaver",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T09:02:34Z"
+		}, {
+			"label":	"Stronghold Four Liberated",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T09:02:40Z"
+		}, {
+			"label":	"Blueprints of the Dreadnought Yard",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T09:02:46Z"
+		}, {
+			"label":	"Course for Crimson-Anvil",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T09:02:52Z"
+		}, {
+			"label":	"CBORG & AVIS Datalake Recovery Suite",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T09:02:56Z"
+		}, {
+			"label":	"The Cipher Vault of Nyx-Zero — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T09:03:02Z"
+		}]
+}

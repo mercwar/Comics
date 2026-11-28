@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Obsidian Horizon",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:55:35Z"
+		}, {
+			"label":	"Shadow Over the Star-Web",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:55:39Z"
+		}, {
+			"label":	"The Obsidian Dreadnoughts",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:55:45Z"
+		}, {
+			"label":	"Ultimatum of Commander Vex-Null",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:55:49Z"
+		}, {
+			"label":	"Breaking the Gravity Blockade",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:55:56Z"
+		}, {
+			"label":	"Countering the Null-Cipher",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:56:00Z"
+		}, {
+			"label":	"Boarding the Dreadnought Flagship",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:56:07Z"
+		}, {
+			"label":	"Clash of Fire-Gem and Gravity-Mace",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:56:14Z"
+		}, {
+			"label":	"The Solar-Flare Repulse",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:56:22Z"
+		}, {
+			"label":	"Decoding the Captured Star-Map",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:56:26Z"
+		}, {
+			"label":	"The Fifteen-Front War",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:56:32Z"
+		}, {
+			"label":	"Mercwar AI Defense & Constellation Tools",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:56:37Z"
+		}, {
+			"label":	"The Obsidian Horizon — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:56:44Z"
+		}]
+}

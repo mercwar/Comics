@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Null-Core Citadel of Dread-Nexus",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T09:09:25Z"
+		}, {
+			"label":	"The Fortress in the Accretion Disk",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T09:09:32Z"
+		}, {
+			"label":	"The Concentric Shield-Shells",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T09:09:37Z"
+		}, {
+			"label":	"The Cipher-Hunter's Bastion",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T09:09:44Z"
+		}, {
+			"label":	"Shattering the Accretion Collectors",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T09:09:48Z"
+		}, {
+			"label":	"Breaching the Inner Sanctum",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T09:09:53Z"
+		}, {
+			"label":	"Flipping the Tactical Relay",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T09:09:59Z"
+		}, {
+			"label":	"Fall of the Cipher-Hunter's Relay",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T09:10:04Z"
+		}, {
+			"label":	"Stronghold Eight Liberated — The Turning Point",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T09:10:08Z"
+		}, {
+			"label":	"Decoding the Inner Perimeter",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T09:10:12Z"
+		}, {
+			"label":	"Eight Strongholds Fallen",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T09:10:20Z"
+		}, {
+			"label":	"NEXUS Mesh & CBORD Orchestration Suite",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T09:10:24Z"
+		}, {
+			"label":	"The Null-Core Citadel of Dread-Nexus — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T09:10:28Z"
+		}]
+}

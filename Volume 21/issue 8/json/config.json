@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Shadow-Web of Nyx-Zero",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T09:07:43Z"
+		}, {
+			"label":	"The Snare in Void-Sector Nine",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T09:07:47Z"
+		}, {
+			"label":	"Mapping the Filament Topology",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T09:07:53Z"
+		}, {
+			"label":	"The Spider's Parlour",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T09:07:58Z"
+		}, {
+			"label":	"Severing Anchor Alpha",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T09:08:02Z"
+		}, {
+			"label":	"Dissolving Anchor Beta",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T09:08:07Z"
+		}, {
+			"label":	"Overriding the Spindle Core",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T09:08:11Z"
+		}, {
+			"label":	"Blade vs. Shadow-Whip",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T09:08:17Z"
+		}, {
+			"label":	"Stronghold Seven Liberated",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T09:08:21Z"
+		}, {
+			"label":	"The Null-Core Bastion",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T09:08:29Z"
+		}, {
+			"label":	"Seven Strongholds Fallen",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T09:08:33Z"
+		}, {
+			"label":	"Cyborg Project Explorer & AVIS Logic Core",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T09:08:39Z"
+		}, {
+			"label":	"The Shadow-Web of Nyx-Zero — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T09:08:45Z"
+		}]
+}

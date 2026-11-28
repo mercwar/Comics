@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Signal Spire of Vex-Rift",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T09:06:07Z"
+		}, {
+			"label":	"The Wall of Static",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T09:06:11Z"
+		}, {
+			"label":	"Navigating Through White Noise",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T09:06:16Z"
+		}, {
+			"label":	"Vex-Null's Ambush",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T09:06:20Z"
+		}, {
+			"label":	"Dampening the Pulsar Collector",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T09:06:25Z"
+		}, {
+			"label":	"Phase-Canceling the Jammer",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T09:06:30Z"
+		}, {
+			"label":	"Restoring the Star-Web Broadcast",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T09:06:34Z"
+		}, {
+			"label":	"Shattering the Gravity-Mace",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T09:06:38Z"
+		}, {
+			"label":	"Stronghold Six Liberated",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T09:06:44Z"
+		}, {
+			"label":	"Locating the Shadow-Web",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T09:06:49Z"
+		}, {
+			"label":	"Six Citadels Fallen",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T09:06:53Z"
+		}, {
+			"label":	"AVIS News & DC2URL Direct Routing Suite",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T09:06:57Z"
+		}, {
+			"label":	"The Signal Spire of Vex-Rift — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T09:07:01Z"
+		}]
+}

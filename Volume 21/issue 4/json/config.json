@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Gravity Forge of Vex-Null",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T09:00:19Z"
+		}, {
+			"label":	"Between Two Suns",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T09:00:25Z"
+		}, {
+			"label":	"Crushing Gravity Wells",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T09:00:29Z"
+		}, {
+			"label":	"Inverting the Binary Pull",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T09:00:33Z"
+		}, {
+			"label":	"The Assembly Line of Tyranny",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T09:00:38Z"
+		}, {
+			"label":	"Halting the Gravity Presses",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T09:00:42Z"
+		}, {
+			"label":	"Freeing the Captive Worker-Drones",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T09:00:46Z"
+		}, {
+			"label":	"Clash of Titans on the Bridge",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T09:00:50Z"
+		}, {
+			"label":	"Stronghold Three Shattered",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T09:00:55Z"
+		}, {
+			"label":	"The Cipher Vault Blueprints",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T09:01:00Z"
+		}, {
+			"label":	"Three Down, Twelve to Go",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T09:01:06Z"
+		}, {
+			"label":	"ECLIPSE & CYBORD Liberation Suite",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T09:01:10Z"
+		}, {
+			"label":	"The Gravity Forge of Vex-Null — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T09:01:16Z"
+		}]
+}

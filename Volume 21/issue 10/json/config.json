@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Chronos-Lock Fortress of Vex-Gate",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T09:12:32Z"
+		}, {
+			"label":	"The Frozen Squadron",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T09:12:40Z"
+		}, {
+			"label":	"Synchronizing the Clock Drift",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T09:12:44Z"
+		}, {
+			"label":	"Vex-Null's Last Bastion",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T09:12:48Z"
+		}, {
+			"label":	"Halting the Chronos Oscillators",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T09:12:56Z"
+		}, {
+			"label":	"Collapsing the Stasis Bubbles",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T09:13:00Z"
+		}, {
+			"label":	"Resetting the Gate Clocks",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T09:13:04Z"
+		}, {
+			"label":	"Shattering the Gravity-Mace",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T09:13:09Z"
+		}, {
+			"label":	"Stronghold Nine Liberated",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T09:13:13Z"
+		}, {
+			"label":	"Scanning the Void-Prism Spire",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T09:13:17Z"
+		}, {
+			"label":	"Nine Strongholds Fallen",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T09:13:21Z"
+		}, {
+			"label":	"CRON & ECLIPSE Temporal Sync Suite",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T09:13:25Z"
+		}, {
+			"label":	"The Chronos-Lock Fortress of Vex-Gate — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T09:13:29Z"
+		}]
+}

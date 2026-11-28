@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Shadow-Loop of Nyx-Zero",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:57:12Z"
+		}, {
+			"label":	"The Phantom Nebula",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:57:15Z"
+		}, {
+			"label":	"Piercing the Shadow-Loop",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:57:22Z"
+		}, {
+			"label":	"The Saboteur of the Hegemony",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:57:26Z"
+		}, {
+			"label":	"Mirage Ambush in the Prism Hall",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:57:29Z"
+		}, {
+			"label":	"Freeing the Trapped Scout Ships",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:57:34Z"
+		}, {
+			"label":	"Purging the Shadow-Loop Virus",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:57:38Z"
+		}, {
+			"label":	"Sovereign Blade vs. Neural Whip",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:57:43Z"
+		}, {
+			"label":	"First Stronghold Shattered",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:57:47Z"
+		}, {
+			"label":	"The Cipher-Hunter's Fortress",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:57:55Z"
+		}, {
+			"label":	"Marching on Iron-Bastion",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:58:00Z"
+		}, {
+			"label":	"AVIS Logic Core & Anti-Loop Defense",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:58:05Z"
+		}, {
+			"label":	"The Shadow-Loop of Nyx-Zero — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:58:13Z"
+		}]
+}

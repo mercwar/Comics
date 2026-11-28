@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Dreadnought Shipyard of Crimson-Anvil",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T09:03:43Z"
+		}, {
+			"label":	"The Red Supergiant Drydock",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T09:03:47Z"
+		}, {
+			"label":	"Countdown to Launch",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T09:03:53Z"
+		}, {
+			"label":	"Ambushed on the Gantry",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T09:03:57Z"
+		}, {
+			"label":	"Locking the Mooring Clamps",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T09:04:03Z"
+		}, {
+			"label":	"Severing the Reactor Conduits",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T09:04:08Z"
+		}, {
+			"label":	"Reclaiming the Fleet Kernels",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T09:04:12Z"
+		}, {
+			"label":	"Duel Above the Drydock",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T09:04:17Z"
+		}, {
+			"label":	"Stronghold Five Liberated",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T09:04:21Z"
+		}, {
+			"label":	"Tracking the Signal Spire",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T09:04:25Z"
+		}, {
+			"label":	"Five Citadels Fallen",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T09:04:30Z"
+		}, {
+			"label":	"CRON & CYBORD Fleet Automation",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T09:04:36Z"
+		}, {
+			"label":	"The Dreadnought Shipyard of Crimson-Anvil — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T09:04:40Z"
+		}]
+}

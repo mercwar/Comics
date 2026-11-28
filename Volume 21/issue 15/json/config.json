@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Fall of the Obsidian Throne",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T09:10:50Z"
+		}, {
+			"label":	"The Fifteenth Stronghold",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T09:10:54Z"
+		}, {
+			"label":	"The Final Armada Clash",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T09:10:58Z"
+		}, {
+			"label":	"Sovereign of the Obsidian Throne",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T09:11:03Z"
+		}, {
+			"label":	"Holding the Citadel Gates",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T09:11:08Z"
+		}, {
+			"label":	"Purging the Master Root-Lock",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T09:11:14Z"
+		}, {
+			"label":	"The Duel for Free Will",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T09:11:20Z"
+		}, {
+			"label":	"Shattering the Dark-Matter Halberd",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T09:11:24Z"
+		}, {
+			"label":	"Three Hundred Worlds Liberated",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T09:11:30Z"
+		}, {
+			"label":	"Rebuilding the Free Star-Web",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T09:11:33Z"
+		}, {
+			"label":	"Guardians of the Free Cosmos",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T09:11:38Z"
+		}, {
+			"label":	"Mercwar AI Complete Open-Source Ecosystem",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T09:11:44Z"
+		}, {
+			"label":	"The Fall of the Obsidian Throne — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T09:11:47Z"
+		}]
+}
