@@ -61,6 +61,10 @@
 #### 💥 Volume 15 Damaged UR3D - poor  Condition
 #### 💥 Volume 16 Damaged UR3D - poor  Condition
 #### 💥 Volume 17 Damaged UR3D - poor  Condition
+#### 💥 Volume 18 very good 3D - good  Condition
+#### 💥 Volume 19 very good 3D - good  Condition
+#### 💥 Volume 20 very good 3D - good  Condition
+#### 💥 Volume 21 very good 3D - good  Condition
 
 View in the FREE reader [HERE](https://mercwar.github.io/Comics/index.html)
 
