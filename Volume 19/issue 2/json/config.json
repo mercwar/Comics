@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Sky-Citadel of Aeris",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:17:13Z"
+		}, {
+			"label":	"Entering the Emerald Nebula",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:17:17Z"
+		}, {
+			"label":	"Spires Above the Storm",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:17:24Z"
+		}, {
+			"label":	"The Sky-Marshal's Dilemma",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:17:28Z"
+		}, {
+			"label":	"Mapping the Ion Cyclone",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:17:33Z"
+		}, {
+			"label":	"Anchoring the Floating Islands",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:17:38Z"
+		}, {
+			"label":	"Flight Through the Eye",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:17:42Z"
+		}, {
+			"label":	"Thermal Draft Equalization",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:17:46Z"
+		}, {
+			"label":	"Resetting the Weather-Core",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:17:50Z"
+		}, {
+			"label":	"The Sky-Archives Revealed",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:17:55Z"
+		}, {
+			"label":	"Wings Across the Constellation",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:18:00Z"
+		}, {
+			"label":	"Mercwar AI Alert System & Constellation Tools",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:18:07Z"
+		}, {
+			"label":	"The Sky-Citadel of Aeris — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:18:12Z"
+		}]
+}

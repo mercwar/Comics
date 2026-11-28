@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Cluster of Ten Thousand Suns",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:25:13Z"
+		}, {
+			"label":	"Course for the Globular Cluster",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:25:20Z"
+		}, {
+			"label":	"City of Solar Lanterns",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:25:25Z"
+		}, {
+			"label":	"The Astrolabe Architect",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:25:28Z"
+		}, {
+			"label":	"Mapping Ten Thousand Orbits",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:25:34Z"
+		}, {
+			"label":	"Anchoring the Lantern Arrays",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:25:38Z"
+		}, {
+			"label":	"Channeling the Conjunction Surge",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:25:43Z"
+		}, {
+			"label":	"Tuning the Prism Core",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:25:50Z"
+		}, {
+			"label":	"Ten Thousand Suns United",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:25:58Z"
+		}, {
+			"label":	"The Horizon Beyond the Halo",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:26:01Z"
+		}, {
+			"label":	"Lantern-Bearer of the Vanguard",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:26:05Z"
+		}, {
+			"label":	"Mercwar AI Constellation & Open Tools",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:26:09Z"
+		}, {
+			"label":	"The Cluster of Ten Thousand Suns — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:26:13Z"
+		}]
+}

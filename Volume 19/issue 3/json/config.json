@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Monolith of the First Dawn",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:19:15Z"
+		}, {
+			"label":	"The Eye of the Emerald Nebula",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:19:21Z"
+		}, {
+			"label":	"Inscriptions of the First Builders",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:19:26Z"
+		}, {
+			"label":	"Harmony of Sea, Sky, and Star-Fire",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:19:29Z"
+		}, {
+			"label":	"Awakening of Solon-Vex",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:19:34Z"
+		}, {
+			"label":	"The Unbalanced Orbital Rings",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:19:40Z"
+		}, {
+			"label":	"Indexing the Grand Atlas",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:19:47Z"
+		}, {
+			"label":	"Kindling the Celestial Beacon",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:19:51Z"
+		}, {
+			"label":	"The Living Star-Atlas",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:19:56Z"
+		}, {
+			"label":	"The Silent Quadrant",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:20:01Z"
+		}, {
+			"label":	"Chronicler of the Vanguard",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:20:08Z"
+		}, {
+			"label":	"Mercwar AI Search & Constellation Suite",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:20:12Z"
+		}, {
+			"label":	"The Monolith of the First Dawn — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:20:17Z"
+		}]
+}

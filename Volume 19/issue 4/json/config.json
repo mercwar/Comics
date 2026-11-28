@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Garden of Forgotten Light",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:21:16Z"
+		}, {
+			"label":	"The Spherical Horizon",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:21:19Z"
+		}, {
+			"label":	"Parting the Woven Light",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:21:24Z"
+		}, {
+			"label":	"The Living Dyson Garden",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:21:32Z"
+		}, {
+			"label":	"The Weaver of Lumis",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:21:36Z"
+		}, {
+			"label":	"Unraveling Filaments",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:21:40Z"
+		}, {
+			"label":	"Dual-Pane Tapestry Diagnostics",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:21:46Z"
+		}, {
+			"label":	"Reweaving the Sky",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:21:50Z"
+		}, {
+			"label":	"Unveiling the Hidden Star",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:21:54Z"
+		}, {
+			"label":	"The Living Tapestry",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:21:59Z"
+		}, {
+			"label":	"Weaver of the Constellation",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:22:03Z"
+		}, {
+			"label":	"CBORG Dual-Pane Editor & Constellation Suite",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:22:07Z"
+		}, {
+			"label":	"The Garden of Forgotten Light — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:22:13Z"
+		}]
+}

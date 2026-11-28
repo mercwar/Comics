@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Harmonic Convergence",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:15:31Z"
+		}, {
+			"label":	"First Embassy Across the Span",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:15:36Z"
+		}, {
+			"label":	"The Floating Crystal Cities",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:15:43Z"
+		}, {
+			"label":	"The Hydro-Engineer's Dilemma",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:15:48Z"
+		}, {
+			"label":	"Descent into the Abyssal Trench",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:15:53Z"
+		}, {
+			"label":	"The Awakened Leviathan-Drones",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:15:57Z"
+		}, {
+			"label":	"Harmonic Wave Calibration",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:16:01Z"
+		}, {
+			"label":	"Venting the Thermal Surge",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:16:05Z"
+		}, {
+			"label":	"The Tides in Harmony",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:16:10Z"
+		}, {
+			"label":	"The Abyssal Star-Map",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:16:13Z"
+		}, {
+			"label":	"Alliance of Sea and Stars",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:16:17Z"
+		}, {
+			"label":	"Mercwar AI Tray Menu & Constellation Tools",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:16:21Z"
+		}, {
+			"label":	"The Harmonic Convergence — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:16:25Z"
+		}]
+}
