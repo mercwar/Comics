@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Heart of the Singularity",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:05:30Z"
+		}, {
+			"label":	"Horizon of the Core",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:05:34Z"
+		}, {
+			"label":	"Tidal Drift Telemetry",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:05:37Z"
+		}, {
+			"label":	"The Astromancer's Vigil",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:05:42Z"
+		}, {
+			"label":	"Relieving the Watch",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:05:46Z"
+		}, {
+			"label":	"Rebuilding the Core Router",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:05:50Z"
+		}, {
+			"label":	"Reinforcing the Pylon Ring",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:06:00Z"
+		}, {
+			"label":	"Tuning the Accretion Harmonics",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:06:04Z"
+		}, {
+			"label":	"The Core Beacon Ignites",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:06:08Z"
+		}, {
+			"label":	"What Lies Beyond the Halo",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:06:14Z"
+		}, {
+			"label":	"A New Navigator Joins the Crew",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:06:18Z"
+		}, {
+			"label":	"Mercwar AI Constellation & Datalake Engine",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:06:21Z"
+		}, {
+			"label":	"The Heart of the Singularity — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:06:26Z"
+		}]
+}

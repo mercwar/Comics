@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Bridge Between Galaxies",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:08:45Z"
+		}, {
+			"label":	"The Intergalactic Void",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:08:50Z"
+		}, {
+			"label":	"Anchoring the Quantum Tunnel",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:08:54Z"
+		}, {
+			"label":	"The Meridian Spire",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:08:58Z"
+		}, {
+			"label":	"The Cartographer of Two Galaxies",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:09:04Z"
+		}, {
+			"label":	"The Drifting Current",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:09:08Z"
+		}, {
+			"label":	"Re-Igniting the Collector Rings",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:09:22Z"
+		}, {
+			"label":	"Synchronizing Two Universes of Data",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:09:26Z"
+		}, {
+			"label":	"Deflecting the Rogue Comet",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:09:31Z"
+		}, {
+			"label":	"The Intergalactic Star-Bridge",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:09:38Z"
+		}, {
+			"label":	"First Contact Across the Span",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:09:41Z"
+		}, {
+			"label":	"Mercwar AI Live Git Browser & Constellation",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:09:46Z"
+		}, {
+			"label":	"The Bridge Between Galaxies — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:09:50Z"
+		}]
+}

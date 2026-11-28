@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Sovereign Engine",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T07:55:17Z"
+		}, {
+			"label":	"The Locked Ring-World",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T07:55:23Z"
+		}, {
+			"label":	"A Diplomatic Frequency",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T07:55:28Z"
+		}, {
+			"label":	"Crossing the Emerald Dome",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T07:55:34Z"
+		}, {
+			"label":	"The Crystal Arboretum",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T07:55:38Z"
+		}, {
+			"label":	"Guardians of the Garden",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T07:55:42Z"
+		}, {
+			"label":	"Audience with Solis-Prime",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T07:55:48Z"
+		}, {
+			"label":	"The Solar Storm Dilemma",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T07:55:54Z"
+		}, {
+			"label":	"Choosing Trust Over Control",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T07:55:58Z"
+		}, {
+			"label":	"Aegis of Shared Light",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T07:56:02Z"
+		}, {
+			"label":	"A New Seat at the Council",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T07:56:07Z"
+		}, {
+			"label":	"Mercwar AI Constellation & Open Tools",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T07:56:10Z"
+		}, {
+			"label":	"The Sovereign Engine — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T07:56:14Z"
+		}]
+}

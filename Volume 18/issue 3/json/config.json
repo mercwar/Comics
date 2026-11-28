@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Archipelago of Mirrors",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:03:24Z"
+		}, {
+			"label":	"Charting the Seven Moons",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:03:28Z"
+		}, {
+			"label":	"Reflections in the Glass Sea",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:03:33Z"
+		}, {
+			"label":	"The Living Archives",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:03:38Z"
+		}, {
+			"label":	"The Curator's Ultimatum",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:03:42Z"
+		}, {
+			"label":	"Refraction Maze",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:03:48Z"
+		}, {
+			"label":	"Indexing Without Loss",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:03:53Z"
+		}, {
+			"label":	"Holding the Light-Bridges",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:03:59Z"
+		}, {
+			"label":	"The Great Migration",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:04:03Z"
+		}, {
+			"label":	"Seven Moons Restored",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:04:09Z"
+		}, {
+			"label":	"The Map Hidden in the Mirrors",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:04:12Z"
+		}, {
+			"label":	"Mercwar AI Project Explorer & AVIS Suite",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:04:19Z"
+		}, {
+			"label":	"The Archipelago of Mirrors — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:04:26Z"
+		}]
+}

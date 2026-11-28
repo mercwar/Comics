@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Ghost of Sentinel Harbor",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:00:36Z"
+		}, {
+			"label":	"The Unindexed Record in AVIS-DL",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:00:40Z"
+		}, {
+			"label":	"Beacon Beside the Pulsar",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:00:45Z"
+		}, {
+			"label":	"The Guardian of the Pier",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:00:49Z"
+		}, {
+			"label":	"Translating the 8-Bit BIOS",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:00:53Z"
+		}, {
+			"label":	"Cryo and Solar Calibration",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:01:02Z"
+		}, {
+			"label":	"The Rogue Rogue-Subroutine",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:01:06Z"
+		}, {
+			"label":	"The Memory of the Forgotten Watch",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:01:10Z"
+		}, {
+			"label":	"Digital Signature Restoration",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:01:14Z"
+		}, {
+			"label":	"Anchoring the Quasar Gate",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:01:18Z"
+		}, {
+			"label":	"The Constellation Expands",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:01:23Z"
+		}, {
+			"label":	"Mercwar AI Constellation & AVIS Ecosystem",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:01:28Z"
+		}, {
+			"label":	"The Ghost of Sentinel Harbor — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:01:34Z"
+		}]
+}
