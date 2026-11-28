@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Magneto-Dynamos of Sector Seven",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:43:58Z"
+		}, {
+			"label":	"The Pulsar Generator Ring",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:44:02Z"
+		}, {
+			"label":	"Magnetic Eddy Currents",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:44:08Z"
+		}, {
+			"label":	"The Dynamo-Warden of Sector Seven",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:44:14Z"
+		}, {
+			"label":	"Calculating the Pulsar Phase",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:44:18Z"
+		}, {
+			"label":	"Cryo-Cooling the Stator Coils",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:44:22Z"
+		}, {
+			"label":	"Balancing the Plasma Arcs",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:44:28Z"
+		}, {
+			"label":	"Harmonic Induction Lock",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:44:35Z"
+		}, {
+			"label":	"The Seventh Sector Key",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:44:39Z"
+		}, {
+			"label":	"The Frozen Vaults of Sector Eight",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:44:43Z"
+		}, {
+			"label":	"Warden of the Vanguard",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:44:47Z"
+		}, {
+			"label":	"AVIS Alert FVS & Constellation Suite",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:44:52Z"
+		}, {
+			"label":	"The Magneto-Dynamos of Sector Seven — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:44:56Z"
+		}]
+}

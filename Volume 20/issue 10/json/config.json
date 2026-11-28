@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Golden Core Sanctuary",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:49:29Z"
+		}, {
+			"label":	"The Golden Causeway",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:49:33Z"
+		}, {
+			"label":	"Cathedral of the First Builders",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:49:37Z"
+		}, {
+			"label":	"The Sovereign-Architect of Eon",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:49:40Z"
+		}, {
+			"label":	"The Ten-Sector Matrix",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:49:47Z"
+		}, {
+			"label":	"Anchoring the Core Spires",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:49:51Z"
+		}, {
+			"label":	"The Ten Wardens Stand Together",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:49:58Z"
+		}, {
+			"label":	"Symphony of Ten Worlds",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:50:04Z"
+		}, {
+			"label":	"The Tenth Key — Crown of the Constellation",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:50:10Z"
+		}, {
+			"label":	"The Horizon of Infinite Worlds",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:50:14Z"
+		}, {
+			"label":	"The Eternal Fellowship",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:50:18Z"
+		}, {
+			"label":	"Mercwar AI Open-Source Ecosystem",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:50:24Z"
+		}, {
+			"label":	"The Golden Core Sanctuary — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:50:28Z"
+		}]
+}

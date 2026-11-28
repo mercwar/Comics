@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Ring of Eons",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:31:24Z"
+		}, {
+			"label":	"Beyond the Cluster Halo",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:31:28Z"
+		}, {
+			"label":	"The Pylon Archipelago",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:31:33Z"
+		}, {
+			"label":	"The Keeper of the Ring",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:31:37Z"
+		}, {
+			"label":	"Mapping a Hundred Thousand Light-Years",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:31:42Z"
+		}, {
+			"label":	"Realigning Pylon Three",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:31:46Z"
+		}, {
+			"label":	"Kindling the Harmonic Wave",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:31:50Z"
+		}, {
+			"label":	"Dampening the Resonance Echo",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:31:56Z"
+		}, {
+			"label":	"The Crown of Corona-Eon",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:32:01Z"
+		}, {
+			"label":	"The Ten-Sector Grand Design",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:32:06Z"
+		}, {
+			"label":	"Ten Steps to the Core",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:32:13Z"
+		}, {
+			"label":	"Mercwar AI Constellation & Open Tools",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:32:17Z"
+		}, {
+			"label":	"The Ring of Eons — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:32:22Z"
+		}]
+}

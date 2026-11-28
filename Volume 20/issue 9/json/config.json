@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Celestial Gateway of Sector Nine",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:48:21Z"
+		}, {
+			"label":	"Threshold of the Golden Core",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:48:24Z"
+		}, {
+			"label":	"The Nine-Ring Orrery",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:48:28Z"
+		}, {
+			"label":	"The Gate-Archon of Sector Nine",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:48:34Z"
+		}, {
+			"label":	"Nine-Node Consensus Sync",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:48:40Z"
+		}, {
+			"label":	"Turning the Ninth Astrolabe",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:48:45Z"
+		}, {
+			"label":	"Kindling the Nine-Sun Prism",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:48:51Z"
+		}, {
+			"label":	"Chord of Nine Worlds",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:48:55Z"
+		}, {
+			"label":	"The Ninth Sector Key",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:49:01Z"
+		}, {
+			"label":	"The Golden Core Revealed",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:49:06Z"
+		}, {
+			"label":	"On the Brink of the Finale",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:49:12Z"
+		}, {
+			"label":	"Cyborg Live Git Browser & CBORD Suite",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:49:16Z"
+		}, {
+			"label":	"The Celestial Gateway of Sector Nine — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:49:20Z"
+		}]
+}

@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Singing Canyons of Sector Three",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:36:10Z"
+		}, {
+			"label":	"Gateway to Resonance-Prime",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:36:15Z"
+		}, {
+			"label":	"The Echo Gorge",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:36:19Z"
+		}, {
+			"label":	"The Acoustic-Warden of Sector Three",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:36:23Z"
+		}, {
+			"label":	"Synthesizing the Counter-Frequency",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:36:28Z"
+		}, {
+			"label":	"Anchoring the Tuning Spires",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:36:32Z"
+		}, {
+			"label":	"Reshaping the Fallen Crystal",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:36:37Z"
+		}, {
+			"label":	"Duet of Chime and Blade",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:36:41Z"
+		}, {
+			"label":	"The Third Sector Key",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:37:06Z"
+		}, {
+			"label":	"Signals from the Mirror Sea",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:37:10Z"
+		}, {
+			"label":	"Warden of the Vanguard",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:37:15Z"
+		}, {
+			"label":	"AVIS Logic Core & Mercwar AI Tools",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:37:23Z"
+		}, {
+			"label":	"The Singing Canyons of Sector Three — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:37:27Z"
+		}]
+}

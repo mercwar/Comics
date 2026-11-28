@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Quantum Libraries of Sector Six",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:41:51Z"
+		}, {
+			"label":	"The Polyhedral Archive",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:41:56Z"
+		}, {
+			"label":	"The Recursive Maze",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:42:13Z"
+		}, {
+			"label":	"The Grand-Librarian of Sector Six",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:42:19Z"
+		}, {
+			"label":	"Untangling the Citation Tree",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:42:23Z"
+		}, {
+			"label":	"Cooling the Quantum Cubes",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:42:28Z"
+		}, {
+			"label":	"Illuminating the Hall of Wisdom",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:42:35Z"
+		}, {
+			"label":	"Symphony of Pure Knowledge",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:42:42Z"
+		}, {
+			"label":	"The Sixth Sector Key",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:42:47Z"
+		}, {
+			"label":	"The Blueprint of the Storm-Forge",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:42:53Z"
+		}, {
+			"label":	"Librarian of the Vanguard",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:42:57Z"
+		}, {
+			"label":	"Cyborg Project Explorer & AVIS Search",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:43:01Z"
+		}, {
+			"label":	"The Quantum Libraries of Sector Six — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:43:06Z"
+		}]
+}

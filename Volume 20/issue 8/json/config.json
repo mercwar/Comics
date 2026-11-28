@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Cryo-Spires of Sector Eight",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:45:47Z"
+		}, {
+			"label":	"The Glacier-Moon Belt",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:45:50Z"
+		}, {
+			"label":	"Canyons of Diamond Ice",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:45:55Z"
+		}, {
+			"label":	"The Cryo-Warden of Sector Eight",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:45:59Z"
+		}, {
+			"label":	"Mapping the Coolant Lattice",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:46:03Z"
+		}, {
+			"label":	"Freeing the Glacial Valves",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:46:09Z"
+		}, {
+			"label":	"Gentle Solar Thaw",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:46:13Z"
+		}, {
+			"label":	"Crystalline Resonance",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:46:19Z"
+		}, {
+			"label":	"The Eighth Sector Key",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:46:22Z"
+		}, {
+			"label":	"The Inner Threshold",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:46:28Z"
+		}, {
+			"label":	"Warden of the Vanguard",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:46:34Z"
+		}, {
+			"label":	"AVIS Tray Menu & DC2PHP Suite",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:46:40Z"
+		}, {
+			"label":	"The Cryo-Spires of Sector Eight — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:46:44Z"
+		}]
+}

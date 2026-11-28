@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Mirror Sea of Sector Four",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:38:39Z"
+		}, {
+			"label":	"Horizon of Liquid Silver",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:38:43Z"
+		}, {
+			"label":	"Refracted Starlight",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:38:49Z"
+		}, {
+			"label":	"The Optical-Navigator of Sector Four",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:38:55Z"
+		}, {
+			"label":	"Predicting the Eclipse Curve",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:39:04Z"
+		}, {
+			"label":	"Anchoring the Lens Rings",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:39:08Z"
+		}, {
+			"label":	"Shielding the Sea Observatories",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:39:12Z"
+		}, {
+			"label":	"Calming the Tidal Ripples",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:39:18Z"
+		}, {
+			"label":	"The Fourth Sector Key",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:39:22Z"
+		}, {
+			"label":	"Glimpsing the Verdant Ring",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:39:26Z"
+		}, {
+			"label":	"Navigator of the Vanguard",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:39:34Z"
+		}, {
+			"label":	"ECLIPSE Transit & CRON Suite",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:39:40Z"
+		}, {
+			"label":	"The Mirror Sea of Sector Four — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:39:46Z"
+		}]
+}

@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Glass Foundry of Sector Two",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:33:22Z"
+		}, {
+			"label":	"Crossing into Sector Two",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:33:26Z"
+		}, {
+			"label":	"The Frozen Light-Kilns",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:33:30Z"
+		}, {
+			"label":	"The Foundry-Smith of Corona-Eon",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:33:34Z"
+		}, {
+			"label":	"Calculating the Ignition Curve",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:33:37Z"
+		}, {
+			"label":	"Aligning the Solar Mirrors",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:33:43Z"
+		}, {
+			"label":	"The Dual-Flame Ignition",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:33:51Z"
+		}, {
+			"label":	"Spinning the Light-Lattice",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:33:56Z"
+		}, {
+			"label":	"The Second Sector Key",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:34:00Z"
+		}, {
+			"label":	"Whispers from the Singing Canyon",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:34:05Z"
+		}, {
+			"label":	"Smith of the Vanguard",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:34:11Z"
+		}, {
+			"label":	"Mercwar AI Datalake Engine & Open Tools",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:34:15Z"
+		}, {
+			"label":	"The Glass Foundry of Sector Two — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:34:19Z"
+		}]
+}

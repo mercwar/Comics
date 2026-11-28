@@ -1,0 +1,59 @@
+{
+	"volume":	0,
+	"issue":	"",
+	"title":	"",
+	"subtitle":	"",
+	"pages":	[{
+			"label":	"The Verdant Canopy of Sector Five",
+			"src":	"cover.jpg",
+			"created":	"2026-11-28T08:40:22Z"
+		}, {
+			"label":	"The Glass Biosphere Belt",
+			"src":	"page_01.jpg",
+			"created":	"2026-11-28T08:40:27Z"
+		}, {
+			"label":	"The Slumbering World-Trees",
+			"src":	"page_02.jpg",
+			"created":	"2026-11-28T08:40:32Z"
+		}, {
+			"label":	"The Bio-Architect of Sector Five",
+			"src":	"page_03.jpg",
+			"created":	"2026-11-28T08:40:38Z"
+		}, {
+			"label":	"Sequencing the Root Matrix",
+			"src":	"page_04.jpg",
+			"created":	"2026-11-28T08:40:43Z"
+		}, {
+			"label":	"Clearing the Sub-Surface Aqueducts",
+			"src":	"page_05.jpg",
+			"created":	"2026-11-28T08:40:50Z"
+		}, {
+			"label":	"Sunlight for the Canopy",
+			"src":	"page_06.jpg",
+			"created":	"2026-11-28T08:40:54Z"
+		}, {
+			"label":	"Song of the Living Forest",
+			"src":	"page_07.jpg",
+			"created":	"2026-11-28T08:41:00Z"
+		}, {
+			"label":	"The Fifth Sector Key — Halfway Milestone",
+			"src":	"page_08.jpg",
+			"created":	"2026-11-28T08:41:04Z"
+		}, {
+			"label":	"Beyond the Halfway Horizon",
+			"src":	"page_09.jpg",
+			"created":	"2026-11-28T08:41:13Z"
+		}, {
+			"label":	"Architect of the Vanguard",
+			"src":	"page_10.jpg",
+			"created":	"2026-11-28T08:41:17Z"
+		}, {
+			"label":	"AVIS Datalake & DC2SQL Suite",
+			"src":	"back_insert.jpg",
+			"created":	"2026-11-28T08:41:21Z"
+		}, {
+			"label":	"The Verdant Canopy of Sector Five — Back Cover",
+			"src":	"back_cover.jpg",
+			"created":	"2026-11-28T08:41:25Z"
+		}]
+}
