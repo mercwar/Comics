@@ -59,8 +59,8 @@
 #### 💥 Volume 13 Damaged UR3D - poor  Condition
 #### 💥 Volume 14 Damaged UR3D - poor  Condition
 #### 💥 Volume 15 Damaged UR3D - poor  Condition
-#### 💥 Volume 16 Damaged UR3D - poor  Condition
-#### 💥 Volume 17 Damaged UR3D - poor  Condition
+#### 💥 Volume 16 poor UR3D - fair  Condition
+#### 💥 Volume 17 poor UR3D - fair  Condition
 #### 💥 Volume 18 very good 3D - good  Condition
 #### 💥 Volume 19 very good 3D - good  Condition
 #### 💥 Volume 20 very good 3D - good  Condition
